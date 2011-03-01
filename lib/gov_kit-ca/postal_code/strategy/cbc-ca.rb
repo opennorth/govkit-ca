@@ -19,8 +19,8 @@ module GovKit
 
         private
 
-          def electoral_districts
-            json_response.map{|x| self.class.rid_to_edid(x['rid'].to_i)}
+          def electoral_districts!
+            json_response.map{|x| self.class.rid_to_edid x['rid']}
           end
 
           def valid?
@@ -35,6 +35,8 @@ module GovKit
             @@yml ||= YAML.load_file(File.expand_path('../../../../data/rid_to_edid.yml', __FILE__))
           end
         end
+
+        StrategySet.register CbcCa
       end
     end
   end

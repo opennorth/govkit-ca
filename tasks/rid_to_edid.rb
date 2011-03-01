@@ -1,8 +1,9 @@
+require File.expand_path('../../lib/gov_kit-ca', __FILE__)
+
 # Use postal-code-for-districts.csv from http://www.digital-copyright.ca/pcfrf/pcfrf.tgz
 desc "Picks the set cover for postal codes to cbc.ca riding IDs"
 task :trim_postal_codes do |t,args|
   abort "Usage: rake #{t.name} file=postal-codes-for-districts.csv" unless args[:file]
-  require File.expand_path('../lib/gov_kit-ca', __FILE__)
 
   # Get the riding IDs that each postal code covers
   postal_to_rid = {}
@@ -37,7 +38,6 @@ end
 desc "Generates postal codes within the given list of cbc.ca riding IDs"
 task :riding_id_to_postal_code do |t,args|
   abort "Usage: rake #{t.name} file=riding-ids.csv csv=index.csv yml=pc_edid.yml" unless args[:file] && args[:csv] && args[:yml]
-  require File.expand_path('../lib/gov_kit-ca', __FILE__)
 
   # The YML file maps postal codes to electoral districts
   yml = YAML.load_file(args[:yml])
@@ -70,7 +70,6 @@ end
 desc "Generates YAML mapping cbc.ca riding IDs to electoral districts"
 task :riding_id_to_electoral_district do |t,args|
   abort "Usage: rake #{t.name} file=postal-codes-for-districts.csv" unless args[:file]
-  require File.expand_path('../lib/gov_kit-ca', __FILE__)
 
   def transliterate_elections_ca(string)
     {

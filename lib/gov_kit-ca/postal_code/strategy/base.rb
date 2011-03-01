@@ -7,7 +7,7 @@ module GovKit
         #
         # The following methods must be implemented in sub-classes:
         #
-        # * `find_electoral_districts_by_postal_code`
+        # * `electoral_districts!`
         class Base
           include HTTParty
           follow_redirects false
@@ -21,15 +21,16 @@ module GovKit
 
           # Returns the electoral districts within a postal code.
           # @return [Array<Fixnum>] the electoral districts within the postal code
-          def find_electoral_districts_by_postal_code
-            valid? && electoral_districts.map(&:to_i)
+          def electoral_districts
+            valid? && electoral_districts!.map(&:to_i)
           end
 
         private
 
-          # Returns the electoral districts within a postal code.
+          # Returns the electoral districts within a postal code, without
+          # passing validation first.
           # @return [Array<Fixnum>] the electoral districts within the postal code
-          def electoral_districts
+          def electoral_districts!
             raise NotImplementedError
           end
 

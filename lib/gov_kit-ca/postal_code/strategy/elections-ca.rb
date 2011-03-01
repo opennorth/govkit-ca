@@ -9,8 +9,8 @@ module GovKit
 
         private
 
-          def electoral_districts
-            [ response.headers['location'][/&ED=(\d{5})&/, 1].to_i ]
+          def electoral_districts!
+            [ response.headers['location'][/&ED=(\d{5})&/, 1] ]
           end
 
           def valid?
@@ -21,6 +21,8 @@ module GovKit
             @response ||= self.class.head "/scripts/pss/FindED.aspx?PC=#{@postal_code}"
           end
         end
+
+        StrategySet.register ElectionsCa
       end
     end
   end

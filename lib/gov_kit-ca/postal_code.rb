@@ -6,7 +6,7 @@ module GovKit
     # (PCFRF). A free alternative requires scraping data from other sources.
     # The most reliable sources are elections.ca and digital-copyright.ca.
     #
-    # ## Alternatives (2011-02-28)
+    # ## Alternatives (2011-03-01)
     #
     # ### Scrapers
     #
@@ -24,7 +24,7 @@ module GovKit
     # `postal-code-for-districts.csv`, "which is 308 postal codes that should
     # map to each of the 308 different electoral districts." However, six of the
     # postal codes are invalid (G0A2C0, J8M1R8, J0W1B0, J0B1H0, L0J1B0, N2A1A3),
-    # 14 are duplicated, and the remaining 294 map to 246 electoral districts.
+    # 14 are duplicate, and the remaining 294 map to 246 electoral districts.
     #
     # ### Non-partisan web sites
     #
@@ -55,7 +55,7 @@ module GovKit
       # @param [String] postal_code a postal code
       # @return [String] a formatted postal code
       def self.format_postal_code(postal_code)
-        postal_code.upcase.gsub(/[^A-Z0-9]/)
+        postal_code.upcase.gsub(/[^A-Z0-9]/, '')
       end
 
       # Returns the electoral districts within a postal code.
@@ -64,7 +64,7 @@ module GovKit
       # @raise [ResourceNotFound] if the electoral districts cannot be determined
       # @see http://www.statcan.gc.ca/bsolc/olc-cel/olc-cel?lang=eng&catno=92F0193X Statistics Canada's product page for the Postal Codes by Federal Ridings File (PCFRF)
       def self.find_electoral_districts_by_postal_code(postal_code)
-        Strategy
+        StrategySet.run format_postal_code(postal_code)
       end
 
       # Returns the province that a postal code belongs to.
