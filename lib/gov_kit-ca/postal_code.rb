@@ -74,21 +74,35 @@ module GovKit
       # @see http://en.wikipedia.org/wiki/List_of_postal_codes_in_Canada List of postal codes in Canada
       def self.find_province_by_postal_code(postal_code)
         case format_postal_code(postal_code)
-        when /\AA/: 'Newfoundland and Labrador'
-        when /\AB/: 'Nova Scotia'
-        when /\AC/: 'Prince Edward Island'
-        when /\AE/: 'New Brunswick'
-        when /\A[GHJ]/: 'Quebec'
-        when /\A[KLMNP]/: 'Ontario'
-        when /\AR/: 'Manitoba'
-        when /\AS/: 'Saskatchewan'
-        when /\AT/: 'Alberta'
-        when /\AV/: 'British Columbia'
+        when /\AA/
+          'Newfoundland and Labrador'
+        when /\AB/
+          'Nova Scotia'
+        when /\AC/
+          'Prince Edward Island'
+        when /\AE/
+          'New Brunswick'
+        when /\A[GHJ]/
+          'Quebec'
+        when /\A[KLMNP]/
+          'Ontario'
+        when /\AR/
+          'Manitoba'
+        when /\AS/
+          'Saskatchewan'
+        when /\AT/
+          'Alberta'
+        when /\AV/
+          'British Columbia'
         # http://en.wikipedia.org/wiki/List_of_X_postal_codes_of_Canada
-        when /\AX0[ABC]/: 'Nunavut'
-        when /\AX0[EG]/, /\AX1A/: 'Northwest Territories'
-        when /\AY/: 'Yukon'
-        else raise ResourceNotFound, "The province cannot be determined from the postal code"
+        when /\AX0[ABC]/
+          'Nunavut'
+        when /\AX0[EG]/, /\AX1A/
+          'Northwest Territories'
+        when /\AY/
+          'Yukon'
+        else
+          raise ResourceNotFound, "The province cannot be determined from the postal code"
         end
       end
     end

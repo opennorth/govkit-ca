@@ -10,7 +10,7 @@ module GovKit
         private
 
           def electoral_districts
-            [ response.headers['location'][/&ED=(\d{5})&/, 1] ]
+            [ response.headers['location'][/&ED=(\d{5})&/, 1].to_i ]
           end
 
           def valid?

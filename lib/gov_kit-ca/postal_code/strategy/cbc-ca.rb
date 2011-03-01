@@ -20,7 +20,7 @@ module GovKit
         private
 
           def electoral_districts
-            json_response # TODO
+            json_response.map{|x| self.class.rid_to_edid(x['rid'].to_i)}
           end
 
           def valid?
@@ -29,6 +29,10 @@ module GovKit
 
           def response
             @response ||= self.class.get "/news/canadavotes/myriding/postalcodes/#{@letter}/#{@fsa}/#{@ldu}.html"
+          end
+
+          def self.rid_to_edid
+            @@yml ||= YAML.load_file(File.expand_path('../../../../data/rid_to_edid.yml', __FILE__))
           end
         end
       end
