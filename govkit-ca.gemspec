@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "govkit-ca/version"
+require "gov_kit-ca/version"
 
 Gem::Specification.new do |s|
   s.name        = "govkit-ca"
-  s.version     = Govkit::Ca::VERSION
+  s.version     = GovKit::CA::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["James McKinney"]
+  s.email       = ["james@slashpoundbang.com"]
+  s.homepage    = "http://github.com/jpmckinney/govkit-ca"
+  s.summary     = %q{Easy access to Canadian civic data}
+  s.description = %q{GovKit-CA lets you quickly get encapsulated Ruby objects for Canadian civic data.}
 
   s.rubyforge_project = "govkit-ca"
 
@@ -18,4 +18,9 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  s.add_runtime_dependency('httparty', '>= 0.6.1')
+  s.add_runtime_dependency('nokogiri', '>= 1.4.4')
+  s.add_runtime_dependency('yajl-ruby', '>= 0.7.8')
+  s.add_development_dependency('rspec', '>= 2')
 end
