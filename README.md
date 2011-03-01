@@ -12,7 +12,7 @@ GovKit-CA follows from [Participatory Politics Foundation](http://www.participat
 
 # Installation
 
-    gem install govkit
+    gem install govkit-ca
 
 # Examples
 
