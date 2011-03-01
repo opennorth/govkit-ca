@@ -3,8 +3,7 @@ module GovKit
     module PostalCode
       module Strategy
         # cbc.ca ought to be a reliable source. It is unknown if its database
-        # is kept up-to-date between elections, however. It uses an internal
-        # riding ID that can be matched to an electoral district by name.
+        # is kept up-to-date between elections, however.
         # @see https://github.com/danielharan/pc_scraper
         class CbcCa < Base
           base_uri 'www.cbc.ca'
@@ -21,7 +20,7 @@ module GovKit
         private
 
           def electoral_districts!
-            json_response.map{|x| self.class.rid_to_edid x['rid']}
+            json_response.map{|x| self.class.rid_to_edid[x['rid']]}
           end
 
           def valid?
@@ -32,6 +31,9 @@ module GovKit
             @response ||= self.class.get "/news/canadavotes/myriding/postalcodes/#{@letter}/#{@fsa}/#{@ldu}.html"
           end
 
+          # cbc.ca uses an internal riding ID, which must be matched to a
+          # canonical electoral district ID.
+          # @return [Hash] a map of cbc.ca riding ID to electoral district ID
           def self.rid_to_edid
             @@yml ||= YAML.load_file(File.expand_path('../../../../data/rid_to_edid.yml', __FILE__))
           end

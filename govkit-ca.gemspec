@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["James McKinney"]
   s.email       = ["james@slashpoundbang.com"]
   s.homepage    = "http://github.com/jpmckinney/govkit-ca"
-  s.summary     = %q{Easy access to Canadian civic data}
+  s.summary     = %q{Easy access to Canadian civic data around the web}
   s.description = %q{GovKit-CA lets you quickly get encapsulated Ruby objects for Canadian civic data.}
 
   s.rubyforge_project = "govkit-ca"
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('graticule', '>= 0.2.8')
+  #s.add_runtime_dependency('graticule', '>= 0.2.8')
   s.add_runtime_dependency('httparty', '>= 0.6.1')
   s.add_runtime_dependency('nokogiri', '>= 1.4.4')
   s.add_runtime_dependency('yajl-ruby', '>= 0.7.8')

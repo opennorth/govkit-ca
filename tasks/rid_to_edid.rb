@@ -1,3 +1,5 @@
+require 'csv'
+require 'open-uri'
 require File.expand_path('../../lib/gov_kit-ca', __FILE__)
 
 # http://www.digital-copyright.ca/pcfrf/pcfrf.tgz contains

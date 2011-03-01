@@ -1,12 +1,9 @@
 $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__))) unless $LOAD_PATH.include?(File.expand_path(File.dirname(__FILE__)))
 
-require 'csv'
 require 'json'
-require 'open-uri'
-require 'uri'
 require 'yaml'
 
-require 'graticule'
+#require 'graticule'
 require 'httparty'
 require 'nokogiri'
 require 'yajl'
