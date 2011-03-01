@@ -8,15 +8,15 @@ module GovKit
         private
 
           def electoral_districts!
-            # TODO returns HTML with links whose `href` attributes contain the electoral districts
+            Nokogiri::HTML(response.parsed_response).css('.node .content a').map{|a| a[:href][/\d+\Z/]}
           end
 
           def valid?
-            # TODO
+            !response.parsed_response.match /\binvalid postal code\b/
           end
 
           def response
-            @response ||= self.class.get "http://www.digital-copyright.ca/edid/postal?postalcode=#{@postal_code}"
+            @response ||= self.class.get "/edid/postal?postalcode=#{@postal_code}"
           end
         end
 

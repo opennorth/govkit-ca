@@ -8,15 +8,15 @@ module GovKit
         private
 
           def electoral_districts!
-            # TODO returns HTML with images whose `src` attributes contain the electoral districts.
+            Nokogiri::HTML(response.parsed_response).css('img.RidingListImage').map{|img| img[:src][/\d{5}/]}
           end
 
           def valid?
-            # TODO
+            !response.parsed_response.match /\bOopsies!/
           end
 
           def response
-            @response ||= self.class.get "http://www.liberal.ca/riding/postal/#{@postal_code}/"
+            @response ||= self.class.get "/riding/postal/#{@postal_code}/"
           end
         end
 

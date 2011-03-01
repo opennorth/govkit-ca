@@ -2,8 +2,10 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
+        # parl.gc.ca seems unreliable. In the case of K0A1K0, for example, it
+        # does not return seven ridings like other sources.
         class ParlGcCa < Base
-          base_uri 'parl.gc.ca'
+          base_uri 'www2.parl.gc.ca'
 
         private
 
@@ -16,7 +18,7 @@ module GovKit
           end
 
           def response
-            @response ||= self.class.get "http://www2.parl.gc.ca/parlinfo/Compilations/HouseOfCommons/MemberByPostalCode.aspx?PostalCode=#{@postal_code}"
+            @response ||= self.class.get "/parlinfo/Compilations/HouseOfCommons/MemberByPostalCode.aspx?PostalCode=#{@postal_code}"
           end
         end
 
