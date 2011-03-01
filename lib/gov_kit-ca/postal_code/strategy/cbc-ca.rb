@@ -5,6 +5,7 @@ module GovKit
         # cbc.ca ought to be a reliable source. It is unknown if its database
         # is kept up-to-date between elections, however. It uses an internal
         # riding ID that can be matched to an electoral district by name.
+        # @see https://github.com/danielharan/pc_scraper
         class CbcCa < Base
           base_uri 'www.cbc.ca'
 

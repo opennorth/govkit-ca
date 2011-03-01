@@ -1,6 +1,10 @@
 require File.expand_path('../../lib/gov_kit-ca', __FILE__)
 
-# Use postal-code-for-districts.csv from http://www.digital-copyright.ca/pcfrf/pcfrf.tgz
+# http://www.digital-copyright.ca/pcfrf/pcfrf.tgz contains
+# `postal-code-for-districts.csv`, "which is 308 postal codes that should
+# map to each of the 308 different electoral districts." However, six of the
+# postal codes are invalid (G0A2C0, J8M1R8, J0W1B0, J0B1H0, L0J1B0, N2A1A3),
+# 14 are duplicate, and the remaining 294 map to 246 electoral districts.
 desc "Picks the set cover for postal codes to cbc.ca riding IDs"
 task :trim_postal_codes do |t,args|
   abort "Usage: rake #{t.name} file=postal-codes-for-districts.csv" unless args[:file]

@@ -4,6 +4,7 @@ module GovKit
       module Strategy
         # elections.ca is a reliable source, but it does not return electoral
         # districts for postal codes that contain multiple electoral districts.
+        # @see https://github.com/danielharan/postal_code_to_edid_webservice
         class ElectionsCa < Base
           base_uri 'elections.ca'
 
