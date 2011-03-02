@@ -34,6 +34,8 @@ GovKit-CA will raise GovKit::CA::ResourceNotFound if the electoral districts wit
 
 # Bugs? Questions?
 
+GovKit-CA interoperates with [Participatory Politics Foundation](http://www.participatorypolitics.org/)'s [GovKit](https://github.com/opengovernment/govkit). Please join the [GovKit Google Group](http://groups.google.com/group/govkit), especially if you'd like to talk about a new feature and get announcements.
+
 Govkit-CA's main repository is on GitHub: [http://github.com/jpmckinney/govkit-ca](http://github.com/jpmckinney/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
 
 # TODOs
