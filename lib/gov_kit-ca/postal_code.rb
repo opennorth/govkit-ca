@@ -5,6 +5,13 @@ module GovKit
     # A collection of postal code helpers.
     # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada Postal codes in Canada
     module PostalCode
+      # @param [String] postal_code a postal code
+      # @return [Boolean] whether the postal code is properly formatted
+      # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada#Number_of_possible_postal_codes Possible postal codes
+      def self.valid?(postal_code)
+        !!postal_code.match(/\A[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]\Z/)
+      end
+
       # Returns the electoral districts within a postal code.
       #
       # Statistics Canada charges for its Postal Codes by Federal Ridings File
@@ -12,10 +19,15 @@ module GovKit
       #
       # @param [String] postal_code a postal code
       # @return [Array<Fixnum>] the electoral districts within the postal code
+      # @raise [InvalidRequest] if the postal code is not properly formatted
       # @raise [ResourceNotFound] if the electoral districts cannot be determined
       # @see http://www.statcan.gc.ca/bsolc/olc-cel/olc-cel?lang=eng&catno=92F0193X Statistics Canada's product page for the Postal Codes by Federal Ridings File (PCFRF)
       def self.find_electoral_districts_by_postal_code(postal_code)
-        StrategySet.run format_postal_code(postal_code)
+        if valid?(format_postal_code(postal_code))
+          StrategySet.run format_postal_code(postal_code)
+        else
+          raise InvalidRequest, "The postal code is not properly formatted"
+        end
       end
 
       # Returns the province that a postal code belongs to.

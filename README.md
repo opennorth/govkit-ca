@@ -38,9 +38,4 @@ GovKit-CA interoperates with [Participatory Politics Foundation](http://www.part
 
 Govkit-CA's main repository is on GitHub: [http://github.com/jpmckinney/govkit-ca](http://github.com/jpmckinney/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
 
-# TODOs
-
-* Write tests
-* Add a `ElectoralDistrict` class to convert IDs to English and french names.
-
 Copyright (c) 2011 James McKinney, released under the MIT license
