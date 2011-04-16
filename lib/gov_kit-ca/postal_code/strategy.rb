@@ -24,8 +24,14 @@ module GovKit
         # @raise [ResourceNotFound] if no strategy succeeds
         def self.run(postal_code)
           strategies.each do |strategy|
-            electoral_districts = strategy.new(postal_code).electoral_districts
-            return electoral_districts if electoral_districts
+            begin
+              electoral_districts = strategy.new(postal_code).electoral_districts
+              return electoral_districts if electoral_districts
+            rescue Timeout::Error, Errno::EINVAL, Errno::ECONNRESET,
+              Errno::ETIMEDOUT, EOFError, Net::HTTPBadResponse,
+              Net::HTTPHeaderSyntaxError, Net::ProtocolError
+              # Do nothing. Continue.
+            end
           end
 
           raise ResourceNotFound
@@ -39,7 +45,7 @@ require 'gov_kit-ca/postal_code/strategy/base'
 require 'gov_kit-ca/postal_code/strategy/elections-ca'
 require 'gov_kit-ca/postal_code/strategy/cbc-ca'
 require 'gov_kit-ca/postal_code/strategy/ndp-ca'
-require 'gov_kit-ca/postal_code/strategy/digital_copyright-ca'
 require 'gov_kit-ca/postal_code/strategy/liberal-ca'
+require 'gov_kit-ca/postal_code/strategy/digital_copyright-ca' # timeout
 #require 'gov_kit-ca/postal_code/strategy/parl-gc-ca'
 #require 'gov_kit-ca/postal_code/strategy/conservative-ca'
