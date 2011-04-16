@@ -7,6 +7,8 @@ GovKit-CA is a Ruby gem that provides easy access to Canadian civic data around 
 * [ndp.ca](http://www.ndp.ca/)
 * [digital-copyright.ca](http://www.digital-copyright.ca/)
 * [liberal.ca](http://www.liberal.ca/)
+* [parl.gc.ca](http://www.parl.gc.ca/)
+* [conservative.ca](http://www.conservative.ca/)
 
 GovKit-CA follows from [Participatory Politics Foundation](http://www.participatorypolitics.org/)'s [GovKit](https://github.com/opengovernment/govkit) gem. GovKit-CA is not affiliated with the Participatory Politics Foundation or GovKit.
 
@@ -21,16 +23,20 @@ GovKit-CA follows from [Participatory Politics Foundation](http://www.participat
     >> GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('A1A1A1')
     => [10007]
     >> GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('K0A1K0')
-    => [35087, 35025, 35052, 35012, 35040, 35063, 35064]
+    => [35012, 35025, 35040, 35052, 35063, 35064, 35087]
+    >> GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('H0H0H0')
+    => GovKit::CA::ResourceNotFound
 
     >> GovKit::CA::PostalCode.find_province_by_postal_code('A1A1A1')
     => "Newfoundland and Labrador"
     >> GovKit::CA::PostalCode.find_province_by_postal_code('K0A1K0')
     => "Ontario"
+    >> GovKit::CA::PostalCode.find_province_by_postal_code('H0H0H0')
+    => "Quebec"
 
 Postal codes may contain lowercase letters. Spaces and non-alphanumeric characters are removed before processing.
 
-GovKit-CA will raise GovKit::CA::ResourceNotFound if the electoral districts within a postal code cannot be determined.
+GovKit-CA will raise GovKit::CA::ResourceNotFound if the electoral districts within a postal code cannot be determined, and GovKit::CA::InvalidRequest if a postal code is not properly formatted.
 
 # Bugs? Questions?
 

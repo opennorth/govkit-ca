@@ -2,6 +2,7 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
+        # liberal.ca is unreliable during elections.
         class LiberalCa < Base
           base_uri 'www.liberal.ca'
 

@@ -22,7 +22,7 @@ module GovKit
           # Returns the electoral districts within a postal code.
           # @return [Array<Fixnum>] the electoral districts within the postal code
           def electoral_districts
-            valid? && electoral_districts!.map(&:to_i)
+            valid? && electoral_districts!.map(&:to_i).sort
           end
 
         private
