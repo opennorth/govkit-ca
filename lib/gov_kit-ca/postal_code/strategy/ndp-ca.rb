@@ -18,7 +18,7 @@ module GovKit
           end
 
           def response
-            @response ||= self.class.head "http://www.ndp.ca/riding/#{@postal_code}"
+            @response ||= self.class.head "/riding/#{@postal_code}"
           end
         end
 

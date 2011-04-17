@@ -45,7 +45,4 @@ require 'gov_kit-ca/postal_code/strategy/base'
 require 'gov_kit-ca/postal_code/strategy/elections-ca'
 require 'gov_kit-ca/postal_code/strategy/cbc-ca'
 require 'gov_kit-ca/postal_code/strategy/ndp-ca'
-require 'gov_kit-ca/postal_code/strategy/liberal-ca'
-require 'gov_kit-ca/postal_code/strategy/digital_copyright-ca' # timeout
-#require 'gov_kit-ca/postal_code/strategy/parl-gc-ca'
-#require 'gov_kit-ca/postal_code/strategy/conservative-ca'
+require 'gov_kit-ca/postal_code/strategy/greenparty-ca'

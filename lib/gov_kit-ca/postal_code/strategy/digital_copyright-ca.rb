@@ -2,6 +2,7 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
+        # Occasionally suffers from timeout errors.
         class DigitalCopyrightCa < Base
           base_uri 'www.digital-copyright.ca'
 

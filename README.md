@@ -7,6 +7,7 @@ GovKit-CA is a Ruby gem that provides easy access to Canadian civic data around 
 * [ndp.ca](http://www.ndp.ca/)
 * [digital-copyright.ca](http://www.digital-copyright.ca/)
 * [liberal.ca](http://www.liberal.ca/)
+* [greenparty.ca](http://www.greenparty.ca/)
 * [parl.gc.ca](http://www.parl.gc.ca/)
 * [conservative.ca](http://www.conservative.ca/)
 
