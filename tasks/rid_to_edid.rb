@@ -14,7 +14,7 @@ require File.expand_path('../../lib/gov_kit-ca', __FILE__)
 # exist (G0A2C0, J8M1R8, J0W1B0, J0B1H0, L0J1B0, N2A1A3), 14 are duplicate, and
 # the remaining 294 map to 246 electoral districts.
 #
-# The included tasks/postal-code-for-districts.csv covers all 308 electoral
+# The included tasks/postal-code-for-districts.csv covers 275 electoral
 # districts at the time of writing.
 desc "Picks the set cover for postal codes to electoral districts"
 task :trim_postal_codes, :file do |t,args|
