@@ -9,7 +9,7 @@ module GovKit
         private
 
           def electoral_districts!
-            Nokogiri::HTML(response.parsed_response).css('img.RidingListImage').map{|img| img[:src][/\d{5}/]}
+            Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('img.RidingListImage').map{|img| img[:src][/\d{5}/]}
           end
 
           def valid?

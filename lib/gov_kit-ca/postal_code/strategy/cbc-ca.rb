@@ -1,3 +1,5 @@
+require 'iconv'
+
 module GovKit
   module CA
     module PostalCode
@@ -13,8 +15,8 @@ module GovKit
             super
           end
 
-          def json_response # Yajl barfs on bad encoding
-            Yajl::Parser.parse(response.parsed_response) rescue JSON.parse(response.parsed_response)
+          def json_response
+            Yajl::Parser.parse(Iconv.new('UTF-8', 'ISO-8859-1').iconv(response.parsed_response))
           end
 
         private
