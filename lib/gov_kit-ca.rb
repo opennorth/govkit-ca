@@ -3,7 +3,6 @@ $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__))) unless $LOAD_PATH.i
 require 'json'
 require 'yaml'
 
-#require 'graticule'
 require 'httparty'
 require 'nokogiri'
 require 'yajl'

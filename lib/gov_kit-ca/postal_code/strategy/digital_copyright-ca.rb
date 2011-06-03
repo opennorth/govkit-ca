@@ -2,7 +2,8 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # Occasionally suffers from timeout errors.
+        # digital-copyright.ca often returns more or fewer electoral districts
+        # than others. Occasionally suffers from timeout errors.
         class DigitalCopyrightCa < Base
           base_uri 'www.digital-copyright.ca'
 
@@ -13,7 +14,7 @@ module GovKit
           end
 
           def valid?
-            !response.parsed_response.match /\binvalid postal code\b/
+            !response.parsed_response.match /\b(invalid postal code|not found)\b/
           end
 
           def response

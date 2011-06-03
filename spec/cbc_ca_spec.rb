@@ -5,7 +5,7 @@ class GovKit::CA::PostalCode::Strategy::CbcCa
     describe '#electoral_districts' do
       it 'should return the electoral districts within a postal code' do
         { 'G0C2Y0' => [24019],
-          'T5S2B9' => [48015, 48017], # differs from elections.ca, ndp.ca
+          'T5S2B9' => [48015, 48017], # differs from elections.ca, ndp.ca, greenparty.ca
           'K0A1K0' => [35012, 35025, 35040, 35052, 35063, 35064, 35087],
         }.each do |postal_code,electoral_districts|
           GovKit::CA::PostalCode::Strategy::CbcCa.new(postal_code).electoral_districts.should == electoral_districts
