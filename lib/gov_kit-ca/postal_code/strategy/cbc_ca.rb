@@ -1,5 +1,3 @@
-require 'iconv'
-
 module GovKit
   module CA
     module PostalCode
@@ -7,7 +5,7 @@ module GovKit
         # cbc.ca ought to be a reliable source. It is unknown if its database
         # is kept up-to-date between elections, however.
         # @see https://github.com/danielharan/pc_scraper
-        class CbcCa < Base
+        class CBCCa < Base
           base_uri 'www.cbc.ca'
 
           def initialize(postal_code)
@@ -41,7 +39,7 @@ module GovKit
           end
         end
 
-        StrategySet.register CbcCa
+        StrategySet.register CBCCa
       end
     end
   end

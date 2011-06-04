@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('nokogiri', '>= 1.4.4')
   s.add_runtime_dependency('yajl-ruby', '>= 0.7.8')
   s.add_development_dependency('rspec', '>= 2')
+  s.add_development_dependency('fakeweb', '>= 1.3.0')
 end

@@ -40,9 +40,3 @@ module GovKit
     end
   end
 end
-
-require 'gov_kit-ca/postal_code/strategy/base'
-require 'gov_kit-ca/postal_code/strategy/elections-ca'
-require 'gov_kit-ca/postal_code/strategy/cbc-ca'
-require 'gov_kit-ca/postal_code/strategy/ndp-ca'
-require 'gov_kit-ca/postal_code/strategy/greenparty-ca'

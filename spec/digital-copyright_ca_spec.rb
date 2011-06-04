@@ -1,5 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require 'gov_kit-ca/postal_code/strategy/digital_copyright-ca'
+require 'gov_kit-ca/postal_code/strategy/digital-copyright_ca'
 
 class GovKit::CA::PostalCode::Strategy::DigitalCopyrightCa
   describe GovKit::CA::PostalCode::Strategy::DigitalCopyrightCa do

@@ -15,4 +15,4 @@ rescue LoadError
   end
 end
 
-require File.expand_path('../tasks/rid_to_edid', __FILE__)
+require File.expand_path('../tasks/tasks', __FILE__)
