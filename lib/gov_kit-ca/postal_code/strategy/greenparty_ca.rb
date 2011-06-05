@@ -6,6 +6,8 @@ module GovKit
         # that contain multiple electoral districts.
         class GreenPartyCa < Base
           base_uri 'greenparty.ca'
+          http_method :head
+          path '/search/civicrm_lookup/<%= @postal_code %>'
 
         private
 
@@ -15,10 +17,6 @@ module GovKit
 
           def valid?
             response.headers['location'] != 'http://greenparty.ca/find_your_riding'
-          end
-
-          def response
-            @response ||= self.class.head "/search/civicrm_lookup/#{@postal_code}"
           end
         end
 

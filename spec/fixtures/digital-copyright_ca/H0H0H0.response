@@ -1,10 +1,10 @@
 HTTP/1.1 200 OK
-Date: Sat, 04 Jun 2011 22:17:04 GMT
+Date: Sun, 05 Jun 2011 03:16:52 GMT
 Server: Apache/2.2.3 (CentOS)
 X-Powered-By: PHP/5.1.6
-Set-Cookie: SESS81ce27b836f063f88172c006748c49b9=d3oq7vkdvmr81468ebg7g7mka2; expires=Tue, 28 Jun 2011 01:50:24 GMT; path=/; domain=.digital-copyright.ca
-Last-Modified: Sat, 04 Jun 2011 22:13:04 GMT
-Etag: "9ae406c591a4f7f1b9ec235320de5560"
+Set-Cookie: SESS81ce27b836f063f88172c006748c49b9=8uj574bacqucb9ciakdo04aqe2; expires=Tue, 28 Jun 2011 06:50:12 GMT; path=/; domain=.digital-copyright.ca
+Last-Modified: Sun, 05 Jun 2011 03:09:18 GMT
+Etag: "f43fd5254d2ad877927f0c0fb61ec429"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Cache-Control: must-revalidate
 Connection: close
@@ -155,12 +155,12 @@ Unless otherwise stated, content on this site are licensed under a <a rel="licen
 <li><a href="/blog/230">Darryl Moore</a></li>
 <li><a href="/blog/315">DonK</a></li>
 <li><a href="/blog/679">ablair</a></li>
-<li><a href="/blog/184">Oscar</a></li>
 <li><a href="/blog/68">rakerman</a></li>
+<li><a href="/blog/184">Oscar</a></li>
 <li><a href="/blog/22">jlam</a></li>
 <li><a href="/blog/469">mcr</a></li>
-<li><a href="/blog/13">Jem Berkes</a></li>
-<li class="last"><a href="/blog/19963">Garthgraham</a></li>
+<li><a href="/blog/19963">Garthgraham</a></li>
+<li class="last"><a href="/blog/13">Jem Berkes</a></li>
 </ul></div>  </div>
 </div>
 <div id="block-block-9" class="block block-block">
@@ -203,7 +203,7 @@ Unless otherwise stated, content on this site are licensed under a <a rel="licen
  <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-5143318bd69e9209e8303efb841ef321" value="form-5143318bd69e9209e8303efb841ef321"  />
+<input type="hidden" name="form_build_id" id="form-e5f1aa45133d501136ea2dae18026ed8" value="form-e5f1aa45133d501136ea2dae18026ed8"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 <input type="hidden" name="openid.return_to" id="edit-openid.return-to" value="http://www.digital-copyright.ca/openid/authenticate?destination=node%2F1603%3Fpostalcode%3DH0H0H0"  />
 <div class="item-list"><ul><li class="openid-link first"><a href="/%2523">Log in using OpenID</a></li>
@@ -225,7 +225,7 @@ Unless otherwise stated, content on this site are licensed under a <a rel="licen
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-00728373c487afa20c1c469a47baee49" value="form-00728373c487afa20c1c469a47baee49"  />
+<input type="hidden" name="form_build_id" id="form-ddf4eae955302b5b026b56f2c012d4fd" value="form-ddf4eae955302b5b026b56f2c012d4fd"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

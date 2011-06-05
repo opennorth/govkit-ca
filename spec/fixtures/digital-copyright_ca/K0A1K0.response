@@ -1,10 +1,10 @@
 HTTP/1.1 200 OK
-Date: Sat, 04 Jun 2011 22:17:04 GMT
+Date: Sun, 05 Jun 2011 03:16:51 GMT
 Server: Apache/2.2.3 (CentOS)
 X-Powered-By: PHP/5.1.6
-Set-Cookie: SESS81ce27b836f063f88172c006748c49b9=tbaduh8otcnh9re01ck4kvcok4; expires=Tue, 28 Jun 2011 01:50:24 GMT; path=/; domain=.digital-copyright.ca
-Last-Modified: Sat, 04 Jun 2011 22:13:03 GMT
-Etag: "bf8ea2e4700bf0931daf17cc6c710411"
+Set-Cookie: SESS81ce27b836f063f88172c006748c49b9=5i2qauhta5sqah9g5n8jse7146; expires=Tue, 28 Jun 2011 06:50:11 GMT; path=/; domain=.digital-copyright.ca
+Last-Modified: Sun, 05 Jun 2011 03:09:17 GMT
+Etag: "eec1f6dcf2b213081d64467764db14d5"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Cache-Control: must-revalidate
 Connection: close
@@ -189,7 +189,7 @@ Unless otherwise stated, content on this site are licensed under a <a rel="licen
  <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-177d126ba56b5a852a8e6403bbeb84a8" value="form-177d126ba56b5a852a8e6403bbeb84a8"  />
+<input type="hidden" name="form_build_id" id="form-208b8933c9f31a2b5f31e2ac763aedab" value="form-208b8933c9f31a2b5f31e2ac763aedab"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 <input type="hidden" name="openid.return_to" id="edit-openid.return-to" value="http://www.digital-copyright.ca/openid/authenticate?destination=node%2F1603%3Fpostalcode%3DK0A1K0"  />
 <div class="item-list"><ul><li class="openid-link first"><a href="/%2523">Log in using OpenID</a></li>
@@ -211,7 +211,7 @@ Unless otherwise stated, content on this site are licensed under a <a rel="licen
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-b3e5dd173986ed4074b311bb9ee00cd4" value="form-b3e5dd173986ed4074b311bb9ee00cd4"  />
+<input type="hidden" name="form_build_id" id="form-a587f385d039b31d5deffcdf24ff67b6" value="form-a587f385d039b31d5deffcdf24ff67b6"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

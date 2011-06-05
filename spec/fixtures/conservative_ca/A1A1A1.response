@@ -1,0 +1,467 @@
+HTTP/1.1 200 OK\r\n
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.2.12
+Set-Cookie: PHPSESSID=m88thhmr398ngvo9orrop1h3v1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-Cache: BYPASS - not cacheable
+Content-Length: 23468
+Date: Sun, 05 Jun 2011 03:16:42 GMT
+X-Varnish: 1166542126
+Age: 0
+Via: 1.1 varnish
+Connection: close
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+                <title>Meet Our MPs</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="robots" content="index, follow">
+        <meta http-equiv="window-target" content="_top">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"> 
+
+    	<meta name="description" content="Latest news and information from the Conservative Party of Canada.  A Canadian political party led by Stephen Harper.">
+    	<meta name="keywords" content="conservative party of canada, conservative party, conservative, conservatives,  harper, stephen harper, stand up for canada, trades, transit, accountability, child care, tools tax credit, transit tax credit, accountability act, child care tax credit, canada, political party, politics, federal politics">
+
+        <meta name="Identifier-URL" content="www.conservative.ca">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="global">
+        <meta name="Coverage" content="Worldwide">
+        <meta name="resource-type" content="document">
+        <meta name="Content-Language" content="EN">
+        <meta name="generator" content="Expression v (1.8.6) - Backbone Technology Inc - http://www.backbonetechnology.com">
+
+        <meta name="rating" content="General">
+        <meta name="author" content="Conservative Party Of Canada">
+        <meta name="copyright" content="Conservative Party Of Canada">
+        
+                <link rel="icon" href="http://www.conservative.ca/media/www_conservative_ca.ico">
+        <link rel="shortcut icon" href="http://www.conservative.ca/media/www_conservative_ca.ico">
+		<script src="/includes/libs/js/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+<!--script type="text/javascript" src="/includes/libs/js/jquery.tools/jquery.tools.min.js"></script-->
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/includes/libs/js/unitpngfix/unitpngfix.js"></script>
+<![endif]-->
+
+
+
+<link rel="stylesheet" type="text/css" href="http://www.conservative.ca/includes/www.conservative.ca.css">
+<script language="JavaScript" src="http://www.conservative.ca/includes/www.conservative.ca.js"></script>
+
+
+    
+        </head>
+    				<body onload=";if (typeof onXprPageLoad != 'undefined') { onXprPageLoad(); }"  marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+    		
+				<script>
+				
+		    	</script>
+		    	        <div id="edaBody">
+  <div id="edaContentBG">
+    <div id="edaContent">
+      <table cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td valign="middle"><div class="left">
+
+<a href="/" style="outline:none;display: block;padding-left: 20px;"> 
+<img src="http://www.conservative.ca/media/templates/sep10-here-for-canada.png" border="0" alt="" title="Here for Canada">
+</a>
+
+</div>
+ <div class="absolute">
+                <div class="sep10-bio"><img src="http://www.conservative.ca/media/templates/sharper.png" /></div>
+              </div></td>
+            <td valign="top">
+              <div align="right"><table cellspacing=0 cellpadding=0>
+<tr><td valign=top>
+<img src="http://www.conservative.ca/media/templates/edaTopNavCorner.png" border="0" alt="">
+</td><td valign=top> 
+<a href="/action_centre/find_my_candidate" class="sep10-action-link">Find My Candidate</a>
+</td><td valign=top> 
+<a href="http://www.conservative.ca/footer/contact_us" class="sep10-action-link">Contact</a>
+</td><td valign=top> 
+<span class="sep10-lang">LANGUAGE:</span><a href="/team/our_MPs/?postal_code=A1A1A1&language_id=0" class="sep10-lang-link-active">E</a><a href="/team/our_MPs/?postal_code=A1A1A1&language_id=2" class="sep10-lang-link">F</a>
+</td>
+
+</tr></table><a href="http://www.conservative.ca" style="outline:none;margin-top:30px;margin-bottom: 25px;display: block;margin-right: 20px;"> 
+<img src="http://www.conservative.ca/media/templates/edaLogo1.png" border="0" alt="" title="Conservative">
+</a></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="edaMainMenu">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+            <tr>
+              <td valign="top" width="12">
+                <div class="edaNavLeft"><img src="/media/templates/edaNavLeftCorner.png" border="0" /></div>
+              </td>
+              <td class="edaItemBG" valign="top"><div class="menuItem" onmouseover="javascript: showDiv('sub-2444');" onmouseout="javascript: hideDiv('sub-2444');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/home/" class="edaMainMenuItem">Home</a>
+</div> 
+
+<div id="sub-2444" style="display: none; position: absolute;" class=edaMainMenuLevel2>
+</div>  
+
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-998');" onmouseout="javascript: hideDiv('sub-998');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/leader/" class="edaMainMenuItem">Leader</a>
+</div> 
+
+<div id="sub-998" style="display: none; position: absolute;" class=edaMainMenuLevel2><a href="/leader/stephen_harper/" class="edaMainMenuItemLevel2">Stephen Harper</a><a href="/leader/laureen_harper/" class="edaMainMenuItemLevel2">Laureen Harper</a>
+</div>  
+
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-1018');" onmouseout="javascript: hideDiv('sub-1018');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/party/" class="edaMainMenuItem">Party</a>
+</div> 
+
+<div id="sub-1018" style="display: none; position: absolute;" class=edaMainMenuLevel2><a href="/party/founding_principles/" class="edaMainMenuItemLevel2">Founding Principles</a><a href="/party/key_documents/" class="edaMainMenuItemLevel2">Key Documents</a><a href="/party/history/" class="edaMainMenuItemLevel2">History</a><a href="/party/national_council/" class="edaMainMenuItemLevel2">National Council</a><a href="http://www.cpcconvention.ca/" class="edaMainMenuItemLevel2">Convention 2011</a>
+</div>  
+
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-1049');" onmouseout="javascript: hideDiv('sub-1049');" style="height:36px;">  
+
+<div class="menuItem">
+<a href="/team/" class="edaMainMenuItemActive">
+TEAM
+</a>
+</div>    
+
+<div id="sub-1049" style="display: none; position: absolute;" class=edaMainMenuLevel2>
+<a href="/team/the_ministry/" class="edaMainMenuItemLevel2">The Ministry</a><a href="/team/our_senators/" class="edaMainMenuItemLevel2">Our Senators</a><a href="/team/our_MPs/" class="edaMainMenuItemLevel2Active">Our MPs</a>
+
+</div>  
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-1143');" onmouseout="javascript: hideDiv('sub-1143');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/policy/" class="edaMainMenuItem">Policy</a>
+</div> 
+
+<div id="sub-1143" style="display: none; position: absolute;" class=edaMainMenuLevel2><a href="/policy/platform_2011/" class="edaMainMenuItemLevel2">Platform 2011</a><a href="/policy/budget_2009/" class="edaMainMenuItemLevel2">Budget 2011</a>
+</div>  
+
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-1107');" onmouseout="javascript: hideDiv('sub-1107');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/press/" class="edaMainMenuItem">Press</a>
+</div> 
+
+<div id="sub-1107" style="display: none; position: absolute;" class=edaMainMenuLevel2><a href="/press/news_releases/" class="edaMainMenuItemLevel2">News Releases</a><a href="/press/rss/" class="edaMainMenuItemLevel2">RSS</a>
+</div>  
+
+</div></td><td valign=top class="edaItemBG"><div class="menuItem" onmouseover="javascript: showDiv('sub-2201');" onmouseout="javascript: hideDiv('sub-2201');" style="height:36px;">    
+
+<div class="menuItem">
+<a href="/multimedia/" class="edaMainMenuItem">Multimedia</a>
+</div> 
+
+<div id="sub-2201" style="display: none; position: absolute;" class=edaMainMenuLevel2><a href="/multimedia/photo_gallery/" class="edaMainMenuItemLevel2">Photo Gallery</a><a href="/multimedia/wallpaper/" class="edaMainMenuItemLevel2">Wallpaper</a>
+</div>  
+
+</div></td>
+              <td valign="top" width="11">
+                <div class="edaNavLeft"><img src="/media/templates/edaNavRightCorner.png" border="0" /></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <table class="edaContentTable" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="edaContentBody" valign="top">
+              <div class="edaContentBodyContainer"><div id=edaArticle>
+
+<div id=aug08ArticleTitle>Meet Our MPs</div>
+
+<div id=aug08ArticleDate></div>
+
+<script>
+
+var startDate = '';
+
+if (startDate == '') {
+
+hideDiv('aug08ArticleDate');
+
+}
+
+</script>
+
+<!--
+<div id=aug08ArticleDescription>
+
+</div>
+//-->
+
+<div id=aug08ArticleBody>
+								<div> </div><div><form action="/?section_id=1051" method="GET"><input type="hidden" name="section_id" value="1051"><input type="hidden" name="section_copy_id" value="">
+<table cellpadding="0" cellspacing="0"  border="0">       <tr>  <td valign="middle">  <div id=cpocRidingHeadertext>Search By  Province</div>
+
+<div id=cpocRidingInput align=right><select name="regionId"><option value="27">Newfoundland & Labrador</option><option value="28">Prince Edward Island</option><option value="29">Nova Scotia</option><option value="30">New Brunswick</option><option value="31">Quebec</option><option value="32">Ontario</option><option value="33">Manitoba</option><option value="34">Saskatchewan</option><option value="35">Alberta</option><option value="36">British Columbia</option><option value="37">Yukon</option><option value="38">Northwest Territories</option><option value="39">Nunavut</option></select></div>
+<br><div id=cpocRidingHeadertext>Search By Postal Code</div>
+
+<div id=cpocRidingInput style="margin-left:42px;margin-left:expression('60px');"><input type="text" name="postal_code" value="A1A1A1" style="" class=""></div> 
+
+</td><td valign="middle">
+
+<input  name="submit" value="" style="padding-top: 3px;margin-left: 15px;" class="cpocFrenchSearchButton"  src="/media/templates/cpocRiding_go_button.gif" type="image" style="border: 1px solid#FFFFFF;">   </td></tr></table>      
+</div>
+</form> <br /></div><div><!--div id=cpocRididngProfileTitle>[$errorMessage]</div//-->
+
+<!--div id=cpocRididngProfileTitle>Newfoundland & Labrador</div//-->      
+
+<div id=aug08cpocRidingProfileTitle>St. John's South - Mount Pearl</div>  </div>  				 						<div id=edaArticleFooter>         
+<div id=aug08userToolsTitle>
+<img src="http://www.conservative.ca/media/templateElements/articleelement/3679/20080508-getActive.jpg" border=0></div>
+<table width=530 cellspacing=0 cellpadding=0>
+<tr><td width="34%" id=1>
+<a href="/donate/" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterDonate>Donate</div>
+</a>
+
+
+<a href="javascript: expPopupWindow('/EN/4714/78224',776,800,1,1,1,1,1,1,1,1,1);" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterJoin>Join</div>
+</a>
+
+
+<a href="/EN/4714/74610" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterHelp>Help</div>
+</a>
+
+
+<a href="javascript: expPopupWindow('/team/our_MPs/meet_our_mps?tpid=3171&postal_code=A1A1A1&language_id=0',776,800,1,1,1,1,1,1,1,1,1);" class="aug08ArticleFooterLink"> 
+<div id=aug08ArticleFooterPrinter>Print</div> </a>    
+
+  
+</td><td width="33%" id=2>
+
+
+<a href="/EN/4794/92497" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterSign>Sign</div>
+</a>
+       
+
+<a href="http://www.conservative.ca/EN/footer/contact_us" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterContactUs>Contact</div>
+</a>
+
+
+<a href="http://www.cboutique.ca" class="aug08ArticleFooterLink">  
+<div id=aug08ArticleFooterEmail>Shop</div>  
+</a>   
+
+
+
+<a href="/EN/4714/74625/" class="aug08ArticleFooterLink"> 
+<div id=aug08ArticleFooterRegister>eNews</div> 
+</a>      
+
+
+</td><td width="33%" id=3>
+
+
+<a href="/EN/4811" class="aug08ArticleFooterLink"> <div id=aug08ArticleFooterRSS>RSS</div>
+</a>
+
+
+
+<!-- table cellspacing=5 cellpadding=0>
+<tr><td>
+
+<script type="text/javascript"
+	src="http://d.yimg.com/ds/badge2.js"
+	badgetype="logo">
+javascript: expPopupWindow('http://www.conservative.ca/?section_id=1051&section_copy_id=7862&tpid=115&postal_code=A1A1A1&',500,600,1,1,1,1,1,1,1,1);</script>
+</td><td>
+
+
+<div class="aug08ArticleFooterLinkBuzz">Buzz
+</div>
+
+</td></tr></table //-->
+
+
+<a href="http://www.facebook.com/sharer.php?u=http://www.conservative.ca/EN/1051/7862" class="aug08ArticleFooterLink" target="_blank"> <div id=aug08ArticleFooterFacebook>Facebook</div>
+</a>
+
+
+<a href="http://digg.com/remote-submit?phase=2&url=http://www.conservative.ca/EN/1051/7862" class="aug08ArticleFooterLink" target="_blank"> <div id=aug08ArticleFooterDigg>Digg</div>
+</a>
+
+
+<a href="http://del.icio.us/post?url=http://www.conservative.ca/EN/1051/7862" class="aug08ArticleFooterLink" target="_blank"> <div id=aug08ArticleFooterDelicious>Del.icio.us</div>
+</a>
+
+
+
+</td></tr></table>
+</div>
+</div>
+
+</div></div>
+            </td>
+            <td class="sep10-nav-right" valign="top"><div class="sep2010-action-centre" style="#padding:24px 10px;">
+<img src="http://www.conservative.ca/media/templates/sep2010-take-actions.jpg" alt="" border="0" align="center" style="padding-left:7px;">
+<table id=actionCenter border=0 cellpadding=0 cellspacing=0 align=center style="width:270px;text-align:center;margin-top:15px;">
+
+<script type="text/javascript"> 
+
+setupTable('actionCenter','2');
+
+</script><script type="text/javascript">
+
+tableData = '<a href="https://secure.conservative.ca/contribute_online/"><img src="/media/sep2010-donate.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script><script type="text/javascript">
+
+tableData = '<a href="https://secure.conservative.ca/become_a_member/"><img src="/media/sep2010-join.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script><script type="text/javascript">
+
+tableData = '<a href="http://www.conservative.ca/action_centre/become_a_volunteer"><img src="/media/sep2010-volunteer.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script><script type="text/javascript">
+
+tableData = '<a href="http://www.conservative.ca/action_centre/reserve_a_sign"><img src="/media/sep2010-signs.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script><script type="text/javascript">
+
+tableData = '<a href="http://www.cboutique.ca"><img src="/media/sep2010-shop.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script><script type="text/javascript">
+
+tableData = '<a href="/action_centre/enews_signup?language_id=0"><img src="/media/sep2010-enews.jpg" border=0 vspace=2></a>';
+
+addTableCell(tableData);
+
+</script></table>
+
+</div><form action="/?section_id=1051" method="GET"><input type="hidden" name="section_id" value="1051"><input type="hidden" name="section_copy_id" value="">
+
+<div class="sep2010-action-centre" style="#padding:24px 10px;">
+<img src="http://www.conservative.ca/media/templates/cpcm2011-findcandidate.jpg" alt="" border="0" align="center" style="padding-left:7px;">
+<div style="width:286px;#width:255px;text-align:center;margin-top:15px;">
+
+<table cellpadding="0" cellspacing="0"  border="0">       
+<tr>  
+<td valign="middle" width="209">  
+<div class="cpcm2011-input-text">Search by province</div>
+<div id=cp09RidingInput><select name="regionId"><option value="27">Newfoundland & Labrador</option><option value="28">Prince Edward Island</option><option value="29">Nova Scotia</option><option value="30">New Brunswick</option><option value="31">Quebec</option><option value="32">Ontario</option><option value="33">Manitoba</option><option value="34">Saskatchewan</option><option value="35">Alberta</option><option value="36">British Columbia</option><option value="37">Yukon</option><option value="38">Northwest Territories</option><option value="39">Nunavut</option></select></div>
+<br><div class="cpcm2011-input-text">Enter postal code</div>
+<div id=cp09RidingInput style="margin-left:46px;">
+<input name="postal_code" value="" onfocus="this.value = '';" type="text" class="cpcm2011-input-po">
+</div> 
+</td><td valign="middle">
+<div style="padding-top: 3px;margin-left: 15px;">
+<input value="" name="Submit" type="image" src="http://www.conservative.ca/media/templates/cpcm2011-findriding-submit.jpg" style="border:0px;">   
+</div>
+
+</td></tr></table>      
+
+</div>
+
+</div>
+
+</form><a href="http://www.torynation.ca" target="_blank" class="tn">
+<img src="http://www.conservative.ca/media/templates/20110324-RightColumnIcon-ToryNation-e.jpg" border="0" alt=""/>
+</a><div class="sep2010-action-centre">
+<img src="http://www.conservative.ca/media/templates/sep2010-facebook-header.jpg" alt="" border="0" align="center" style="margin-bottom:20px;"><div style="padding:0px 20px 25px 20px;#padding:0px 25px 25px 20px;cursor:pointer;" onclick="javascript: expPopupWindow('http://www.facebook.com/pmharper?ref=ts',1024,800,1,1,1,1,1,1,1,1);">
+
+<img src="/media/q9106562109_5243.jpg" border=0 vspace=2 align="left">
+<div class="sep10-facebook-title">Stephen Harper</div>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/pmharper?ref=ts&layout=standard&show_faces=false&width=220&action=like&colorscheme=light&height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:40px;" allowTransparency="true"></iframe>
+
+</div><div style="padding:0px 20px 25px 20px;#padding:0px 25px 25px 20px;cursor:pointer;" onclick="javascript: expPopupWindow('http://www.facebook.com/pages/Conservative-Party-of-Canada-Parti-conservateur-du-Canada/5661704203?ref=mf',1024,800,1,1,1,1,1,1,1,1);">
+
+<img src="/media/q5661704203_5582.jpg" border=0 vspace=2 align="left">
+<div class="sep10-facebook-title">Conservative Party</div>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/pages/Conservative-Party-of-Canada-Parti-conservateur-du-Canada/5661704203?ref=mf&layout=standard&show_faces=false&width=220&action=like&colorscheme=light&height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:40px;" allowTransparency="true"></iframe>
+
+</div></div><div align="center"><a href="javascript: expPopupWindow('http://www.youtube.com/cpcpcc',1024,800,1,1,1,1,1,1,1,1);" class="sep10-social-media-icon"><img src="/media/resampled/articleMenuElement/3951/resampled_sep10-youtube.jpg" alt="" border="0"></a><a href="javascript: expPopupWindow('http://www.flickr.com/photos/30107029@N04/',1024,800,1,1,1,1,1,1,1,1);" class="sep10-social-media-icon"><img src="/media/resampled/articleMenuElement/3951/resampled_sep10-digg.jpg" alt="" border="0"></a><a href="javascript: expPopupWindow('http://twitter.com/PMHarper',1024,800,1,1,1,1,1,1,1,1);" class="sep10-social-media-icon"><img src="/media/resampled/articleMenuElement/3951/resampled_sep10-twitter.jpg" alt="" border="0"></a><a href="javascript: expPopupWindow('http://www.facebook.com/pages/Conservative-Party-of-Canada-Parti-conservateur-du-Canada/5661704203',1024,800,1,1,1,1,1,1,1,1);" class="sep10-social-media-icon"><img src="/media/resampled/articleMenuElement/3951/resampled_sep10-facebook-social.jpg" alt="" border="0"></a><a href="javascript: expPopupWindow('/press/rss/?language_id=0',1024,800,1,1,1,1,1,1,1,1);" class="sep10-social-media-icon"><img src="/media/resampled/articleMenuElement/3951/resampled_sep10-rss.jpg" alt="" border="0"></a></div></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="edaFooter"><div class="edaFooterMenu">
+
+<ul class="eda-footer-ul"><li>
+<a href="/home/" class="edaFooterMenuItemLevel1">Home</a>
+</li><li>
+<a href="/leader/" class="edaFooterMenuItemLevel1">Leader</a><a href="/leader/stephen_harper/" class="edaFooterMenuItemLevel2">Stephen Harper</a><a href="/leader/laureen_harper/" class="edaFooterMenuItemLevel2">Laureen Harper</a>
+</li><li>
+<a href="/party/" class="edaFooterMenuItemLevel1">Party</a><a href="/party/founding_principles/" class="edaFooterMenuItemLevel2">Founding Principles</a><a href="/party/key_documents/" class="edaFooterMenuItemLevel2">Key Documents</a><a href="/party/history/" class="edaFooterMenuItemLevel2">History</a><a href="/party/national_council/" class="edaFooterMenuItemLevel2">National Council</a><a href="http://www.cpcconvention.ca/" class="edaFooterMenuItemLevel2">Convention 2011</a>
+</li><li>
+<a href="/team/" class="edaFooterMenuItemLevel1">TEAM</a><a href="/team/the_ministry/" class="edaFooterMenuItemLevel2">The Ministry</a><a href="/team/our_senators/" class="edaFooterMenuItemLevel2">Our Senators</a><a href="/team/our_MPs/" class="edaFooterMenuItemLevel2">Our MPs</a>
+</li><li>
+<a href="/policy/" class="edaFooterMenuItemLevel1">Policy</a><a href="/policy/platform_2011/" class="edaFooterMenuItemLevel2">Platform 2011</a><a href="/policy/budget_2009/" class="edaFooterMenuItemLevel2">Budget 2011</a>
+</li><li>
+<a href="/press/" class="edaFooterMenuItemLevel1">Press</a><a href="/press/news_releases/" class="edaFooterMenuItemLevel2">News Releases</a><a href="/press/rss/" class="edaFooterMenuItemLevel2">RSS</a>
+</li><li>
+<a href="/multimedia/" class="edaFooterMenuItemLevel1">Multimedia</a><a href="/multimedia/photo_gallery/" class="edaFooterMenuItemLevel2">Photo Gallery</a><a href="/multimedia/wallpaper/" class="edaFooterMenuItemLevel2">Wallpaper</a>
+</li></ul>
+
+</div>
+
+<script type="text/javascript">
+
+jQuery(".eda-footer-ul > li:first").remove();
+
+</script><div id="edaFooter">This website is the property of the Conservative Party of Canada and may not be reproduced in whole or in part without express written permission.  <br>Copyright © 2011 Authorized by the Registered Agent of the Conservative Party of Canada.
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20595972-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> - <a href="/footer/privacy_policy" class="cp09FooterLink">Privacy Policy</a>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7469779-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script> - <a href="/footer/contact_us" class="cp09FooterLink">Contact us</a>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7469779-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script></div></div>
+    </div>
+  </div>
+</div>    	</body>
+        </html>
+        

@@ -6,6 +6,8 @@ module GovKit
         # contain multiple electoral districts.
         class NDPCa < Base
           base_uri 'www.ndp.ca'
+          http_method :head
+          path '/riding/<%= @postal_code %>'
 
         private
 
@@ -15,10 +17,6 @@ module GovKit
 
           def valid?
             response.headers['location'] != 'http://www.ndp.ca/'
-          end
-
-          def response
-            @response ||= self.class.head "/riding/#{@postal_code}"
           end
         end
 

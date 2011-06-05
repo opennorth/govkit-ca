@@ -7,6 +7,8 @@ module GovKit
         # @see https://github.com/danielharan/postal_code_to_edid_webservice
         class ElectionsCa < Base
           base_uri 'elections.ca'
+          http_method :head
+          path '/scripts/pss/FindED.aspx?PC=<%= @postal_code %>'
 
         private
 
@@ -16,10 +18,6 @@ module GovKit
 
           def valid?
             !!response.headers['location']
-          end
-
-          def response
-            @response ||= self.class.head "/scripts/pss/FindED.aspx?PC=#{@postal_code}"
           end
         end
 

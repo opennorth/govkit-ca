@@ -1,14 +1,13 @@
 HTTP/1.1 200 OK
-Date: Sat, 04 Jun 2011 22:17:30 GMT
+Date: Sun, 05 Jun 2011 03:17:20 GMT
 Server: Apache
-Set-Cookie: PHPSESSID=navb3hpb23p6mp9g75pfp6a5n4; path=/, _icl_current_language=en; expires=Sun, 05-Jun-2011 22:17:30 GMT; path=/; domain=.liberal.ca, bp-message=deleted; expires=Fri, 04-Jun-2010 22:17:29 GMT; path=/, bp-message-type=deleted; expires=Fri, 04-Jun-2010 22:17:29 GMT; path=/
-Expires: Sat, 04 Jun 2011 23:17:31 GMT
-Cache-Control: public, must-revalidate, proxy-revalidate
-Pragma: public
-X-Pingback: http://www.liberal.ca/xmlrpc.php
-Last-Modified: Sat, 04 Jun 2011 22:17:31 GMT
+Last-Modified: Sun, 05 Jun 2011 03:15:24 GMT
 Vary: Cookie,Accept-Encoding
-Etag: 5bf1b0914e203fa66c1a3e8cac7a9012
+Expires: Sun, 05 Jun 2011 04:15:24 GMT
+Pragma: public
+Cache-Control: public, must-revalidate, proxy-revalidate
+Etag: 6a03e32a8d735e76454e822228b26e40
+X-Pingback: http://www.liberal.ca/xmlrpc.php
 Connection: close
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
@@ -563,7 +562,7 @@ if (typeof showSplash == 'function'){
 				<div class="lib-header-welcome">&nbsp;				</div>
 				</div>
 				<div class="tooltipUser" style="padding-top:35px"><div id="changePWmodal" class="input-login-submit" style="float:left;display:inline;width:165px;">
-								<input type="button" onclick="window.location = 'http://www.liberal.ca/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.liberal.ca%2Friding%2Fpostal%2FX1B1B1%2F&amp;_wpnonce=0db2e658c0'"  name="Logout" id="Logout" class="button" value="Logout">
+								<input type="button" onclick="window.location = 'http://www.liberal.ca/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.liberal.ca%2Friding%2Fpostal%2FX1B1B1%2F&amp;_wpnonce=702e4c1ef8'"  name="Logout" id="Logout" class="button" value="Logout">
 				</div></div>
 				<div class="tooltipSearch">				<div class="searchdesc">Search Liberal.ca</div>
 					<form action="http://www.liberal.ca" method="get">
@@ -609,7 +608,7 @@ Oopsies! let's try that again. Was your postal code entered in the following for
 		<div class="upcoming_events">
 			<div class="event-head">
 				<h2 ><a href="http://events.liberal.ca">Upcoming Events</a></h2>
-				<div class="currentLocation">Near <a href="http://events.liberal.ca"><span class="help"><em>Montreal</em></em>&nbsp;(change)</span></a></div>
+				<div class="currentLocation">Near <a href="http://events.liberal.ca"><span class="help"><em>Toronto</em></em>&nbsp;(change)</span></a></div>
 			</div>
 			<ul class="tools">
 				<li class="event-sort-city active"><a href="http://events.liberal.ca" onclick="GetEvents('city',false,0,3);return false;">Proximity</a></li>
@@ -619,7 +618,7 @@ Oopsies! let's try that again. Was your postal code entered in the following for
 			<div class="tooltip"><span id="ProbableLocation">We have detected this as your most probable location.</span><br><br> To get better results Enter your postal code here				<input type="text" id="eventPostal" name="eventPostal" maxlength="7" > <input type="button" value="Go" onclick="GetEvents('postal',$j('#eventPostal').val(),0,3);$j('.help').data('tooltip').hide();$j('.help').html($j('#eventPostal').val());$j('#ProbableLocation').hide();">
 			</div>
 			<ul class="event-list">
-				<li><div class="date"><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en"><span>JUN</span><b>12</b></a></div><p><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en">Letter to the Editor Writing Workshop</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en"><span>JUN</span><b> 4</b></a></div><p><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en">Volunteer's BBQ</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en"><span>JUN</span><b>11</b></a></div><p><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en">LKM Volunteer Appreciation Barbeque</a></p></li>			</ul>
+				<li><div class="date"><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en"><span>JUN</span><b> 4</b></a></div><p><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en">Volunteer's BBQ</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en"><span>JUN</span><b>12</b></a></div><p><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en">Letter to the Editor Writing Workshop</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en"><span>JUN</span><b>11</b></a></div><p><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en">LKM Volunteer Appreciation Barbeque</a></p></li>			</ul>
 		</div>
 	</div>		</div>
 	</div>
@@ -641,7 +640,7 @@ Oopsies! let's try that again. Was your postal code entered in the following for
 </script>
 <![endif]-->
 <style type="text/css">body { padding-top: 0 !important; } #wp-admin-bar { display: none; }</style>
-<!-- Generated in 1.052 seconds. -->
+<!-- Generated in 1.097 seconds. -->
 	<script>
   window.fbAsyncInit = function() {
     FB.init({appId: '142749005737325', status: true, cookie: true,

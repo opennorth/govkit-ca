@@ -1,10 +1,10 @@
 HTTP/1.1 302 Found
-Date: Sat, 04 Jun 2011 22:17:05 GMT
+Date: Sun, 05 Jun 2011 03:16:55 GMT
 Server: Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_ssl/2.2.9 OpenSSL/0.9.8g
 X-Powered-By: PHP/5.2.6-1+lenny9
-Set-Cookie: SESS8f9f95aef14ece4a4a5dc32a72721149=a80a5c62a5f42a4fde5d2c497b4ed023; expires=Tue, 28 Jun 2011 01:50:25 GMT; path=/; domain=.greenparty.ca
+Set-Cookie: SESS8f9f95aef14ece4a4a5dc32a72721149=1d21ff2075e8501b953ab092fcf0d972; expires=Tue, 28 Jun 2011 06:50:15 GMT; path=/; domain=.greenparty.ca
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 04 Jun 2011 22:17:05 GMT
+Last-Modified: Sun, 05 Jun 2011 03:16:56 GMT
 Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
 Location: http://greenparty.ca/find_your_riding
 Vary: Accept-Encoding

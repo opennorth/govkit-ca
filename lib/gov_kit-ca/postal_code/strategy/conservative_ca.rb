@@ -6,6 +6,8 @@ module GovKit
         # it does not return three ridings like other sources.
         class ConservativeCa < Base
           base_uri 'www.conservative.ca'
+          http_method :get
+          path '/?section_id=1051&postal_code=<%= @postal_code %>'
 
         private
 
@@ -15,10 +17,6 @@ module GovKit
 
           def valid?
             # TODO
-          end
-
-          def response
-            @response ||= self.class.get "/?section_id=1051&postal_code=#{@postal_code}"
           end
         end
 

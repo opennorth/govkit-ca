@@ -1,15 +1,13 @@
-HTTP/1.1 302 Found
-Date: Sat, 04 Jun 2011 22:17:23 GMT
+HTTP/1.1 200 OK
+Date: Sun, 05 Jun 2011 03:17:15 GMT
 Server: Apache
-Set-Cookie: PHPSESSID=emr7cr0vto1kanq3edjlagf1f4; path=/, _icl_current_language=en; expires=Sun, 05-Jun-2011 22:17:23 GMT; path=/; domain=.liberal.ca, bp-message=deleted; expires=Fri, 04-Jun-2010 22:17:22 GMT; path=/, bp-message-type=deleted; expires=Fri, 04-Jun-2010 22:17:22 GMT; path=/
-Expires: Sat, 04 Jun 2011 23:17:24 GMT
-Cache-Control: public, must-revalidate, proxy-revalidate
-Pragma: public
-X-Pingback: http://www.liberal.ca/xmlrpc.php
-Location: http://www.liberal.ca/riding/gaspesie-iles-de-la-madeleine
-Last-Modified: Sat, 04 Jun 2011 22:17:24 GMT
+Last-Modified: Sun, 05 Jun 2011 03:15:13 GMT
 Vary: Cookie,Accept-Encoding
-Etag: f21f50d2a832736386b153766c19d746
+Expires: Sun, 05 Jun 2011 04:15:13 GMT
+Pragma: public
+Cache-Control: public, must-revalidate, proxy-revalidate
+Etag: a63f58a9d3145a282d6cb097e8cdae46
+X-Pingback: http://www.liberal.ca/xmlrpc.php
 Connection: close
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
@@ -564,7 +562,7 @@ if (typeof showSplash == 'function'){
 				<div class="lib-header-welcome">&nbsp;				</div>
 				</div>
 				<div class="tooltipUser" style="padding-top:35px"><div id="changePWmodal" class="input-login-submit" style="float:left;display:inline;width:165px;">
-								<input type="button" onclick="window.location = 'http://www.liberal.ca/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.liberal.ca%2Friding%2Fpostal%2FG0C2Y0%2F&amp;_wpnonce=0db2e658c0'"  name="Logout" id="Logout" class="button" value="Logout">
+								<input type="button" onclick="window.location = 'http://www.liberal.ca/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.liberal.ca%2Friding%2Fpostal%2FG0C2Y0%2F&amp;_wpnonce=702e4c1ef8'"  name="Logout" id="Logout" class="button" value="Logout">
 				</div></div>
 				<div class="tooltipSearch">				<div class="searchdesc">Search Liberal.ca</div>
 					<form action="http://www.liberal.ca" method="get">

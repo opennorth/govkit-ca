@@ -6,6 +6,8 @@ module GovKit
         # than others. Occasionally suffers from timeout errors.
         class DigitalCopyrightCa < Base
           base_uri 'www.digital-copyright.ca'
+          http_method :get
+          path '/edid/postal?postalcode=<%= @postal_code %>'
 
         private
 
@@ -15,10 +17,6 @@ module GovKit
 
           def valid?
             !response.parsed_response.match /\b(invalid postal code|not found)\b/
-          end
-
-          def response
-            @response ||= self.class.get "/edid/postal?postalcode=#{@postal_code}"
           end
         end
 

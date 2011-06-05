@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+Content-Length: 52
+Content-Type: text/html
+X-Origin-Server: web15:sb10
+Cache-Control: max-age=10
+Expires: Sun, 05 Jun 2011 03:16:49 GMT
+Date: Sun, 05 Jun 2011 03:16:39 GMT
+Connection: close
+
+[{"rid":7,"name":"St. John's South - Mount Pearl"}]

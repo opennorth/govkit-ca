@@ -5,6 +5,8 @@ module GovKit
         # liberal.ca is unreliable during elections.
         class LiberalCa < Base
           base_uri 'www.liberal.ca'
+          http_method :get
+          path '/riding/postal/<%= @postal_code %>/'
 
         private
 
@@ -14,10 +16,6 @@ module GovKit
 
           def valid?
             !response.parsed_response.match /\bOopsies!/
-          end
-
-          def response
-            @response ||= self.class.get "/riding/postal/#{@postal_code}/"
           end
         end
 

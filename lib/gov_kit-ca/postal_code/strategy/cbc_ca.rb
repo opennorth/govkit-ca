@@ -7,28 +7,21 @@ module GovKit
         # @see https://github.com/danielharan/pc_scraper
         class CBCCa < Base
           base_uri 'www.cbc.ca'
+          http_method :get
+          path '/news/canadavotes/myriding/postalcodes/<%= @letter %>/<%= @fsa %>/<%= @ldu %>.html'
 
           def initialize(postal_code)
             @fsa, @letter, @ldu = postal_code.downcase.match(/\A((.).{2})(.{3})\Z/)[1..3]
             super
           end
 
-          def json_response
-            Yajl::Parser.parse(Iconv.new('UTF-8', 'ISO-8859-1').iconv(response.parsed_response))
-          end
-
         private
-
           def electoral_districts!
-            json_response.map{|x| self.class.rid_to_edid[x['rid']]}
+            Yajl::Parser.parse(Iconv.new('UTF-8', 'ISO-8859-1').iconv(response.parsed_response)).map{|x| self.class.rid_to_edid[x['rid']]}
           end
 
           def valid?
             !!response.headers['expires']
-          end
-
-          def response
-            @response ||= self.class.get "/news/canadavotes/myriding/postalcodes/#{@letter}/#{@fsa}/#{@ldu}.html"
           end
 
           # cbc.ca uses an internal riding ID, which must be matched to a
