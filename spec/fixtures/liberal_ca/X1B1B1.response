@@ -1,0 +1,664 @@
+HTTP/1.1 200 OK
+Date: Sat, 04 Jun 2011 22:17:30 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=navb3hpb23p6mp9g75pfp6a5n4; path=/, _icl_current_language=en; expires=Sun, 05-Jun-2011 22:17:30 GMT; path=/; domain=.liberal.ca, bp-message=deleted; expires=Fri, 04-Jun-2010 22:17:29 GMT; path=/, bp-message-type=deleted; expires=Fri, 04-Jun-2010 22:17:29 GMT; path=/
+Expires: Sat, 04 Jun 2011 23:17:31 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate
+Pragma: public
+X-Pingback: http://www.liberal.ca/xmlrpc.php
+Last-Modified: Sat, 04 Jun 2011 22:17:31 GMT
+Vary: Cookie,Accept-Encoding
+Etag: 5bf1b0914e203fa66c1a3e8cac7a9012
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" dir="ltr" lang="en-US">
+<head>
+<link rel='stylesheet' href='http://www.liberal.ca/wp-content/plugins/wp-minify/min/?f=wp-content/themes/election/style.css,wp-content/plugins/wp-faq/css/default/wp-faq.css,wp-content/themes/liberal-parent/includes/reset.css,wp-content/themes/liberal-parent/includes/general.css,wp-content/themes/liberal-parent/includes/grid-base.css,wp-content/themes/liberal-parent/includes/masthead.css,wp-content/themes/liberal-parent/includes/inner-masthead.css,wp-content/themes/liberal-parent/includes/feature-slideshow.css,wp-content/themes/liberal-parent/includes/media.css,wp-content/themes/liberal-parent/includes/events.css,wp-content/themes/liberal-parent/includes/caucus-stream.css,wp-content/themes/liberal-parent/includes/colorbox.css,wp-content/themes/liberal-parent/includes/simple-modal.css,wp-content/plugins/flickrpress/style.css,wp-content/plugins/sharer/css/sharer.css,wp-content/plugins/wp-paginate/wp-paginate.css,wp-content/plugins/quotes-collection/quotes-collection.css,wp-content/plugins/tubepress/ui/gallery/css/tubepress.css,wp-content/plugins/wordpress-popular-posts/style/wpp.css&amp;m=1307135106' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.liberal.ca/wp-content/plugins/wp-minify/min/?f=wp-content/themes/liberal-parent/includes/jquery-1.4.2.min.js,wp-content/plugins/wp-faq/js/wp-faq.js,wp-content/themes/liberal-parent/includes/jquery.json-2.2.min.js,wp-content/themes/liberal-parent/includes/jquery.colorbox.js,wp-content/themes/liberal-parent/includes/jquery.simplemodal-1.3.3.min.js,wp-content/themes/liberal-parent/includes/jquery-ui-1.8.4.min.js,wp-content/themes/liberal-parent/includes/jquery.hoverIntent.min.js,wp-content/themes/liberal-parent/includes/jquery.tools.min.js,wp-content/themes/liberal-parent/includes/common.js,wp-content/themes/liberal-parent/includes/jquery.centredScroller.js,wp-content/plugins/flickrpress/flickr.js,wp-content/plugins/sharer/js/sharer.js,wp-content/plugins/sharer/js/jquery.validate.min.js,wp-content/plugins/sharer/js/contacts_import.js,wp-content/plugins/quotes-collection/quotes-collection.js,wp-content/plugins/tubepress/ui/lib/tubepress.js&amp;m=1306767988'></script>
+<link rel="pingback" href="http://www.liberal.ca/xmlrpc.php" />
+<meta name="description" content="Discover the Liberal Party of Canada—and find out what we stand for. Read the blog, meet Interim Leader Bob Rae and our MPs, join the Party, donate &amp; more." />
+<meta charset="UTF-8" />
+<meta name="description" content="Discover the Liberal Party of Canada—and find out what we stand for. Read the blog, meet Interim Leader Bob Rae and our MPs, join the Party, donate &amp; more." />
+    	<title>Liberal Party of Canada  - Canada&#039;s progressive, compassionate &amp; responsible alternative</title>
+	<meta name="robots" content="index,follow" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.liberal.ca/feed/" title="Liberal Party of Canada Posts RSS feed" />
+	<meta property="og:sitename" content="Liberal Party of Canada" /><meta name="title" content="My take on the Throne Speech" />
+<meta property="og:title" content="My take on the Throne Speech" />
+<meta name="description" content="I left the House today wishing for Canadians a government that could commit to making policies based on evidence necessary for building a sustainable society and economy, a Government that would rebuild our presence on the world stage while promoting National unity at home." />
+<meta property="og:description" content="I left the House today wishing for Canadians a government that could commit to making policies based on evidence necessary for building a sustainable society and economy, a Government that would rebuild our presence on the world stage while promoting National unity at home." />
+<link rel="image_src" href="http://cdn2.liberal.ca/files/2010/06/brae_1.png" />
+<meta name="thumbnail" content="http://cdn2.liberal.ca/files/2010/06/brae_1.png" />
+<meta property="og:image" content="http://cdn2.liberal.ca/files/2010/06/brae_1.png" />
+	<script type="text/javascript">//<![CDATA[
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-7046703-1']);
+	_gaq.push(['_setAllowLinker',true],['_setDomainName','.liberal.ca'],['_setAllowHash', false],['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JS_lang = {
+	siteURL: "http://www.liberal.ca",
+	more: "Continue Reading &#x25BE;",
+	hide: "Hide &#9652;",
+	thankyou: "Thank you",
+	expand: "Collapse",
+	collapse: "Expand",
+	post_comment_facebook: "I just posted a comment to facebook, read it here: ",
+	shareComment: "Share your comment with your friends!",
+	commentEmpty: "Please enter a comment",
+	Password: "Password",
+	ConfirmPassword: "Confirm password",
+	CurrentPassword: "Current password",
+	NewPassword: "New password",
+	ConfirmNewPassword: "Confirm new password",
+	LongerPass: "Your password must be atleast 6 characters long",
+	PasswordsDontMatch: "Your passwords must match",
+	ValidEmail: "Please enter a valid email address",
+	NoFirstName: "Please enter your first name",
+	NoLastName: "Please enter your last name",
+	LoginErrors: "Please enter the words written below"
+};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPSharerSettings = {
+	SHARER_URLPATH: "http://www.liberal.ca/wp-content/plugins/sharer/",
+	LANG_PATH: "",
+	validation_required_FirstName: "This field is required",
+	validation_required_LastName: "This field is required",
+	validation_required_Email: "This field is required",
+	validation_invalid_Email: "Specify a valid Email",
+	validation_required_RecipientsEmails: "This field is required",
+	validation_required_Feedback: "This field is required"
+};
+/* ]]> */
+</script>
+<script type="text/javascript">var ajaxurl = "http://www.liberal.ca/wp-admin/admin-ajax.php?lang=en";</script><!-- Quotes Collection -->
+<script type="text/javascript">
+ quotescollection_init('http://www.liberal.ca/wp-content/plugins/quotes-collection/quotes-collection-ajax.php', 'Next quote&nbsp;&raquo;', 'Loading...', 'Error getting quote', '30');
+</script>
+    <script type="text/javascript">function getTubePressBaseUrl(){return "http://www.liberal.ca/wp-content/plugins/tubepress";}</script>
+	<!-- This site is optimized with the Yoast WordPress SEO plugin v0.2.1 - http://yoast.com/wordpress/seo/ -->
+	<link rel="canonical" href="http://www.liberal.ca/" />
+	<!-- / Yoast WordPress SEO plugin. -->
+<script type="text/javascript">
+var wpfaqAjax = "http://www.liberal.ca/wp-content/plugins/wp-faq/wp-faq-ajax.php";
+var wpfaqUrl = "http://www.liberal.ca/wp-content/plugins/wp-faq";
+function wpfaq_search(number) {
+	jQuery("#wpfaqsearchloading" + number).show();
+	jQuery("#wpfaqquestions" + number).load(wpfaqAjax + "?cmd=search&number=" + number, jQuery("#wpfaqsearchform" + number).serialize(), function() {
+		jQuery("#wpfaqsearchloading" + number).hide();
+		wpfaq_scroll(jQuery("#wpfaqsearch" + number));
+	});
+	return false;
+}
+function wpfaq_ask(number) {
+	jQuery('#wpfaqaskloading' + number).show();
+	jQuery('#wpfaqask' + number).load(wpfaqAjax + "?cmd=ask&number=" + number, jQuery("#wpfaqaskform" + number).serialize(), function() {
+		jQuery("#wpfaqaskloading" + number).hide();
+		wpfaq_scroll(jQuery("#wpfaqask" + number));
+	});
+	return false;
+}
+function wpfaq_scroll(selector) {
+	var targetOffset = jQuery(selector).offset().top;
+    jQuery('html,body').animate({scrollTop: targetOffset}, 500);
+}
+</script>
+<!-- Wordpress Popular Posts v2.1.4 -->
+<!-- End Wordpress Popular Posts v2.1.4 -->
+	<script type="text/javascript"> jQuery(document).ready( function() { jQuery("a.confirm").click( function() { if ( confirm( 'Are you sure?' ) ) return true; else return false; }); });</script>
+    <script type="text/javascript">
+        document.domain = 'liberal.ca'    </script>
+    <script type="text/javascript" src="http://use.typekit.com/xlj4lin.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body class="home-page hfeed">
+<div id="PopupModal" style="display: none;">
+<div id="login_options" class="login_box">
+   <div id="login_logo" style="margin-bottom:30px;"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="myriad" style="margin-bottom:10px;padding-left:85px;">Log in to Liberal.ca</h4>
+        <p style="line-height:16px;">Please log in with your Liberal ID.<br><strong>Your Liberal Extranet credentials can be used</strong>.<br> <span id="main_errormsg" class="login_errormsg"></span> </p>
+            <div id="login_wrapper" style="clear:both;">
+                <div style="width:200px;float:left;">
+                    <div class="input-login-submit">
+                        <input style="width:150px !important;margin-right:20px;margin-top:20px !important;" type="button" value="Create an account" name="commentPopupButton" class="button"  onclick="changeTo('#login_register')" >
+                    </div>
+                </div>
+            </div>
+            <img src="http://cdn3.liberal.ca/wp-content/themes/liberal-parent/images/or.png" border="0" alt="" style="float:left; padding-left: 5px;padding-right: 15px;">
+            <div style="width:210px; float:left; padding-bottom:15px;">
+              <form action="" id="CommentLoginOptions" name="CommentLoginOptions" onsubmit="LiberalLogin('#CommentLoginOptions');return false;">
+                  <input type="text" name="Email" id="LoginEmailOptions" onkeypress="IEsubmitOnEnter(this,event);" value="Email" onfocus="clearText(this)" onblur="clearText(this)">
+                  <input type="password" name="Password" class="pwd"  onkeypress="IEsubmitOnEnter(this,event);" id="LoginPasswordOptions" >
+                  <input type="hidden" name="action" value="Liberal_signon">
+                  <span style="color: #999; font-weight:bold; cursor:pointer; line-height: 10px;" onclick="changeTo('#forgot_password')"> Forgot password?</span>
+                  <div class="input-login-submit">
+                    <input type="submit" onclick="LiberalLogin('#CommentLoginOptions');return false;" class="button" value="Login">
+                  </div>
+              </form>
+            </div>
+         </div>
+    <div id="login_register" class="login_box">
+        <div id="login_logo" style="margin-bottom:20px; margin-top:-10px;"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="createaccounthd myriad" style="padding-left:85px;">Create an account</h4>
+        <p style="line-height:16px;">
+        <b>Have an Extranet Account?<span style="cursor: pointer;text-decoration:underline;" onclick="changeTo('#login_options')">Login here!</span></b>.
+        <p><span id="create_errormsg" class="login_errormsg"></span></p>
+        <p style="line-height:16px;clear:both;padding-bottom:8px;">One step! Just fill these fields in.</p>
+        <form action="" id="CommentCreateUser" name="CommentCreateUser" onsubmit="LiberalCreateUser('#CommentCreateUser');return false;">
+        <input type="hidden" name="action" value="Liberal_CreateUser">
+        <input type="hidden" name="returnURL" id="returnURL" value="">
+        <input type="text" name="FirstName" id="RegisterFirstName" value="First Name" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="LastName" id="RegisterLastName" value="Last Name" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="Email" id="RegisterEmail" value="Email" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="PostalCode" id="RegisterPostalCode" value="Postal Code" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="password" class="pwd" name="RegisterPassword" id="RegisterPassword" >
+        <input type="password" class="pwd2" name="RegisterPassword2" id="RegisterPassword2" >
+        <input type="checkbox" name="emailUpdates" id="emailUpdates" value="true" checked><span style="float:left;">Receive occasional updates from the Liberal Party of Canada</span>
+        <div id="isMemberLogin">
+        Please provide your date of birth and/or Membership ID<br>
+        <input type="text" name="DoB" id="RegisterDoB" value="YYYY/MM/DD" >
+        <input type="text" name="MembershipID" id="MembershipID" value="Membership ID" onfocus="clearText(this)" onblur="clearText(this)">
+        </div>
+                <div id="RegisterBottomRight" class="input-login-submit">
+        <input type="submit" class="button" onclick="LiberalCreateUser('#CommentCreateUser');return false;" value="Create  account">
+        </div>
+        <div class="login_noaccount">
+        Already have an account? Sign in: <span  onclick="changeTo('#login_options')">with your email</span>.
+        </div>
+        </form>
+    </div>
+    <div id="login_moreinfo" class="login_box">
+        <div id="login_logo" style="margin-bottom:200px;"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="myriad" style="padding-left:85px;">Please confirm your email &amp; postal code</h4>
+        <p style="line-height:16px;"><span id="facebook_errormsg" class="login_errormsg"></span></p>
+        <form action="" id="FacebookInfoForm" name="FacebookInfoForm" onsubmit="LiberalFacebookFinish('#FacebookInfoForm');return false;">
+        <p id="facebookEmailInfo" style="line-height:16px;">Sorry we do not accept Facebook Proxy email addresses. Please enter a real email address.</p>
+        <input type="text" name="FacebookEmail" id="FacebookEmail" value="Email" ><br>
+        <input type="text" name="FacebookPostalCode" id="FacebookPostalCode" value="Postal Code" onfocus="clearText(this)" onblur="clearText(this)"><br>
+        <input type="checkbox" name="emailUpdates" id="FBemailUpdates" value="true" checked><span id="FBreceiveUpdates" style="color: #666">Receive occasional updates from the Liberal Party of Canada</span><br>
+        <input type="hidden" name="action" value="Liberal_UpdateFacebook">
+        <div class="input-login-submit">
+        <input type="button" onclick="LiberalFacebookFinish('#FacebookInfoForm');return false;"  name="SubmitInfo" id="SubmitInfo" class="button" value="Done">
+        </div>
+        </form>
+    </div>
+    <div id="modal_changedpass" class="login_box">
+        <div id="login_logo"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="myriad" >New password sent</h4>
+        <p style="line-height:16px;">Please <b>check your email</b> your your new password. <br>When logged in, click your name at the top right of the page to modify your password.</p>
+        <div class="input-login-submit">
+            <input type="button" onclick="$j.colorbox.close();"  name="Submit" id="Submit" class="button" value="Return to page">
+        </div>
+        </form>
+    </div>
+    <div id="login_thanks" class="login_box">
+        <div id="login_logo"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="myriad" style="padding-left:85px;">Account Created!</h4>
+        <p style="margin-bottom:10px ;line-height:19px;font-size:16px;">Please <strong>check your email</strong> for a link to finish the account creation process. </p>
+        <p style="line-height:19px;font-size:16px;">You must click that link to be able to comment.</p>
+        <div class="input-login-submit" style="margin-left: 100px;margin-top: 15px;">
+            <input type="button" onclick="$j.colorbox.close();"  name="Submit" id="Submit" class="button" value="Return to page">
+        </div>
+        </form>
+    </div>
+    <div id="forgot_password" class="login_box">
+        <div id="login_logo" style="margin-bottom: 60px;"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+        <h4 class="myriad" style="padding-left:85px;">Forgot your Password?</h4>
+        <form action="" id="ForgotPassword" name="ForgotPassword" onsubmit="LiberalForgotPassword('#ForgotPassword');return false;">
+        <input type="hidden" name="action" value="Liberal_ForgotPassword">
+        <p style="line-height:16px;">Please type in your email below and instructions on how to reset your password will be sent to you. <span style="font-weight:bold;" id="ForgotPasswordEmailSentMessage" >Instructions on how to reset your password have been sent to that address.</span></p>
+        <input type="text" name="EmailPassword" id="EmailPassword" value="Email" onfocus="clearText(this)" onblur="clearText(this)">
+        <div class="input-login-submit">
+            <input type="button" onclick="LiberalForgotPassword('#ForgotPassword');return false;"  name="SubmitInfo" id="SubmitInfo" class="button" value="Send Instructions">
+        </div>
+          <div class="login_noaccount">
+        <span style="font-weight:bold; cursor:pointer;" onclick="changeTo('#login_options')">Click here to return</span>
+        </div>
+        </form>
+    </div>
+    <div id="modal_ChangePassword" class="login_box">
+        <div id="login_logo" style="margin-bottom:220px;"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/login_logo.png" /></div>
+            </div>
+    <div id="modal_splash" style="width:960px; height:400px; background-image:url('http://cdn.liberal.ca/wp-content/themes/liberal-parent/images/splash/splashmi_e3.jpg'); background-repeat:none;">
+        <form id="splashForm" style="position: absolute; top:260px; left:45px;" action="#" method="post" onsubmit="LiberalSplash('#splashForm'); return false">
+        <input type="text" name="SplashFirstName" id="SplashFirstName" value="First Name" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="SplashLastName" id="SplashLastName" value="Last Name" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="SplashEmail" id="SplashEmail" value="Email" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="text" name="SplashPostalCode" id="SplashPostalCode" value="Postal Code" onfocus="clearText(this)" onblur="clearText(this)">
+        <input type="hidden" name="action" value="Liberal_Splash">
+        <div class="input-login-submit">
+            <input class="button"  type="submit" onclick="LiberalSplash('#splashForm');$j.colorbox.close(); return false" value="Submit" />
+            &nbsp;
+            <span style="text-decoration: underline;font-weight:bold; color: #fff;cursor:pointer" onclick="$j.colorbox.close()">Skip &raquo;</span>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+if (typeof showSplash == 'function'){
+    showSplash();
+}
+</script>
+</div>
+<div id="fb-root"></div>
+<div id="lib-header-wrapper">
+	<div id="lib-header">
+		<h1><a href="http://www.liberal.ca">Liberal</a></h1>
+		<div class="lib-nav-wrapper en">
+			<ul class="lib-nav">
+				<li class="ignatieff lib-nav-group ngg-8">
+					<a href="http://www.liberal.ca/extraordinary-convention/" class="lib-nav-item">Extraordinary Convention</a>
+					<div class="lib-nav-sub ngg">
+						<div class="ngg-wrap" style="display: none;">
+							<div class="ng ng-2">
+								<div class="figure"><a href="http://www.liberal.ca/?page_id=31506"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/nav/ignatieff.jpg" width="131" height="160" alt="" /></a></div>
+								<a href="http://www.liberal.ca/?page_id=31506"><em>Meet Michael<br />Ignatieff</em></a>
+							</div>
+							<div class="ng ng-2">
+								<strong class="title myriad">In this section</strong>
+								<ul>
+									<li><a href="http://www.liberal.ca/?page_id=31506">Introduction</a></li>
+									<li><a href="http://www.liberal.ca/?page_id=60">Biography</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/speeches/">Speeches</a></li>
+									<li><a href="http://www.liberal.ca/michael_ignatieff/publications/">Publications</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/photos-and-video/">Photos &amp; Video</a></li>
+								</ul>
+							</div>
+							<div class="ng ng-4 last">
+								<ul class="inline ignatieff-social-media-links">
+									<li><a class="icon-facebook" href="http://www.facebook.com/MichaelIgnatieff/" target="_blank" title="Facebook"></a></li>
+									<li><a class="icon-twitter" href="http://twitter.com/m_ignatieff/" target="_blank" title="Twitter"></a></li>
+									<li><a class="icon-youtube" href="http://www.youtube.com/liberalvideo/" target="_blank" title="YouTube"></a></li>
+									<li><a class="icon-flickr" href="http://www.flickr.com/photos/ignatieff/" target="_blank" title="Flickr"></a></li>
+									<li><a class="icon-rss" href="http://feeds.liberal.ca/Blog-LiberalPartyofCanada/" target="_blank" title="RSS"></a></li>
+								</ul>
+								<hr />
+								<strong class="title myriad">Recent speeches &amp; statements</strong>
+								<ul>
+								<li><a href="http://www.liberal.ca/newsroom/speeches/speech-le-qubec-le-pouvoir-de-changer-les-choses/">Speech: Le Québec a le pouvoir de changer les choses&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/speeches/speech-house-commons-introduce-motion-nonconfidence/">Speech in the House of Commons to Introduce a Motion of Non-Confidence&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/speeches/michael-ignatieffs-speech-liberal-caucus-candidates-winter-caucus-2011/">Michael Ignatieff’s speech to Liberal Caucus and Candidates &#8211; Winter Caucus 2011&nbsp;»</a></li>								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mp lib-nav-group ngg-8">
+					<a href="http://www.liberal.ca/caucus/" class="lib-nav-item">MPs &amp; Senators</a>
+					<div class="lib-nav-sub ngg">
+						<div class="ngg-wrap">
+							<div class="ng ng-2">
+								<strong class="title myriad">Liberal Stream</strong>
+								<div class="figure"><a href="http://www.liberal.ca/caucus-stream/"><img src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/nav/stream.png" width="115" height="120" alt=""></a></div>
+								<a href="http://www.liberal.ca/caucus-stream/"><em>Find out what our caucus is thinking &amp; doing</em></a>
+							</div>
+							<div class="ng ng-2">
+								<strong class="title myriad">In this section</strong>
+								<ul>
+								<!--<li><a href="http://www.liberal.ca/caucus-stream/">Liberal Stream</a></li>-->
+								<li><a href="http://www.liberal.ca/mp">Members of Parliament</a></li>
+								<li><a href="http://www.liberal.ca/critics">Critics</a></li>
+								<li><a href="http://www.liberal.ca/senators">Senators</a></li>
+								</ul>
+							</div>
+							<div class="ng ng-4 last">
+								<div class="figure"><img src="http://cdn3.liberal.ca/wp-content/themes/liberal-parent/images/nav/mp.jpg" width="283" height="53" alt=""></div>
+								<strong class="title myriad">Liberal Caucus Members</strong>
+								<form action="#">
+									<fieldset>
+										<select onchange="eval(this.value);" name="mp-list" id="mp-list-menu">
+											<option>Select an MP</option>
+											<option>&nbsp;</option>
+											<option  value="window.location = 'http://www.liberal.ca/mp/scott-andrews'" >Scott Andrews</option><option  value="window.location = 'http://www.liberal.ca/mp/mauril-belanger'" >Mauril Bélanger</option><option  value="window.location = 'http://www.liberal.ca/mp/carolyn-bennett'" >Carolyn Bennett</option><option  value="window.location = 'http://www.liberal.ca/mp/scott-brison'" >Scott Brison</option><option  value="window.location = 'http://www.liberal.ca/mp/gerry-byrne'" >Gerry Byrne</option><option  value="window.location = 'http://www.liberal.ca/mp/sean-casey'" >Sean Casey</option><option  value="window.location = 'http://www.liberal.ca/mp/denis-coderre'" >Denis Coderre</option><option  value="window.location = 'http://www.liberal.ca/mp/irwin-cotler'" >Irwin Cotler</option><option  value="window.location = 'http://www.liberal.ca/mp/rodger-cuzner'" >Rodger Cuzner</option><option  value="window.location = 'http://www.liberal.ca/mp/stephane-dion'" >Stéphane Dion</option><option  value="window.location = 'http://www.liberal.ca/mp/kirsty-duncan'" >Kirsty Duncan</option><option  value="window.location = 'http://www.liberal.ca/mp/wayne-easter'" >Wayne Easter</option><option  value="window.location = 'http://www.liberal.ca/mp/mark-eyking'" >Mark Eyking</option><option  value="window.location = 'http://www.liberal.ca/mp/judy-foote'" >Judy Foote</option><option  value="window.location = 'http://www.liberal.ca/mp/hedy-fry'" >Hedy Fry</option><option  value="window.location = 'http://www.liberal.ca/mp/marc-garneau'" >Marc Garneau</option><option  value="window.location = 'http://www.liberal.ca/mp/ralph-goodale'" >Ralph Goodale</option><option  value="window.location = 'http://www.liberal.ca/mp/theodore-hsu'" >Ted Hsu</option><option  value="window.location = 'http://www.liberal.ca/mp/jim-karygiannis'" >Jim Karygiannis</option><option  value="window.location = 'http://www.liberal.ca/mp/kevin-lamoureux'" >Kevin Lamoureux</option><option  value="window.location = 'http://www.liberal.ca/mp/dominic-leblanc'" >Dominic Leblanc</option><option  value="window.location = 'http://www.liberal.ca/mp/lawrence-macaulay'" >Lawrence MacAulay</option><option  value="window.location = 'http://www.liberal.ca/mp/john-mccallum'" >John McCallum</option><option  value="window.location = 'http://www.liberal.ca/mp/david-mcguinty'" >David McGuinty</option><option  value="window.location = 'http://www.liberal.ca/mp/john-mckay'" >John McKay</option><option  value="window.location = 'http://www.liberal.ca/mp/joyce-murray'" >Joyce Murray</option><option  value="window.location = 'http://www.liberal.ca/mp/massimo-pacetti'" >Massimo Pacetti</option><option  value="window.location = 'http://www.liberal.ca/mp/bob-rae'" >Bob Rae</option><option  value="window.location = 'http://www.liberal.ca/mp/geoff-regan'" >Geoff Regan</option><option  value="window.location = 'http://www.liberal.ca/mp/francis-scarpaleggia'" >Francis Scarpaleggia</option><option  value="window.location = 'http://www.liberal.ca/mp/judy-sgro'" >Judy Sgro</option><option  value="window.location = 'http://www.liberal.ca/mp/scott-simms'" >Scott Simms</option><option  value="window.location = 'http://www.liberal.ca/mp/justin-trudeau'" >Justin Trudeau</option><option  value="window.location = 'http://www.liberal.ca/mp/frank-valeriote'" >Frank Valeriote</option>										</select>
+									</fieldset>
+								</form>
+								<form action="#">
+									<fieldset>
+										<select name="mp-list" onchange="eval(this.value);" id="senator-list-menu" style="margin-top:5px;">
+											<option>Select a Senator</option>
+											<option>&nbsp;</option>
+											<option  value="window.location = 'http://www.liberal.ca/senators/marie-p-charette-poulin'" >Marie-P. (Charette) Poulin</option><option  value="window.location = 'http://www.liberal.ca/senators/george-baker'" >George Baker</option><option  value="window.location = 'http://www.liberal.ca/senators/thomas-banks'" >Thomas Banks</option><option  value="window.location = 'http://www.liberal.ca/senators/catherine-callbeck'" >Catherine Callbeck</option><option  value="window.location = 'http://www.liberal.ca/senators/larry-campbell'" >Larry Campbell</option><option  value="window.location = 'http://www.liberal.ca/senators/sharon-carstairs'" >Sharon Carstairs</option><option  value="window.location = 'http://www.liberal.ca/senators/maria-chaput'" >Maria Chaput</option><option  value="window.location = 'http://www.liberal.ca/senators/jane-cordy'" >Jane Cordy</option><option  value="window.location = 'http://www.liberal.ca/senators/james-cowan'" >James Cowan</option><option  value="window.location = 'http://www.liberal.ca/senators/romeo-dallaire'" >Roméo Dallaire</option><option  value="window.location = 'http://www.liberal.ca/senators/dennis-dawson'" >Dennis Dawson</option><option  value="window.location = 'http://www.liberal.ca/senators/joseph-day'" >Joseph A. Day</option><option  value="window.location = 'http://www.liberal.ca/senators/pierre-de-bane'" >Pierre De Bané</option><option  value="window.location = 'http://www.liberal.ca/senators/percy-downe'" >Percy Downe</option><option  value="window.location = 'http://www.liberal.ca/senators/lillian-eva-dyck'" >Lillian Dyck</option><option  value="window.location = 'http://www.liberal.ca/senators/arthur-eggleton'" >Art Eggleton</option><option  value="window.location = 'http://www.liberal.ca/senators/joyce-fairbairn'" >Joyce Fairbairn</option><option  value="window.location = 'http://www.liberal.ca/senators/francis-fox'" >Francis Fox</option><option  value="window.location = 'http://www.liberal.ca/senators/joan-fraser'" >Joan Fraser</option><option  value="window.location = 'http://www.liberal.ca/senators/george-furey'" >George Furey</option><option  value="window.location = 'http://www.liberal.ca/senators/mac-harb'" >Mac Harb</option><option  value="window.location = 'http://www.liberal.ca/senators/cline-hervieux-payette'" >Céline Hervieux-Payette</option><option  value="window.location = 'http://www.liberal.ca/senators/elizabeth-hubley'" >Elizabeth Hubley</option><option  value="window.location = 'http://www.liberal.ca/senators/mobina-jaffer'" >Mobina Jaffer</option><option  value="window.location = 'http://www.liberal.ca/senators/serge-joyal'" >Serge Joyal</option><option  value="window.location = 'http://www.liberal.ca/senators/j-colin-r-kenny'" >Colin Kenny</option><option  value="window.location = 'http://www.liberal.ca/senators/jean-lapointe'" >Jean-Marie Lapointe</option><option  value="window.location = 'http://www.liberal.ca/senators/rose-marie-losier-cool'" >Rose-Marie Losier-Cool</option><option  value="window.location = 'http://www.liberal.ca/senators/sandra-lovelace-nicholas'" >Sandra Lovelace Nicholas</option><option  value="window.location = 'http://www.liberal.ca/senators/francis-william-mahovlich'" >Frank Mahovlich</option><option  value="window.location = 'http://www.liberal.ca/senators/paul-massicotte'" >Paul Massicotte</option><option  value="window.location = 'http://www.liberal.ca/senators/terry-mercer'" >Terry Mercer</option><option  value="window.location = 'http://www.liberal.ca/senators/pana-merchant'" >Pana Merchant</option><option  value="window.location = 'http://www.liberal.ca/senators/grant-mitchell'" >Grant Mitchell</option><option  value="window.location = 'http://www.liberal.ca/senators/wilfred-moore'" >Wilfred Moore, Senator</option><option  value="window.location = 'http://www.liberal.ca/senators/jim-munson'" >James Munson</option><option  value="window.location = 'http://www.liberal.ca/senators/lucie-pepin'" >Lucie Pépin</option><option  value="window.location = 'http://www.liberal.ca/senators/robert-peterson'" >Robert Peterson</option><option  value="window.location = 'http://www.liberal.ca/senators/vivienne-poy'" >Vivienne Poy</option><option  value="window.location = 'http://www.liberal.ca/senators/pierrette-ringuette'" >Pierrette Ringuette</option><option  value="window.location = 'http://www.liberal.ca/senators/fernand-robichaud'" >Fernand Robichaud</option><option  value="window.location = 'http://www.liberal.ca/senators/nick-sibbeston'" >Nick Sibbeston</option><option  value="window.location = 'http://www.liberal.ca/senators/david-smith'" >David Smith</option><option  value="window.location = 'http://www.liberal.ca/senators/claudette-tardif'" >Claudette Tardif</option><option  value="window.location = 'http://www.liberal.ca/senators/charlie-watt'" >Charlie Watt</option><option  value="window.location = 'http://www.liberal.ca/senators/rod-a-a-zimmer'" >Rod Zimmer</option>										</select>
+									</fieldset>
+								</form>
+								<p class="sep">MPs by Province / Territory:</p>
+								<p class="by"><a href="http://www.liberal.ca/mp/bc">BC</a> · <a href="http://www.liberal.ca/mp/ab">AB</a> · <a href="http://www.liberal.ca/mp/sk">SK</a> · <a href="http://www.liberal.ca/mp/mb">MB</a> · <a href="http://www.liberal.ca/mp/on">ON</a> · <a href="http://www.liberal.ca/mp/qc">QC</a> · <a href="http://www.liberal.ca/mp/nb">NB</a> · <a href="http://www.liberal.ca/mp/ns">NS</a> · <a href="http://www.liberal.ca/mp/pe">PE</a> · <a href="http://www.liberal.ca/mp/nl">NL</a><br /><a href="http://www.liberal.ca/mp/yk">YK</a> · <a href="http://www.liberal.ca/mp/nt">NT</a> · <a href="http://www.liberal.ca/mp/nu">NU</a></p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="party lib-nav-group ngg-9">
+					<a href="http://www.liberal.ca/party/" class="lib-nav-item">Liberal Party</a>
+					<div class="lib-nav-sub ngg">
+						<div class="ngg-wrap">
+							<div class="ng ng-3">
+								<strong class="title myriad">LPC in your province</strong>
+								<ul>
+									<li><a href="http://www.liberalalberta.ca/" target="_blank">Alberta</a></li>
+									<li><a href="http://bc.liberal.ca/" target="_blank">British Columbia</a></li>
+									<li><a href="http://manitoba.liberal.ca/" target="_blank">Manitoba</a></li>
+									<li><a href="http://www.nblib.nb.ca/" target="_blank">New Brunswick</a></li>
+									<li><a href="http://www.nlliberals.ca/" target="_blank">Newfoundland &amp; Labrador</a></li>
+									<li><a href="http://www.liberal.ns.ca/" target="_blank">Nova Scotia</a></li>
+									<li><a href="http://www.lpco.ca/" target="_blank">Ontario</a></li>
+									<li><a href="http://www.liberal.pe.ca/" target="_blank">Prince Edward Island</a></li>
+									<li><a href="http://qc.liberal.ca/" target="_blank">Québec</a></li>
+									<li><a href="http://saskatchewan.liberal.ca/" target="_blank">Saskatchewan</a></li>
+                                    								</ul>
+							</div>
+							<div class="ng ng-2">
+								<strong class="title myriad">In this section</strong>
+								<ul>
+									<li><a href="http://www.liberal.ca/party/">About LPC</a></li>
+									<li><a href="http://www.liberal.ca/party/history/">History</a></li>
+									<li><a href="http://www.liberal.ca/party/commissions/">Commissions</a></li>
+									<li><a href="http://www.liberal.ca/party/national-board-of-directors/">National Board</a></li>
+									<li><a href="http://www.liberal.ca/party/national-election-readiness-committee/">Elections Readiness</a></li>
+									<li><a href="http://www.liberal.ca/party/documents/">Documents</a></li>
+									<li><a href="http://www.liberal.ca/contact/">Contact Us</a></li>
+								</ul>
+							</div>
+							<div class="ng ng-4 last">
+								<div class="figure"><img src="http://cdn3.liberal.ca/wp-content/themes/liberal-parent/images/nav/people.jpg" width="283" height="193" alt=""></div>
+								<!--
+                                <strong class="title myriad">Find your local Liberal association</strong>
+								<form action="#" >
+									<fieldset>
+										<label for="libAssocPostCode">Postal Code</label>
+										<input type="text" id="libAssocPostCode" value="Postal Code" onFocus="clearText(this)" onBlur="clearText(this)" />
+										<button type="submit" onClick="findRiding('libAssocPostCode')" >Find my riding</button>
+									</fieldset>
+								</form>
+                                -->
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="issues lib-nav-group ngg-9">
+					<a href="http://www.liberal.ca/platform/" class="lib-nav-item">Platform</a>
+                    <div class="lib-nav-sub ngg">
+    					<div class="ngg-wrap">
+								<div class="ng ng-3 last">
+                                <strong class="title myriad">Browse by theme</strong>
+                                    <ul id="menu-themes">
+										<li class="tog" style="margin-bottom:15px;"><div style="float:left; width:5px; background-color: #EE2E24; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/familypack/">Liberal Family Pack</a></li>
+                                        <li class="eco"><div style="float:left; width:5px; background-color: #A45583; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/platform/the-economy/">Economy: Better Choices</a></li>
+										<li class="fam"><div style="float:left; width:5px; background-color: #CD9F20; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/platform/families-finances-future/">Families, Finance, Future</a></li>
+										<li class="env"><div style="float:left; width:5px; background-color: #75B443; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/platform/clean-environment/">Clean Environment</a></li>
+										<li class="tog"><div style="float:left; width:5px; background-color: #EE2E24; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/platform/bringing-canadians-together/" >Bringing Canadians Together</a></li>
+										<li class="wor"><div style="float:left; width:5px; background-color: #15A1B0; margin-right:5px;">&nbsp;</div><a href="http://www.liberal.ca/platform/canada-world/" >Canada in the World</a></li>
+                                    </ul>
+                                <br>
+                     	        <div id=EchoFamilyPackLang>
+                     	        <strong class="title myriad">Other Languages</strong>
+							    <form name="jump">
+									<select name="menu" onChange="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="GO">
+                                    <option value='#'>Select a language</option>
+									<option value='http://issuu.com/liberalca/docs/fp_italian_v2?viewMode=presentation&mode=embed'>Italian</option>
+									<option value='http://issuu.com/liberalca/docs/fp_portuguese_v3?viewMode=presentation&mode=embed'>Portuguese</option>
+									<option value='http://issuu.com/liberalca/docs/nc_simplifiedchinese?viewMode=presentation&mode=embed'>Simplified Chinese</option>
+                                    <option value='http://issuu.com/liberalca/docs/nc_traditionalchinese?viewMode=presentation&mode=embed'>Traditional Chinese</option>
+                                    </select>
+								</form>
+								</div>
+								</div>
+       							<div class="ng ng-3">
+                                    <strong class="title myriad">Read the Platform</strong>
+                                        <div class="figure">
+												                                                <a href="http://www.liberal.ca/platform/"><img style="margin-left:0;" src="http://cdn2.liberal.ca/wp-content/themes/liberal-parent/images/nav/platform-e.jpg" width="167" height="216" alt=""></a>
+                                                                                        </div>
+								</div>
+								<div class="ng ng-3">
+                                <strong class="title myriad">Top Issues</strong>
+									<ul>
+					<li><a href="http://www.liberal.ca/platform/families-finances-future/health-and-health-care/">Health &amp; Health Care</a></li>
+                    <li><a href="http://www.liberal.ca/platform/families-finances-future/canadian-learning-strategy/">Learning Passport &amp; Education</a></li>
+                    <li><a href="http://www.liberal.ca/youth/">Youth</a></li>
+                    <li><a href="http://www.liberal.ca/issues/global-leadership/">Global Leadership</a></li>
+                    <li><a href="http://www.liberal.ca/issues/digital-policy/">Digital Policy</a></li>
+					<li><a href="http://www.liberal.ca/issues/rural-canada/">Rural Canada</a></li>
+                    <li><a href="http://www.liberal.ca/issues/women/">Women</a></li>
+									</ul>
+<div style="padding-top: 7px;" id=EchoMoreIssues>
+<strong class="title myriad">More Issues</strong>
+<form name="jumpa">
+    <select name="menua" onChange="location=document.jumpa.menua.options[document.jumpa.menua.selectedIndex].value;" value="GO">
+    <option value='#'>Select an Issue</option>
+    <option value='http://www.liberal.ca/issues/aboriginal-peoples/'>Aboriginal Peoples</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/respecting-renewing-democracy/'>Accountability</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/stronger-safer-communities/#affordable-housing'>Affordable Housing</option>
+    <option value='http://www.liberal.ca/platform/canada-world/#arctic-sovereignty'>Arctic Sovereignty</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/more-equal-canada/'>Arts & Culture</option>
+    <option value='http://www.liberal.ca/platform/families-finances-future/health-and-health-care/#brain-health'>Brain Health</option>
+    <option value='http://www.liberal.ca/platform/clean-environment/'>Clean Resources</option>
+    <option value='http://www.liberal.ca/platform/clean-environment/#climate-change-action'>Climate Change Action</option>
+    <option value='http://www.liberal.ca/platform/the-economy/fiscal-policy/#corporate-tax-rates'>Corporate Tax Cuts</option>
+    <option value='http://www.liberal.ca/platform/canada-world/#defence'>Defence</option>
+    <option value='http://www.liberal.ca/platform/the-economy/fiscal-policy/#deficit-reduction'>Deficit Reduction</option>
+    <option value='http://www.liberal.ca/issues/digital-policy/'>Digital Policy</option>
+    <option value='http://www.liberal.ca/platform/the-economy/'>Economy</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#entrepreneurship-productivity'>Entrepreneurship</option>
+    <option value='http://www.liberal.ca/platform/clean-environment/'>Environment & Energy</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/federalism-and-public-service/'>Federalism</option>
+    <option value='http://www.liberal.ca/platform/canada-world/'>Global Leadership</option>
+    <option value='http://www.liberal.ca/platform/families-finances-future/family-care/'>Health & Family Care</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#transportation-infrastructure'>Infrastructure</option>
+    <option value='http://www.liberal.ca/platform/canada-world/#international-development'>International Development</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/stronger-safer-communities/'>Justice & Public Safety</option>
+    <option value='http://www.liberal.ca/platform/families-finances-future/canadian-learning-strategy/'>Learning Passport</option>
+    <option value='http://www.liberal.ca/issues/multiculturalism-diversity/'>Multiculturalism & Diversity</option>
+    <option value='http://www.liberal.ca/official-languages/'>Official Languages</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/stronger-safer-communities/#poverty-reduction'>Poverty Reduction</option>
+    <option value='http://www.liberal.ca/platform/families-finances-future/health-and-health-care/#prescription-drug-coverage'>Prescription Drug Coverage</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/federalism-and-public-service/#public-service'>Public Service</option>
+    <option value='http://www.liberal.ca/platform/clean-environment/#renewable-energy'>Renewable Energy</option>
+    <option value='http://www.liberal.ca/platform/families-finances-future/public-pension-system/'>Retirement Security</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#science-technology-research'>Science & Technology</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#small-business'>Small Business</option>
+    <option value='http://www.liberal.ca/platform/the-economy/fiscal-policy/#spending-discipline'>Spending Discipline</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#transportation-infrastructure'>Transportation</option>
+    <option value='http://www.liberal.ca/issues/learning-innovation/#veterans-learning-benefit'>Veterans Learning Benefit</option>
+    <option value='http://www.liberal.ca/platform/bringing-canadians-together/stronger-safer-communities/#volunteerism'>Volunteerism</option>
+    <option value='http://www.liberal.ca/platform/clean-environment/stewardship/#water-stewardship'>Water Stewardship</option>
+    <option value='http://www.liberal.ca/platform/the-economy/innovation-jobs/#youth-employment'>Youth Employment</option>
+    </select>
+</form>
+</div>
+								</div>
+						</div>
+					</div>
+				</li>
+				<li class="newsroom lib-nav-group ngg-9">
+					 <a href="http://www.liberal.ca/blog/" class="lib-nav-item">News &amp; Blog</a>
+					<div class="lib-nav-sub ngg">
+						<div class="ngg-wrap">
+							<div class="ng ng-5">
+								<strong class="title myriad">Latest Stories</strong>
+								<ul class="alt">
+									<li><a href="http://www.liberal.ca/newsroom/blog/throne-speech/">My take on the Throne Speech&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/news-release/speech-throne-missed-opportunity-lay-positive-longterm-vision-canada/">The Speech from the Throne &#8211; a missed opportunity to lay out a positive long-term vision for Canada&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/news-release/statement-members-24-hours-stand-delegate/">Statement to members: You have less than 24 hours to stand as a delegate&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/news-release/statement-election-speaker/">STATEMENT: Election of a new Speaker&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/news-release/introducing-liberal-team/">Introducing the Liberal Team&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/news-release/words-bob-rae-interim-liberal-leader/">In their own words: Bob Rae becomes Interim Liberal Leader&nbsp;»</a></li><li><a href="http://www.liberal.ca/newsroom/blog/lets-get-started/">Let’s get started!&nbsp;»</a></li>								</ul>
+							</div>
+							<div class="ng ng-2">
+								<strong class="title myriad">In this section</strong>
+								<ul>
+									<li><a href="http://www.liberal.ca/blog/">Blog</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/">Newsroom</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/news-release/">Media releases</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/speeches/">Speeches</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/photos-and-video/">Photos &amp; Video</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/just-the-facts/">Just the Facts</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/party-news/">Party News</a></li>
+									<li><a href="http://www.liberal.ca/newsroom/official-graphics/">Official Graphics</a></li>
+								</ul>
+							</div>
+														<div class="ng ng-2 last">
+								<strong class="title myriad">Read the blog</strong>
+								<div class="figure"><a href="http://www.liberal.ca/blog/"><img src="http://cdn2.liberal.ca/wp-content/themes/election/images/nav/campaign.jpg" width="131" height="100" alt=""></a></div>
+								<em><a href="http://www.liberal.ca/blog/">And get the latest happenings from the campaign trail</a></em>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="involved lib-nav-group ngg-9">
+					<a href="http://www.liberal.ca/get-involved/" class="lib-nav-item">Get Involved</a>
+					<div class="lib-nav-sub ngg">
+						<div class="ngg-wrap">
+							<div class="ng ng-2">
+								<div class="figure"><a href="https://action.liberal.ca/en/volunteer"><img src="http://cdn.liberal.ca/wp-content/themes/liberal-parent/images/nav/join.jpg" width="131" height="87" alt="" /></a></div>
+								<strong class="title myriad"><a href="https://action.liberal.ca/en/volunteer">Volunteer</a></strong>
+								<a href="https://action.liberal.ca/en/volunteer"><em>Make a positive contribution to your community and country</em></a>
+							</div>
+							<div class="ng ng-2">
+								<strong class="title myriad">In this section</strong>
+								<ul>
+									<li><a href="https://action.liberal.ca/en/membership">Join the Party</a></li>
+									<li><a href="http://events.liberal.ca/Event-List.aspx?Lang=en">Upcoming events</a></li>
+									<li><a href="https://action.liberal.ca/en/volunteer">Volunteer</a></li>
+									<li><a href="https://action.liberal.ca/en/donate/?utm_source=donHeaderMenu">Make a donation</a></li>
+									<li><a href="http://www.liberal.ca/get-involved/connect-on-social-media/">Connect on Social Media</a></li>
+								</ul>
+							</div>
+							<div class="ng ng-5 last">
+								<strong class="title myriad">Every dollar counts</strong>
+								<dl class="callout-group liberal-ca-menu-get-involved">
+									<dt class="icon"><a class="donate" href="https://action.liberal.ca/en/donate"></a></dt>
+									<dd class="desc"><a href="https://action.liberal.ca/en/donate">A donation, however small, makes a big difference&nbsp;»</a></dd>
+									<dt class="icon"><a class="victoryen" onclick="_utmSetVar('VictoryFundMenuImage')" href="https://action.liberal.ca/en/VictoryFund"></a></dt>
+									<dd class="desc"><a onclick="_utmSetVar('VictoryFundMenuText')" href="https://action.liberal.ca/en/VictoryFund">Join the Victory Fund: affordable monthly giving for a long-term impact&nbsp;»</a></dd>
+									<dt class="icon"><a class="laurier" onclick="_utmSetVar('LaurierClubMenuImage')" href="https://action.liberal.ca/en/laurier"></a></dt>
+									<dd class="desc"><a onclick="_utmSetVar('LaurierClubMenuImage')" href="https://action.liberal.ca/en/laurier">With an annual gift of $1,100 to the Liberal Party, you can achieve Laurier Club status, with benefits to match your generosity&nbsp;»</a></dd>
+								</dl>
+							</div>
+							<div class="ng ng-9 last ng-footer">
+								<form method="post" onSubmit="SendEmailMenu(this);return false;">
+									<fieldset>
+										<strong class="title myriad">Email Updates</strong>
+										<label for="FirstName">First Name</label>
+										<input type="text" name="FirstName"  id="FirstName" class="name" onfocus="clearText(this)" onblur="clearText(this)" value="First Name" />
+										<label for="LastName">Last Name</label>
+										<input type="text" name="LastName" id="LastName" class="name"  onfocus="clearText(this)" onblur="clearText(this)"  value="Last Name" />
+										<label for="Email">Email</label>
+										<input type="text" name="Email" id="Email" class="email"  onfocus="clearText(this)" onblur="clearText(this)"   value="Email" />
+										<label for="PostalCode">Postal Code</label>
+										<input type="text" id="PostalCode"  name="PostalCode"  onfocus="clearText(this)" onblur="clearText(this)"  value="Postal Code" />
+										<input type="hidden" name="Location" id="Location" value="Menu-">
+										<input type="hidden" name="action" id="action" value="AjaxSubscribeToList">
+										<div class="btn-grp"><button type="submit">Sign Up</button></div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="lib-header-right">
+			<div id="lib-header-links">
+				<a href="http://www.liberal.ca/contact/">Contact</a> | <a href="http://www.liberal.ca/?s=%20&amp;submit=Search" class="SearchHeader">Search</a> | <a href="http://www.liberal.ca/newsroom/photos-and-video/" class="photosHeader">Videos</a> | <a id="langSwitch" href="http://www.liberal.ca/fr/">Français</a>
+				<div class="lib-header-welcome">&nbsp;				</div>
+				</div>
+				<div class="tooltipUser" style="padding-top:35px"><div id="changePWmodal" class="input-login-submit" style="float:left;display:inline;width:165px;">
+								<input type="button" onclick="window.location = 'http://www.liberal.ca/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.liberal.ca%2Friding%2Fpostal%2FX1B1B1%2F&amp;_wpnonce=0db2e658c0'"  name="Logout" id="Logout" class="button" value="Logout">
+				</div></div>
+				<div class="tooltipSearch">				<div class="searchdesc">Search Liberal.ca</div>
+					<form action="http://www.liberal.ca" method="get">
+						<input type="text" id="SearchHeaderTxt" name="s" maxlength="60" value="" onfocus="clearText(this)" onblur="clearText(this)"><input type="submit" name="submit" value="Search" >
+					</form>
+					</div>
+							<a class="donate_now" style="background-image:url('http://cdn.liberal.ca/wp-content/themes/liberal-parent/images/donate_now_en.png')" href="http://www.liberal.ca/donate/">Donate now</a>
+		</div>
+	</div>
+</div>
+<div id="masthead" class="alt" style="height:225px; background:#ffffff url(http://www.liberal.ca/wp-content/themes/liberal-parent/images/mastheads/candidate-list.jpg) center top;">
+<h1 style="background:none;"><span style="color:#FFFFFF; font-size:36px; font-weight:400; letter-spacing:-1px; line-height:1.2em; margin:0 0 0 -18px; min-width:10em; opacity:1; padding:0.6em 14px 10px 15px; position:absolute; width:625px; background:none; top:28px;">Ridings</span></h1>
+</div>
+<div class="wrapper">
+<div class="grid">
+	<div class="grid-group g-has-sidebar">
+		<div class="grid-item grid-8">
+Oopsies! let's try that again. Was your postal code entered in the following format: H0H 0H0 ?	</div>
+		<div class="grid-item grid-4 g-sidebar">
+			<div id="sharesidebar-44" class="widget sharesidebar">	       <div class="sharethispage">
+	        <span style="float:left;margin-right:3px">
+	        <fb:share-button type="box_count"></fb:share-button>
+	        </span>
+	        <span style="float:left;margin-right:3px">
+	        <a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="M_Ignatieff" data-related="liberal_party">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	        </span>
+	        <span style="float:left;margin-right:3px">
+	        <script type="text/javascript" src="http://www.reddit.com/static/button/button2.js"></script>
+	        </span>
+	        <span style="float:left;margin-right:3px">
+	        <img alt="Email this to a friend" title="Email this to a friend" style="margin-left:5px; cursor: pointer;" onclick="emailShareScrollTo()" src="http://cdn2.liberal.ca/wp-content/themes/Liberal.ca/images/email-video.png" />
+	        </span>
+	        <br /><br /><br /><br />
+	        <fb:like width="306" action="recommend" showfaces="0" colorscheme="light"></fb:like>
+	        </div>
+			</div><div id="makeadifference-3" class="widget makeadifference"><h2 class="widget_title">Make a Difference</h2>            <div class="getinvolved">
+            <ul>
+ 			<li class="donate"><a href="http://www.liberal.ca/donate/"><h3>Donate</h3><p>Learn what $20 can do</p></a></li><li class="volunteer"><a href="https://action.liberal.ca/en/volunteer/Riding/"><h3>Volunteer</h3><p>In your community</p></a></li><li class="join-the-party"><a href="https://action.liberal.ca/en/membership"><h3>Join the Party</h3><p>Help shape the country</p></a></li><li class="victoryfund"><a href="https://action.liberal.ca/en/VictoryFund/Riding/"><h3>Victory Fund</h3><p>Give monthly</p></a></li>			</div>
+            </ul>
+            </div><div id="liberal-events-5" class="widget liberal-events">	<script type="text/javascript">
+		$j(document).ready(function () {GetEvents('city',false,0,3);});
+	</script>
+		<div class="upcoming_events">
+			<div class="event-head">
+				<h2 ><a href="http://events.liberal.ca">Upcoming Events</a></h2>
+				<div class="currentLocation">Near <a href="http://events.liberal.ca"><span class="help"><em>Montreal</em></em>&nbsp;(change)</span></a></div>
+			</div>
+			<ul class="tools">
+				<li class="event-sort-city active"><a href="http://events.liberal.ca" onclick="GetEvents('city',false,0,3);return false;">Proximity</a></li>
+				<li class="event-sort-all"><a href="http://events.liberal.ca" onclick="GetEvents('all',false,0,3);return false;">Date</a></li>
+				<!--<li class="more"><a target="_blank" href="http://events.liberal.ca/Event-List.aspx?lang=en>">More »</a></li>-->
+			</ul>
+			<div class="tooltip"><span id="ProbableLocation">We have detected this as your most probable location.</span><br><br> To get better results Enter your postal code here				<input type="text" id="eventPostal" name="eventPostal" maxlength="7" > <input type="button" value="Go" onclick="GetEvents('postal',$j('#eventPostal').val(),0,3);$j('.help').data('tooltip').hide();$j('.help').html($j('#eventPostal').val());$j('#ProbableLocation').hide();">
+			</div>
+			<ul class="event-list">
+				<li><div class="date"><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en"><span>JUN</span><b>12</b></a></div><p><a href="http://events.liberal.ca/Event/letter-to-the-editor-writing-workshop.aspx?Lang=en">Letter to the Editor Writing Workshop</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en"><span>JUN</span><b> 4</b></a></div><p><a href="http://events.liberal.ca/Event/volunteers-bbq.aspx?Lang=en">Volunteer's BBQ</a></p></li><li><div class="date"><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en"><span>JUN</span><b>11</b></a></div><p><a href="http://events.liberal.ca/Event/lkm-volunteer-appreciation-barbeque.aspx?Lang=en">LKM Volunteer Appreciation Barbeque</a></p></li>			</ul>
+		</div>
+	</div>		</div>
+	</div>
+</div>
+</div>
+<div id="lib-footer-wrapper">
+    <div id="lib-footer">
+        <div id="copyright">&copy; 2011 Authorized by The Federal Liberal Agency of Canada, registered agent for the Liberal Party of Canada.</div>
+        <div id="copyright-logo"><a href="http://www.liberal.ca"><img src="http://cdn3.liberal.ca/wp-content/themes/liberal-parent/images/logo.png" alt="Liberal Party of Canada"/></a></div>
+    </div>
+</div>
+<!--[if lte IE 8]>
+<script type="text/javascript">
+    $j('.ngg select').click(function(){ $j('.lib-nav-group').hoverIntent(function(){}, function(){}); });
+    $j('.ngg select').focus(function(){ $j('.lib-nav-group').hoverIntent(function(){}, function(){}); });
+    $j('.ngg select').mouseenter(function(){ $j('.lib-nav-group').hoverIntent(function(){}, function(){}); });
+    $j('.ngg select').change(function(){ setTimeout(function(){$j('.lib-nav-group').hoverIntent(MegaDropDowns.config);}, 10); });
+    $j('.ngg select').blur(function(){ $j('.lib-nav-group').hoverIntent(MegaDropDowns.config); });
+</script>
+<![endif]-->
+<style type="text/css">body { padding-top: 0 !important; } #wp-admin-bar { display: none; }</style>
+<!-- Generated in 1.052 seconds. -->
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '142749005737325', status: true, cookie: true,
+             xfbml: true});
+    FB.Event.subscribe('auth.sessionChange', function(response) {
+    if (response.session) {
+        liberal_facebooklogin_callback(response);//onlogin
+    } else {
+        window.location.reload();//onlogout, reload
+    }
+  });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Date: Sat, 04 Jun 2011 22:17:03 GMT
+Server: Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: PHP/5.2.6-1+lenny9
+Set-Cookie: SESS8f9f95aef14ece4a4a5dc32a72721149=5f77e81a1edef4e6877c50eda272b526; expires=Tue, 28 Jun 2011 01:50:23 GMT; path=/; domain=.greenparty.ca
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 04 Jun 2011 22:17:04 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Location: http://greenparty.ca/campaign/48015
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=utf-8
+

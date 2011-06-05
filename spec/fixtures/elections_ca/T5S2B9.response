@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Server: Microsoft-IIS/5.0
+Date: Sat, 04 Jun 2011 22:17:02 GMT
+X-Powered-By: ASP.NET
+Connection: close
+X-Aspnet-Version: 2.0.50727
+Location: /scripts/pss/InfovoteMain_ne.aspx?L=e&ED=48015&EV=99&EV_TYPE=6&PC=T5S2B9&Prov=&ProvID=&MapID=&QID=-1&PageID=21&TPageID=
+Set-Cookie: ASP.NET_SessionId=dljtulnwdmaary45r1ifrb45; path=/; HttpOnly, VIS_SESSION_ID=25219591; path=/, WEBTRENDS_ID=76.65.246.195-558319600.30155525::FA3A042225668AFEE1F07B1AC5AC9B7C; path=/; expires=Sun, 03-Jun-2012 22:17:02 GMT
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 276
+

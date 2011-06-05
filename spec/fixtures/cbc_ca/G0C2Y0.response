@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+Content-Length: 54
+Content-Type: text/html
+X-Origin-Server: web21:sb10
+Cache-Control: max-age=10
+Expires: Sat, 04 Jun 2011 22:17:09 GMT
+Date: Sat, 04 Jun 2011 22:16:59 GMT
+Connection: close
+
+[{"rid":52,"name":"Gaspésie - Îles-de-la-Madeleine"}]

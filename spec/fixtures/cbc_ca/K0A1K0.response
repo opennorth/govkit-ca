@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+Content-Length: 335
+Content-Type: text/html
+X-Origin-Server: web21:sb10
+Cache-Control: max-age=10
+Expires: Sat, 04 Jun 2011 22:17:10 GMT
+Date: Sat, 04 Jun 2011 22:17:00 GMT
+Connection: close
+
+[{"rid":194,"name":"Stormont - Dundas - South Glengarry"},{"rid":133,"name":"Glengarry - Prescott - Russell"},{"rid":159,"name":"Nepean - Carleton"},{"rid":120,"name":"Carleton - Mississippi Mills"},{"rid":148,"name":"Lanark - Frontenac - Lennox and Addington"},{"rid":170,"name":"Ottawa - Orléans"},{"rid":171,"name":"Ottawa South"}]
