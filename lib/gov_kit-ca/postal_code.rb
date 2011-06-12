@@ -9,7 +9,7 @@ module GovKit
       # @return [Boolean] whether the postal code is properly formatted
       # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada#Number_of_possible_postal_codes Possible postal codes
       def self.valid?(postal_code)
-        !!postal_code.match(/\A[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]\Z/)
+        !!postal_code.match(/\A[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]\z/)
       end
 
       # Returns the electoral districts within a postal code.

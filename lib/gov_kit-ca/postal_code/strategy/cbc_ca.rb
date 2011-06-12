@@ -11,7 +11,7 @@ module GovKit
           path '/news/canadavotes/myriding/postalcodes/<%= @letter %>/<%= @fsa %>/<%= @ldu %>.html'
 
           def initialize(postal_code)
-            @fsa, @letter, @ldu = postal_code.downcase.match(/\A((.).{2})(.{3})\Z/)[1..3]
+            @fsa, @letter, @ldu = postal_code.downcase.match(/\A((.).{2})(.{3})\z/)[1..3]
             super
           end
 

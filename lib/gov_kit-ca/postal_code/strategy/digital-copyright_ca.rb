@@ -12,7 +12,7 @@ module GovKit
         private
 
           def electoral_districts!
-            Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('.node .content a').map{|a| a[:href][/\d+\Z/]}
+            Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('.node .content a').map{|a| a[:href][/\d+\z/]}
           end
 
           def valid?
