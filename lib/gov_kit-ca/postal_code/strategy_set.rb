@@ -2,7 +2,7 @@ module GovKit
   module CA
     module PostalCode
       # The set of postal code to electoral district strategies.
-      class StrategySet
+      module StrategySet
         # Stores the strategy set.
         # @return [Array<Strategy::Base>] the strategy set
         def self.strategies
