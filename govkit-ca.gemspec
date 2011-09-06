@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name        = "govkit-ca"
   s.version     = GovKit::CA::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["James McKinney"]
-  s.email       = ["james@slashpoundbang.com"]
-  s.homepage    = "http://github.com/jpmckinney/govkit-ca"
+  s.authors     = ["Open North"]
+  s.email       = ["info@opennorth.ca"]
+  s.homepage    = "http://github.com/opennorth/govkit-ca"
   s.summary     = %q{Easy access to Canadian civic data around the web}
   s.description = %q{GovKit-CA lets you quickly get encapsulated Ruby objects for Canadian civic data.}
 
