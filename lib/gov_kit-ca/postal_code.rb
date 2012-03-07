@@ -81,11 +81,12 @@ end
 
 require 'gov_kit-ca/postal_code/strategy/base'
 require 'gov_kit-ca/postal_code/strategy/elections_ca'
-require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
+#require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
 require 'gov_kit-ca/postal_code/strategy/cbc_ca'
 require 'gov_kit-ca/postal_code/strategy/ndp_ca'
 
-#require 'gov_kit-ca/postal_code/strategy/conservative_ca'
-#require 'gov_kit-ca/postal_code/strategy/digital-copyright_ca'
-#require 'gov_kit-ca/postal_code/strategy/greenparty_ca'
-#require 'gov_kit-ca/postal_code/strategy/liberal_ca'
+# These strategies are suboptimal:
+# require 'gov_kit-ca/postal_code/strategy/conservative_ca'
+# require 'gov_kit-ca/postal_code/strategy/digital-copyright_ca'
+# require 'gov_kit-ca/postal_code/strategy/greenparty_ca'
+# require 'gov_kit-ca/postal_code/strategy/liberal_ca'
