@@ -2,7 +2,8 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # liberal.ca is unreliable during elections.
+        # liberal.ca seems unreliable. It does not return any ridings for B0J2L0
+        # and returns three ridings for K0A1K0.
         class LiberalCa < Base
           base_uri 'www.liberal.ca'
           http_method :get

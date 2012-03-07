@@ -2,8 +2,7 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # parl.gc.ca seems unreliable. In the case of K0A1K0, for example, it
-        # does not return seven ridings like other sources.
+        # parl.gc.ca is a reliable source.
         class ParlGcCa < Base
           base_uri 'www.parl.gc.ca'
           http_method :get

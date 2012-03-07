@@ -3,7 +3,8 @@ module GovKit
     module PostalCode
       module Strategy
         # greenparty.ca does not return electoral districts for postal codes
-        # that contain multiple electoral districts.
+        # that contain multiple electoral districts. It has no lookup service
+        # between elections.
         class GreenPartyCa < Base
           base_uri 'greenparty.ca'
           http_method :head
