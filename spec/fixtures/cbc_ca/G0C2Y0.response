@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
-Server: Apache/2.2.3 (Red Hat)
-Content-Length: 54
+Server: Apache/2.2.3 (Red Hat) PHP/5.1.6
+X-Powered-By: PHP/5.1.6
+X-Origin-Server: web17:sb17
 Content-Type: text/html
-X-Origin-Server: web20:sb10
-Cache-Control: max-age=10
-Expires: Sun, 05 Jun 2011 03:16:49 GMT
-Date: Sun, 05 Jun 2011 03:16:39 GMT
-Connection: close
+Cache-Control: max-age=30
+Expires: Wed, 07 Mar 2012 17:13:27 GMT
+Date: Wed, 07 Mar 2012 17:12:57 GMT
+Connection: keep-alive
 
-[{"rid":52,"name":"Gaspésie - Îles-de-la-Madeleine"}]
+[{"rid":"052","name":"Gasp\u00e9sie - \u00celes-de-la-Madeleine"}]

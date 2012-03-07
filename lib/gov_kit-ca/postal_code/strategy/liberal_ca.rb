@@ -2,9 +2,10 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # liberal.ca seems unreliable. It does not return any ridings for B0J2L0
-        # and returns three ridings for K0A1K0.
+        # liberal.ca seems unreliable. It returns no ridings for B0J2L0 and
+        # three ridings for K0A1K0.
         class LiberalCa < Base
+          follow_redirects true
           base_uri 'www.liberal.ca'
           http_method :get
           path '/riding/postal/<%= @postal_code %>/'
@@ -16,7 +17,7 @@ module GovKit
           end
 
           def valid?
-            !response.parsed_response.match /\bOopsies!/
+            !response.parsed_response["Sorry we couldn't find your riding."]
           end
         end
 

@@ -8,20 +8,15 @@ module GovKit
         class CBCCa < Base
           base_uri 'www.cbc.ca'
           http_method :get
-          path '/news/canadavotes/myriding/postalcodes/<%= @letter %>/<%= @fsa %>/<%= @ldu %>.html'
-
-          def initialize(postal_code)
-            @fsa, @letter, @ldu = postal_code.downcase.match(/\A((.).{2})(.{3})\z/)[1..3]
-            super
-          end
+          path '/news/politics/canadavotes2011/myelection/postalcodes/index.php?pc=<%= @postal_code %>'
 
         private
           def electoral_districts!
-            Yajl::Parser.parse(Iconv.new('UTF-8', 'ISO-8859-1').iconv(response.parsed_response)).map{|x| self.class.rid_to_edid[x['rid']]}
+            Yajl::Parser.parse(response.parsed_response).map{|x| self.class.rid_to_edid[x['rid'].to_i]}
           end
 
           def valid?
-            !!response.headers['expires']
+            response.code != 404
           end
 
           # cbc.ca uses an internal riding ID, which must be matched to a

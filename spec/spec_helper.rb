@@ -3,7 +3,7 @@ require 'rspec'
 require 'fakeweb'
 require File.dirname(__FILE__) + '/../lib/gov_kit-ca'
 
-FakeWeb.allow_net_connect = false
+FakeWeb.allow_net_connect = true
 
 module Helpers
   def fixture_path(*args)
@@ -13,4 +13,5 @@ end
 
 RSpec.configure do |config|
   config.include Helpers
+  config.filter_run_excluding broken: true
 end

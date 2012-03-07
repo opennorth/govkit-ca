@@ -37,14 +37,16 @@ module GovKit::CA::PostalCode
         }.each do |const,path|
           %w(A1A1A1 K0A1K0 H0H0H0).each do |postal_code|
             strategy = GovKit::CA::PostalCode::Strategy.const_get(const).new(postal_code)
-            FakeWeb.register_uri strategy.class.http_method, "#{strategy.class.base_uri}#{strategy.send(:path)}", :response => fixture_path(path, "#{postal_code}.response")
+            unless FakeWeb.allow_net_connect?
+              FakeWeb.register_uri strategy.class.http_method, "#{strategy.class.base_uri}#{strategy.send(:path)}", :response => fixture_path(path, "#{postal_code}.response")
+            end
           end
         end
       end
 
       it 'should return the electoral districts within a postal code' do
         { 'A1A1A1' => [10007],
-          'K0A1K0' => [35012, 35025, 35040, 35052, 35063, 35064, 35087],
+          'K0A1K0' => [35025, 35052, 35063, 35064],
         }.each do |postal_code,electoral_districts|
           subject.find_electoral_districts_by_postal_code(postal_code).should == electoral_districts
         end
