@@ -81,6 +81,7 @@ end
 
 require 'gov_kit-ca/postal_code/strategy/base'
 require 'gov_kit-ca/postal_code/strategy/elections_ca'
+# This strategy has not yet been written.
 #require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
 require 'gov_kit-ca/postal_code/strategy/cbc_ca'
 require 'gov_kit-ca/postal_code/strategy/ndp_ca'
