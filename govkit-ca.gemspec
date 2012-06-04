@@ -24,4 +24,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('yajl-ruby', '~> 0.8.2')
   s.add_development_dependency('rspec', '~> 2.6.0')
   s.add_development_dependency('fakeweb', '~> 1.3.0')
+  s.add_development_dependency('rake')
 end
