@@ -2,7 +2,6 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # parl.gc.ca is a reliable source.
         class ParlGcCa < Base
           base_uri 'www.parl.gc.ca'
           http_method :get

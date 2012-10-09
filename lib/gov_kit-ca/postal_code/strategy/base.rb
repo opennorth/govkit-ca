@@ -47,7 +47,13 @@ module GovKit
           # Performs the request and returns the response.
           # @return [HTTParty::Response] a HTTParty response object
           def response
-            @response ||= self.class.send self.class.http_method, path
+            @response ||= begin
+              if self.class.http_method == :post
+                self.class.post path, :body => post_data
+              else
+                self.class.send self.class.http_method, path
+              end
+            end
           end
 
           # Allows setting an HTTP method to be used for each request.
@@ -69,6 +75,19 @@ module GovKit
           # @return [String] the absolute path to be used in the request
           def path
             ERB.new(self.class.path).result binding
+          end
+
+          # Allows setting POST data to be sent in each request.
+          # @param [String] post_data an ERB template for the POST data
+          # @return [String] the POST data for the request
+          def self.post_data(post_data = nil)
+            return default_options[:post_data] unless post_data
+            default_options[:post_data] = post_data
+          end
+
+          # @return [String] the POST data for the request
+          def post_data
+            ERB.new(self.class.post_data).result binding
           end
         end
       end

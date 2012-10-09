@@ -2,9 +2,6 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # digital-copyright.ca often returns more or fewer electoral districts
-        # than others. It says it uses makethechange.ca, but makethechange.ca
-        # returns different results for, e.g., K0A1K0.
         class DigitalCopyrightCa < Base
           base_uri 'www.digital-copyright.ca'
           http_method :get

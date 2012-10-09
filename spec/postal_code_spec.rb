@@ -47,7 +47,7 @@ module GovKit::CA::PostalCode
 
       it 'should return the electoral districts within a postal code' do
         { 'A1A1A1' => [10007],
-          'K0A1K0' => [35025, 35052, 35063, 35064],
+          'K0A1K0' => [35012, 35025, 35040, 35052],
         }.each do |postal_code,electoral_districts|
           subject.find_electoral_districts_by_postal_code(postal_code).should == electoral_districts
         end

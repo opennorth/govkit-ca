@@ -80,14 +80,15 @@ module GovKit
 end
 
 require 'gov_kit-ca/postal_code/strategy/base'
-require 'gov_kit-ca/postal_code/strategy/elections_ca'
-# This strategy has not yet been written.
+# Returns only riding name.
 #require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
-require 'gov_kit-ca/postal_code/strategy/cbc_ca'
+require 'gov_kit-ca/postal_code/strategy/elections_ca' # only one-to-one
 require 'gov_kit-ca/postal_code/strategy/ndp_ca'
+require 'gov_kit-ca/postal_code/strategy/liberal_ca' # incomplete database
+require 'gov_kit-ca/postal_code/strategy/greenparty_ca' # only one-to-one
+require 'gov_kit-ca/postal_code/strategy/cbc_ca' # disagrees with elections.ca
 
-# These strategies are suboptimal:
+# If not held by Conservative MP, returns only riding name.
 # require 'gov_kit-ca/postal_code/strategy/conservative_ca'
+# Returns too many or too few ridings.
 # require 'gov_kit-ca/postal_code/strategy/digital-copyright_ca'
-# require 'gov_kit-ca/postal_code/strategy/greenparty_ca'
-# require 'gov_kit-ca/postal_code/strategy/liberal_ca'
