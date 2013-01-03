@@ -3,8 +3,6 @@ module GovKit
     # A collection of postal code helpers.
     # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada Postal codes in Canada
     module PostalCode
-      autoload :StrategySet, 'gov_kit-ca/postal_code/strategy_set'
-
       # @param [String] postal_code a postal code
       # @return [Boolean] whether the postal code is properly formatted
       # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada#Number_of_possible_postal_codes Possible postal codes

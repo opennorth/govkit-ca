@@ -8,10 +8,11 @@ require 'yajl'
 
 module GovKit
   module CA
-    autoload :PostalCode, 'gov_kit-ca/postal_code'
-
     class GovKitError < StandardError; end
     class ResourceNotFound < GovKitError; end
     class InvalidRequest < GovKitError; end
   end
 end
+
+require 'gov_kit-ca/postal_code'
+require 'gov_kit-ca/postal_code/strategy_set'
