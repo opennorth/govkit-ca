@@ -1,0 +1,243 @@
+HTTP/1.1 200 OK
+Date: Tue, 05 Mar 2013 03:49:39 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.1.6
+Set-Cookie: SESS81ce27b836f063f88172c006748c49b9=a4m90stlsuqg6v0uegff7btva0; expires=Thu, 28 Mar 2013 07:22:59 GMT; path=/; domain=.digital-copyright.ca
+Last-Modified: Tue, 05 Mar 2013 03:35:13 GMT
+Etag: "6924dea187eb21fd559dbe9295e51322"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: must-revalidate
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Postal Code Lookup | Digital Copyright Canada</title>
+<link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/print/css/printlinks.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/openid/openid.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/chameleon/style.css?Y" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/chameleon/common.css?Y" />
+<script type="text/javascript" src="/misc/jquery.js?Y"></script>
+<script type="text/javascript" src="/misc/drupal.js?Y"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?Y"></script>
+<script type="text/javascript" src="/modules/openid/openid.js?Y"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+</head><body>
+ <div id="header">  <h1 class="site-name title"><a href="/">Digital Copyright Canada</a></h1>  <div class="site-slogan">All Canadian Citizens are "Rights Holders"!</div></div>
+ <div class="navlinks"><ul class="links" id="navlist"><li class="menu-2 first"><a href="/about">About/Sitemap</a></li>
+<li class="menu-253"><a href="/letters" title="Send letters to your MP">Letters</a></li>
+<li class="menu-48"><a href="/chronology" title="Chronology of Canadian Copyright Law">Chronology</a></li>
+<li class="menu-3 last"><a href="/links">Links</a></li>
+</ul><ul class="links" id="subnavlist"><li class="menu-254 first"><a href="http://www.digital-copyright.ca/copyright_jargon.shtml" title="">Copyright Jargon</a></li>
+<li class="menu-256"><a href="/petition/ict/intro" title="Petition to protect Information Technology property rights">IT Property Petition</a></li>
+<li class="menu-255 last"><a href="/petition/user" title="Petition for Users&#039; Rights">Users&#039; Rights Petition</a></li>
+</ul> </div>
+ <table id="content">
+  <tr>
+   <td id="main">
+<div class="breadcrumb"><a href="/">Home</a></div><h2>Postal Code Lookup</h2>
+<!-- begin content -->
+<div class="node sticky">
+ <div class="content">
+H0H0H0: not found.<form action="/edid/postal?postalcode=H0H0H0" method="GET">
+
+Postal Code / Code postal:
+<input type="text" name="postalcode" maxlength="7" value="">
+
+<P>
+<input type="submit" value="Search / Recherche"></form>
+
+
+<HR>
+<P>Curious about how this form works?  Please read the article on the <A HREF="http://www.digital-copyright.ca/node/1607">PCFRF tools</A>.
+
+<P>Want access to the Data?  We can't offer it as it is not our to offer. It is considered proprietary information by the Government of Canada, and Statistics Canada charges extreme fees for this basic tool to participate in democracy (<A HREF="http://www.statcan.gc.ca/bsolc/olc-cel/olc-cel?lang=eng&catno=92F0193X">$2,500.00 for the first year</A>, <A HREF="http://www.statcan.gc.ca/bsolc/olc-cel/olc-cel?lang=eng&catno=92F0193U">$500 for a years worth of updates after that</A>).  This site currently uses the API offered by the <A HREF="http://www.makethechange.ca/">Make The Change site</A>.
+
+<P>Please complain to your election candidates and MPs about this.  We have <A HREF="/edid/letter5">a sample letter</A> you can use for this purpose.
+
+<P>For more, please <A HREF="/search/node/PCFRF">search for PCFRF</A> on this site. </div>
+<div class="links"><ul class="links inline"><li class="node_submitted first"><span>By System at 2005/12/13 - 17:04</span></li>
+<li class="taxonomy_term_403"><a href="/election2008/blog" rel="tag" title="Canadian federal election is called for October 14, 2008">Canada Votes 2008</a></li>
+<li class="taxonomy_term_1"><a href="/edid" rel="tag" title="Electoral Districts of Canada (organized by province)">Canadian Electoral Districts</a></li>
+<li class="print_html last"><a href="/print/1603?postalcode=H0H0H0" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow">Printer-friendly version</a></li>
+</ul></div>
+</div>
+
+<!-- end content -->
+ <div id="footer"><H2 ALIGN="CENTER">All Canadian Citizens are "Rights Holders"!</H2>
+
+<P ALIGN="CENTER">This site and forum sponsored and managed by <A HREF="http://www.flora.ca/">FLORA Community Consulting</A>.</div>
+   </td>
+   <td id="sidebar-right"><div id="block-menu-menu-activities-menu" class="block block-menu">
+  <h2>Activities</h2>
+
+  <div class="content">
+    <ul class="menu"><li class="expanded first"><a href="/election2011/blog" title="Canadian federal election is called for May 2, 2011">Election 2011</a><ul class="menu"><li class="leaf first last"><a href="/PoliticalParties" title="">Registered Political Parties</a></li>
+</ul></li>
+<li class="expanded"><a href="/chronology" title="Chronology of Canadian Copyright Law, including past and current bills">Chronology (including bills)</a><ul class="menu"><li class="expanded first"><a href="/billc11" title="Conservative Copyright Bill C-11">Bill C-11</a><ul class="menu"><li class="leaf first"><a href="/billc11/faq" title="">Frequently Asked Questions</a></li>
+<li class="leaf last"><a href="/billc11/com" title="">Legislative Committee</a></li>
+</ul></li>
+<li class="expanded"><a href="/billc32" title="Copyright Bill tabled by the Conservative Government on June 2, 2010 (First reading).">Bill C-32</a><ul class="menu"><li class="leaf first last"><a href="/billc32/com" title="">Legislative Committee</a></li>
+</ul></li>
+<li class="leaf"><a href="/billc61" title="Copyright Bill tabled by the Conservative Government on June 12, 2008.">Bill C-61</a></li>
+<li class="leaf last"><a href="/billc60/intro" title="Copyright Bill tabled by Liberal government on June 20, 2005.">Bill C-60</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/edid" title="List of provinces towards finding your electoral district">Electoral District (list)</a><ul class="menu"><li class="leaf first active-trail"><a href="/edid/postal" title="Page to find your electoral district based on your postal code" class="active">Postal Code lookup</a></li>
+<li class="collapsed last"><a href="/letters" title="">Send a letter to your MP</a></li>
+</ul></li>
+<li class="expanded"><a href="/petition/intro" title="">Petitions</a><ul class="menu"><li class="leaf first"><a href="/petition/ict/intro" title="">Petition to protect IT property rights</a></li>
+<li class="leaf"><a href="/petition/acta/intro" title="">Petition opposing ACTA</a></li>
+<li class="leaf last"><a href="/petition/user" title="">Petition for Users Rights</a></li>
+</ul></li>
+<li class="leaf last"><a href="/about" title="">Participate in mailing lists</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-1" class="block block-user">
+  <h2>Navigation</h2>
+
+  <div class="content">
+    <ul class="menu"><li class="leaf first"><a href="/search">search</a></li>
+<li class="leaf"><a href="/tracker">Recent posts</a></li>
+<li class="collapsed last"><a href="/aggregator">Feed aggregator</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-8" class="block block-block">
+  <h2>Bloggers</h2>
+
+  <div class="content">
+    <A HREF="http://feedburner.google.com/fb/a/mailverify?uri=DigitalCopyrightCanada">Subscribe to email via FeedBurner</A>.
+<div class="item-list"><ul><li class="first"><a href="/blog/2">Russell McOrmond</a></li>
+<li><a href="/blog/6">chris_brand</a></li>
+<li><a href="/blog/230">Darryl Moore</a></li>
+<li><a href="/blog/315">DonK</a></li>
+<li><a href="/blog/679">ablair</a></li>
+<li><a href="/blog/184">Oscar</a></li>
+<li><a href="/blog/68">rakerman</a></li>
+<li><a href="/blog/22">jlam</a></li>
+<li><a href="/blog/469">mcr</a></li>
+<li><a href="/blog/13">Jem Berkes</a></li>
+<li class="last"><a href="/blog/19963">Garthgraham</a></li>
+</ul></div>  </div>
+</div>
+<div id="block-block-9" class="block block-block">
+  <h2>Other key sites</h2>
+
+  <div class="content">
+    <p><DIV class="menu"><UL><br />
+<LI class="leaf"><A href="http://www.digitalagenda.ca" rel="tag">Digital Agenda (.ca)</a><br />
+</li><LI class="leaf"><A href="http://onlinerights.ca/">Online Rights Canada (ORC)</a><br />
+</li><LI class="leaf"><A href="http://www.cippic.ca">CIPPIC</a><br />
+</li><LI class="leaf"><A href="http://excesscopyright.blogspot.com/">Howard Knopf</a><br />
+</li><LI class="leaf"><A href="http://michaelgeist.ca/">Michael Geist</a><br />
+</li><LI class="leaf"><A href="http://www.facebook.com/groups/6315846683/">Facebook: Fair Copyright for Canada</a><br />
+</li><LI class="leaf"><A href="http://openmedia.ca">OpenMedia</a><br />
+<BR /><br />
+</li><LI class="leaf"><A href="/aggregator/sources">Other BLOGS listed in our news aggregator</a><br />
+</li></ul><br />
+</div></p>
+  </div>
+</div>
+<div id="block-user-0" class="block block-user">
+  <h2>User login</h2>
+
+  <div class="content">
+    <form action="/edid/postal?destination=node%2F1603%3Fpostalcode%3DH0H0H0"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-openid-identifier-wrapper">
+ <label for="edit-openid-identifier">Log in using OpenID: </label>
+ <input type="text" maxlength="255" name="openid_identifier" id="edit-openid-identifier" size="13" value="" class="form-text" />
+ <div class="description"><a href="http://openid.net/">What is OpenID?</a></div>
+</div>
+<div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-0c7036e7db67c641bf9b480e2bd14d9b" value="form-0c7036e7db67c641bf9b480e2bd14d9b"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+<input type="hidden" name="openid.return_to" id="edit-openid.return-to" value="http://www.digital-copyright.ca/openid/authenticate?destination=node%2F1603%3Fpostalcode%3DH0H0H0"  />
+<div class="item-list"><ul><li class="openid-link first"><a href="/%2523">Log in using OpenID</a></li>
+<li class="user-link last"><a href="/%2523">Cancel OpenID login</a></li>
+</ul></div><div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div>
+</div></form>
+  </div>
+</div>
+<div id="block-search-0" class="block block-search">
+  <h2>Search</h2>
+
+  <div class="content">
+    <form action="/edid/postal?postalcode=H0H0H0"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <label for="edit-search-block-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-4835d767861edd6edb679bf6f2778d13" value="form-4835d767861edd6edb679bf6f2778d13"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+
+</div></form>
+  </div>
+</div>
+<div id="block-block-2" class="block block-block">
+  <h2>Other search...</h2>
+
+  <div class="content">
+    <p><UL><br />
+<LI><A HREF="http://list.digital-copyright.ca/mailman/listinfo">Mailing lists and their archives</a> are not included in this search.  The main 'discuss' list <A HREF="/discuss/">has a simple search interface</a>.<br />
+</li></ul></p>
+  </div>
+</div>
+<div id="block-aggregator-feed-14" class="block block-aggregator">
+  <h2>Digital Copyright Canada BLOG</h2>
+
+  <div class="content">
+    <div class="item-list"><ul><li class="first"><a href="http://www.digital-copyright.ca/node/5494">Commercial infringers demanding government gut laws protecting technology owners.</a>
+</li>
+<li><a href="http://www.digital-copyright.ca/node/5493">Remember Aaron Swartz by working for open society and against government abuses</a>
+</li>
+<li><a href="http://www.digital-copyright.ca/node/5492">Public Domain Day 2013</a>
+</li>
+<li><a href="http://www.digital-copyright.ca/node/5491">Computer Control in the context of a Gun Control debate</a>
+</li>
+<li><a href="http://www.digital-copyright.ca/node/5490">Discussing The Declared Value system - a proposal to liberate copyright/patent monopolies</a>
+</li>
+<li class="last"><a href="http://www.digital-copyright.ca/node/5489">The Writers Union becoming a protest group?</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/sources/14" title="View this feed&#039;s recent news.">more</a></div>  </div>
+</div>
+</td>
+  </tr>
+ </table>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-26342702-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+ </body>
+</html>

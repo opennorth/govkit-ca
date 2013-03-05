@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Date: Tue, 05 Mar 2013 03:46:20 GMT
+Server: Apache/2.2.17 (Ubuntu)
+X-Powered-By: PHP/5.3.5-1ubuntu7.11
+Set-Cookie: SESSd79f45ad50419374b56b76915b19be78=fscsh463139ivs6kj44q1ei7c5; expires=Thu, 28-Mar-2013 07:19:40 GMT; path=/; domain=.greenparty.ca
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Tue, 05 Mar 2013 03:46:20 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Location: http://www.greenparty.ca/riding/48015
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=utf-8
+

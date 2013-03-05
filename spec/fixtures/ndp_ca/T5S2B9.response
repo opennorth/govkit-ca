@@ -1,0 +1,605 @@
+HTTP/1.1 200 OK
+Date: Tue, 05 Mar 2013 03:51:48 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.3.10, PleskLin
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Tue, 05 Mar 2013 03:51:48 +0000
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Etag: "1362455508"
+Content-Language: en
+Link: <http://www.ndp.ca/node/9700>; rel="shortlink",<http://www.ndp.ca/your-riding>; rel="canonical"
+X-Generator: Drupal 7 (http://drupal.org)
+Set-Cookie: shields:logged-in=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=www.ndp.ca
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.ndp.ca/sites/all/themes/tom2012/imgs/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="http://www.ndp.ca/node/9700" />
+<link rel="canonical" href="http://www.ndp.ca/your-riding" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Your Riding | Canada&#039;s NDP / NPD du Canada</title>
+  <!--[if lt IE 7]>
+	<script>window.location = (window.location+"").replace("http://www.","http://lite.");</script>
+  <![endif]-->
+  <link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css__9zsakYbWSOTLroLLtWO9P7zLJXhXtSJo2OgXN4wIrU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_hFC-VOe0wdKw2fEoLiDmBwN2H2GfvZABVolycsXSAMw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_bYxVGgWE7bYgKhbXEpAc8jA2Q6Uyb7G-1zs03PwEfBY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_yssam9B3GHMU6Ht8jDumsUwnh0F5A9Tt5ZG9uHZlziY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_TCvcUjHilIyZ_ctJGkOsMzJHZXiUC1vkjGXuCr7tUBM.css" media="screen and (max-width: 657px)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_Q9hq-mID6g8pTo5KHiH5yXFBEgjVKiYhgl3WBlVePOY.css" media="screen and (min-width: 658px)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_-Ga8h1RYZw8-4JOqb6atB6nv6kQ30vJyZ0y0Tbd1ut8.css" media="screen and (min-width: 974px)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_Pg9fU5tPfs4byk05dl9jAKEdB_9d9x0jwO6t1Gr_kTc.css" media="screen and (min-width: 1136px)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_iOYzWhRAGtwsQIcnghr3Bw8k9PhNOMoxxvSbL7cxTAc.css" media="screen and (min-width: 1390px) and (max-aspect-ratio: 5/3)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_8DaXZm41v90V_BK6oEA21bchaUJTUIdKF6YbLAZK1es.css" media="screen and (min-width: 1390px) and (min-aspect-ratio: 5/3)" />
+<link type="text/css" rel="stylesheet" href="http://www.ndp.ca/sites/default/files/css/css_KVl6OArlsFTcbavhG3tU-405-lVCIW62cF7bsRoDKgs.css" media="screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min--moz-device-pixel-ratio: 1.5), screen and (-o-min-device-pixel-ratio: 1.5/1), screen and (min-device-pixel-ratio: 1.5)" />
+  <script type="text/javascript" src="http://www.ndp.ca/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.ndp.ca/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.ndp.ca/misc/drupal.js?mihb0q"></script>
+<script type="text/javascript" src="http://www.ndp.ca/sites/all/modules/tricks/js_new_window/js/js-new-window.js?mihb0q"></script>
+<script type="text/javascript" src="http://www.ndp.ca/sites/all/modules/tricks/js_save_key/js/js-save-key.js?mihb0q"></script>
+<script type="text/javascript" src="http://www.ndp.ca/sites/all/modules/tricks/livevalidation/js/validation.js?mihb0q"></script>
+<script type="text/javascript" src="http://www.ndp.ca/sites/all/modules/treats/your_riding_page/js/your-riding-page.js?mihb0q"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tom2012","theme_token":"GluSaa4YngvvVl8IYpHNgjIpIjrN8VuwjccsEMbSs9A","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/tricks\/js_new_window\/js\/js-new-window.js":1,"sites\/all\/modules\/tricks\/js_save_key\/js\/js-save-key.js":1,"sites\/all\/modules\/tricks\/livevalidation\/js\/validation.js":1,"sites\/all\/modules\/treats\/your_riding_page\/js\/your-riding-page.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/downloaded\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/downloaded\/views\/css\/views.css":1,"sites\/all\/modules\/downloaded\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/treats\/health_nav\/css\/health-nav.css":1,"sites\/all\/modules\/treats\/tbc_nav\/css\/tbc-nav.css":1,"sites\/all\/modules\/treats\/your_riding_page\/css\/your-riding-page.css":1,"sites\/all\/modules\/treats\/share_links\/css\/share_links.css":1,"sites\/all\/themes\/tom2012\/layout-core.css":1,"sites\/all\/themes\/tom2012\/layout-mobile.css":1,"sites\/all\/themes\/tom2012\/layout-desktop.css":1,"sites\/all\/themes\/tom2012\/layout-desktop-wide.css":1,"sites\/all\/themes\/tom2012\/layout-desktop-wide-offset.css":1,"sites\/all\/themes\/tom2012\/layout-desktop-wide-limit-width.css":1,"sites\/all\/themes\/tom2012\/layout-desktop-wide-limit-height.css":1,"sites\/all\/themes\/tom2012\/layout-highres.css":1}}});
+//--><!]]>
+</script>
+  
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="title" content="Your Riding" />
+<meta name="description" content="Find your MP or riding association with the NDP’s easy-to-use interactive map." />
+<meta name="keywords" content="Thomas Mulcair Canada's New Democrats." />
+<link rel="image_src" href="http://www.ndp.ca/sites/all/modules/treats/share_links/images/fb-bilingual-thumb.jpg" />
+<meta property="og:image" content="http://www.ndp.ca/sites/all/modules/treats/share_links/images/fb-bilingual-thumb.jpg" />
+<meta property="og:url" content="http://www.ndp.ca/your-riding" />
+<meta property="og:title" content="Your Riding" />
+<meta property="og:description" content="Find your MP or riding association with the NDP’s easy-to-use interactive map." />
+<meta property="og:locale" content="en_US" />
+<meta name="tweet" content="Find your MP or riding association with the NDP’s easy-to-use interactive map. #NDP http://ndp.ca/your-riding" />
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="../sites/all/themes/tom2012/layout-ie-only.css" />
+	<![endif]-->
+	<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" href="../sites/all/themes/tom2012/layout-ie6-only.css" />
+	<![endif]-->
+	<script type="text/javascript" src="/sites/all/themes/tom2012/scripts/respond.min.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/tom2012/scripts/syze.min.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/tom2012/scripts/tinynav.min.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/tom2012/scripts/cssua.min.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/tom2012/scripts/pixelratio.js"></script>
+	<script type="text/javascript">
+		// Some browsers subtract scrollbar width when calculating viewport size
+		// This causes Syze dependent CSS to trigger at a different width than media query dependent CSS
+		// We address this on a per-browser basis below
+		if (jQuery('html').hasClass('ua-ie-9')) {			// scrollbar width = 17px
+			syze.sizes(303, 641, 957).names({ 303:'Mobile', 641:'Desktop', 957:'Desktop-wide' });
+		} else if (jQuery('html').hasClass('ua-firefox')) { // scrollbar width = 15px
+			syze.sizes(305, 643, 959).names({ 305:'Mobile', 643:'Desktop', 959:'Desktop-wide' });
+		} else {
+			syze.sizes(320, 658, 974).names({ 320:'Mobile', 658:'Desktop', 974:'Desktop-wide' });
+		}
+	</script>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30109525-1']); // Entire Webserver Tracking
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-10510140-3']); // NDP Main Site Tracking
+		_gaq.push(['_setDomainName', 'ndp.ca']);
+		_gaq.push(['_setAllowLinker', true]);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-9700 node-type-page i18n-en theme-hide-sidebar -html-tpl isEnglish" >
+	<div id="skip-link">
+		<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+	</div>
+		<div id="page-wrapper" class="-page-tpl"><div id="page">
+
+	<div id="nav" class="-region--navbar-tpl clearfix hideNav">
+
+	
+	<ul class="clearfix">
+				<li class="menu-Home">
+			<a class="gradient" href="http://www.ndp.ca/">Home</a>
+			
+		</li>
+				<li class="menu-Tom Mulcair">
+			<a class="gradient" href="http://www.ndp.ca/tommulcair">Tom Mulcair</a>
+			
+		</li>
+				<li class="menu-Party">
+			<a class="gradient" href="http://www.ndp.ca/your-riding">Party</a>
+							<ul class="submenu">
+										<li><a class="" href="http://www.ndp.ca/history"><span class="nav-arrow">&#9658;</span> History</a></li>
+										<li><a class="" href="http://www.ndp.ca/ourcaucus"><span class="nav-arrow">&#9658;</span> Our Caucus</a></li>
+										<li><a class="" href="http://www.ndp.ca/shadow-cabinet"><span class="nav-arrow">&#9658;</span> Shadow Cabinet</a></li>
+										<li><a class="" href="http://www.ndp.ca/commissions"><span class="nav-arrow">&#9658;</span> Commissions</a></li>
+										<li><a class="" href="http://www.ndp.ca/constitution"><span class="nav-arrow">&#9658;</span> Constitution</a></li>
+										<li><a class="" href="http://www.ndp.ca/policy-book"><span class="nav-arrow">&#9658;</span> Policy Book</a></li>
+										<li><a class="" href="http://www.ndp.ca/federal-council"><span class="nav-arrow">&#9658;</span> Federal Council</a></li>
+										<li><a class="" href="http://www.ndp.ca/jobs"><span class="nav-arrow">&#9658;</span> Jobs</a></li>
+										<li><a class="" href="http://www.ndp.ca/contact"><span class="nav-arrow">&#9658;</span> Contact</a></li>
+										<li><a class="" href="http://www.ndp.ca/your-riding"><span class="nav-arrow">&#9658;</span> Your Riding</a></li>
+										<li><a class="js-new-window" href="http://qc.ndp.ca"><span class="nav-arrow">&#9658;</span> NDP Quebec</a></li>
+										<li><a class="js-new-window" href="http://montreal2013.ndp.ca"><span class="nav-arrow">&#9658;</span> NDP Convention</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-News">
+			<a class="gradient" href="http://www.ndp.ca/news/recent/">News</a>
+							<ul class="submenu">
+										<li><a class="" href="http://www.ndp.ca/news/recent/press-release"><span class="nav-arrow">&#9658;</span> Press Releases</a></li>
+										<li><a class="" href="http://www.ndp.ca/news/recent/statement"><span class="nav-arrow">&#9658;</span> Statements</a></li>
+										<li><a class="" href="http://www.ndp.ca/news/recent/reality-check"><span class="nav-arrow">&#9658;</span> Reality Checks</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-Photos and Video">
+			<a class="gradient" href="http://www.ndp.ca/videos">Photos and Video</a>
+							<ul class="submenu">
+										<li><a class="" href="http://www.ndp.ca/videos"><span class="nav-arrow">&#9658;</span> Video Gallery</a></li>
+										<li><a class="" href="http://www.ndp.ca/photos"><span class="nav-arrow">&#9658;</span> Photo Gallery</a></li>
+										<li><a class="" href="http://www.ndp.ca/logos"><span class="nav-arrow">&#9658;</span> Logos</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-Take Action">
+			<a class="gradient" href="http://www.ndp.ca/join">Take Action</a>
+							<ul class="submenu">
+										<li><a class="" href="http://www.ndp.ca/join"><span class="nav-arrow">&#9658;</span> Join</a></li>
+										<li><a class="" href="http://www.ndp.ca/donate"><span class="nav-arrow">&#9658;</span> Donate</a></li>
+										<li><a class="" href="http://www.ndp.ca/volunteer"><span class="nav-arrow">&#9658;</span> Volunteer</a></li>
+										<li><a class="" href="http://www.ndp.ca/endp-subscribe"><span class="nav-arrow">&#9658;</span> Get Email Updates</a></li>
+										<li><a class="" href="http://www.ndp.ca/online-tools"><span class="nav-arrow">&#9658;</span> Online Tools</a></li>
+										<li><a class="" href="http://www.ndp.ca/app"><span class="nav-arrow">&#9658;</span> Download the NDP App</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-donate">
+			<a href="http://www.ndp.ca/donate" class="gradient">Donate</a>
+			<a href="http://www.ndp.ca/donate" class="donate-tip"></a>
+		</li>
+	</ul>
+
+</div>
+	<div id="take-action-top" class="clearfix">
+		<div class="-region--takeaction-tpl clearfix">
+
+	<ul class="clearfix">
+		<li class="clearfix">
+			<a href="#x" class="take-action-tip" tabindex="1"></a>
+			<a href="#x" class="button-open gradient" tabindex="1">Take Action</a>
+			<img src="/sites/all/themes/tom2012/imgs/blank.gif" class="button-close " />
+			<div class="submenu-wrapper clearfix">
+				<a class="submenu-close-top" href="">&nbsp;</a>
+				<ul class="submenu clearfix">
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/donate" class="donate">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link" href="http://www.ndp.ca/donate">Donate</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/join" class="join">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/join">Join</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/volunteer" class="volunteer">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/volunteer">Volunteer</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/endp-subscribe" class="get-email-updates">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/endp-subscribe">Get email updates</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/app" class="download-app">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/app">Download the NDP app</a>
+						</div>
+					</li>
+					<li class="social">
+						<ul class="clearfix">
+							<li><a href="http://www.facebook.com/pages/Canadas-New-Democrats-Le-NPD-du-Canada/190502667652613" class="facebook js-new-window hide-text">Facebook</a></li>
+							<li><a href="https://twitter.com/#!/ThomasMulcair" class="twitter js-new-window hide-text">Twitter</a></li>
+							<li><a href="http://www.ndp.ca/rss.xml" class="rss js-new-window hide-text">RSS</a></li>
+							<li><a href="http://www.youtube.com/user/NDPCanada" class="youtube js-new-window hide-text">YouTube</a></li>
+							<li><a href="http://www.flickr.com/photos/ndpcanada" class="flickr js-new-window hide-text">Flickr</a></li>
+							<li><a href="http://itunes.apple.com/ca/app/ndp/id426043239" class="appstore js-new-window hide-text">App Store</a></li>
+						</ul>
+					</li>
+				</ul>
+			<a class="submenu-close-bottom" href="">&nbsp;</a>
+			</div>
+		</li>
+		<li class="social-mobile">
+			<ul class="clearfix">
+				<li><a href="http://www.facebook.com/pages/Canadas-New-Democrats-Le-NPD-du-Canada/190502667652613" class="facebook js-new-window hide-text">Facebook</a></li>
+				<li><a href="https://twitter.com/#!/ThomasMulcair" class="twitter js-new-window hide-text">Twitter</a></li>
+				<li><a href="http://www.ndp.ca/rss.xml" class="rss js-new-window hide-text">RSS</a></li>
+				<li><a href="http://www.youtube.com/user/NDPCanada" class="youtube js-new-window hide-text">YouTube</a></li>
+				<li><a href="http://www.flickr.com/photos/ndpcanada" class="flickr js-new-window hide-text">Flickr</a></li>
+				<li><a href="http://itunes.apple.com/ca/app/ndp/id426043239" class="appstore js-new-window hide-text">App Store</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	</div>
+	<div id="wrapper" class="clearfix showContent">
+		<div class="-region--header-tpl clearfix">
+
+		<div id="header" class="clearfix">
+			<div id="super-nav" class="clearfix">
+				<ul id="nav-toggle">
+					<li><a href="#">Menu</a></li>
+				</ul>
+				<ul id="donate-mobile" class="clearfix">
+					<li class="menu-donate">
+						<a href="http://www.ndp.ca/donate" class="gradient">Donate</a>
+						<a href="#" class="donate-tip"></a>
+					</li>
+				</ul>
+				<a class="ndp-logo high-res" href="#">NDP</a>
+				<div id="lang">
+					<a href="http://www.npd.ca/votre-circonscription">Français</a>
+				</div>
+				<div id="contact">
+					<a href="http://www.ndp.ca/contact">Contact</a>
+				</div>
+			</div>
+		</div>
+
+</div>
+		<div id="banner">
+			<div id="banner-content">
+								<h1 class="title" id="page-title">Your Riding</h1>							</div>
+			<div id="lang-small"><a href="http://www.npd.ca/votre-circonscription">Français</a></div>
+		</div>
+		<div id="main-wrapper">
+			<div id="main" class="clearfix">
+				<div class="tabs clearfix"></div>								<div id="main-content" class="clearfix">
+										  <div class="region region-content -region-tpl">
+    <div id="block-system-main" class="block block-system -block-tpl">
+
+    
+  <div >
+    <div id="node-9700" class="node node-page -node--page-tpl clearfix">
+
+	
+	<div class="theme-function">
+		<div class="your-riding-page js-your-riding-page -your-riding-page-tpl">
+
+	<div class="riding-search clearfix">
+		<form id="riding-serach-form" action="/your-riding/">
+			<h2>Find your MP or riding association by name, riding, or postal code</h2>
+			<input type="text" name="search" class="search-field" value="T5S2B9" />
+			<input type="submit" value="Search" class="js-hide" />
+			<a class="search-button js-show" href="http://www.ndp.ca/" onclick="jQuery('#riding-serach-form').submit(); return false;">Search</a>
+		</form>
+	</div>
+
+	
+		<div class="search-results">
+		<ul class="ridings">
+				<li class="result-row">
+						<a href="http://www.ndp.ca/district/48015" class="result-data clearfix no-mp">
+				<span class="left-side">
+					<span class="large-print">Edmonton--St. Albert</span> <br/>
+					<span class="fine-print">Alberta - 48015</span>
+					&nbsp;
+				</span>
+								<span class="right-side">
+					<span class="riding-link"><span class="large-print"><span class="label">Riding Association</span></span> <span class="arrow-wrapper"><span class="go-arrow">&raquo;</span></span>
+				</span>
+							</a>
+		</li>
+		</ul>
+	</div>
+	
+	
+	<div class="province-list clearfix">
+		<h2>Provinces and territories</h2>
+		<div class="province-column column1">
+			<a href="/your-riding/?search=ab">Alberta</a><br/>
+			<a href="/your-riding/?search=bc">British Columbia</a><br/>
+			<a href="/your-riding/?search=mb">Manitoba</a><br/>
+		</div> 
+		<div class="province-column column2">
+			<a href="/your-riding/?search=nb">New Brunswick</a><br/>
+			<a href="/your-riding/?search=nl">Newfoundland and Labrador</a><br/>
+			<a href="/your-riding/?search=ns">Nova Scotia</a><br/>
+			<a href="/your-riding/?search=nu">Nunavut</a><br/>
+		</div>
+		<div class="province-column column3">
+			<a href="/your-riding/?search=on">Ontario</a><br/>
+			<a href="/your-riding/?search=pe">Prince Edward Island</a><br/>
+			<a href="/your-riding/?search=qc">Quebec</a><br/>
+		</div>
+		<div class="province-column column4">
+			<a href="/your-riding/?search=sk">Saskatchewan</a><br/>
+			<a href="/your-riding/?search=nt">Northwest Territories</a><br/>
+			<a href="/your-riding/?search=yt">Yukon</a>
+		</div>
+	</div>
+
+</div>
+
+	</div><!-- .theme-function -->
+
+	</div>
+  </div>
+</div>
+  </div>
+										<div class="share-links-wrapper clearfix">
+
+	<div class="share-links">
+		<div class="share-links-prefix">Share<br />this page</div>
+				<a href="/share_links/shortlink_tweet?text=Find+your+MP+or+riding+association+with+the+NDP%E2%80%99s+easy-to-use+interactive+map.+%23NDP&amp;share_url=http%3A%2F%2Fndp.ca%2Fyour-riding" class="share-links-twitter js-new-window"></a>
+		<a href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ndp.ca%2Fyour-riding" class="share-links-facebook js-new-window"></a>
+		<a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.ndp.ca%2Fyour-riding" class="share-links-google js-new-window"></a>
+				<a href="http://sharebyemail.ndp.ca/?url=http%3A%2F%2Fwww.ndp.ca%2Fyour-riding" class="share-links-email js-new-window"></a>
+	</div>
+	<div class="like-links">
+		<!-- google +1 -->
+		<!-- Place this tag where you want the +1 button to render. -->
+		<div class="like-links-gp">
+			<div class="g-plusone" data-size="medium" data-href="http%3A%2F%2Fwww.ndp.ca%2Fyour-riding"></div>
+		</div>
+		<!-- facebook like -->
+		<div class="like-links-fb">
+			<div class="fb-like" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false" data-href="http%3A%2F%2Fwww.ndp.ca%2Fyour-riding"></div>
+		</div>
+	</div>
+</div>
+
+<!-- facebook like -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/plusone.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="clearfix">
+		<div id="super-footer" class="gradient">
+			<div id="super-footer-content" class="clearfix">
+				<div id="take-action-bottom">
+					<div class="-region--takeaction-tpl clearfix">
+
+	<ul class="clearfix">
+		<li class="clearfix">
+			<a href="#x" class="take-action-tip" tabindex="1"></a>
+			<a href="#x" class="button-open gradient" tabindex="1">Take Action</a>
+			<img src="/sites/all/themes/tom2012/imgs/blank.gif" class="button-close " />
+			<div class="submenu-wrapper clearfix">
+				<a class="submenu-close-top" href="">&nbsp;</a>
+				<ul class="submenu clearfix">
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/donate" class="donate">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link" href="http://www.ndp.ca/donate">Donate</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/join" class="join">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/join">Join</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/volunteer" class="volunteer">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/volunteer">Volunteer</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/endp-subscribe" class="get-email-updates">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/endp-subscribe">Get email updates</a>
+						</div>
+					</li>
+					<li>
+						<div class="icon-box-wrapper">
+							<div class="icon-box clearfix">
+								<div class="icon-box-content high-res">
+									<a href="http://www.ndp.ca/app" class="download-app">&nbsp;</a>
+								</div>
+							</div>
+							<a class="link"  href="http://www.ndp.ca/app">Download the NDP app</a>
+						</div>
+					</li>
+					<li class="social">
+						<ul class="clearfix">
+							<li><a href="http://www.facebook.com/pages/Canadas-New-Democrats-Le-NPD-du-Canada/190502667652613" class="facebook js-new-window hide-text">Facebook</a></li>
+							<li><a href="https://twitter.com/#!/ThomasMulcair" class="twitter js-new-window hide-text">Twitter</a></li>
+							<li><a href="http://www.ndp.ca/rss.xml" class="rss js-new-window hide-text">RSS</a></li>
+							<li><a href="http://www.youtube.com/user/NDPCanada" class="youtube js-new-window hide-text">YouTube</a></li>
+							<li><a href="http://www.flickr.com/photos/ndpcanada" class="flickr js-new-window hide-text">Flickr</a></li>
+							<li><a href="http://itunes.apple.com/ca/app/ndp/id426043239" class="appstore js-new-window hide-text">App Store</a></li>
+						</ul>
+					</li>
+				</ul>
+			<a class="submenu-close-bottom" href="">&nbsp;</a>
+			</div>
+		</li>
+		<li class="social-mobile">
+			<ul class="clearfix">
+				<li><a href="http://www.facebook.com/pages/Canadas-New-Democrats-Le-NPD-du-Canada/190502667652613" class="facebook js-new-window hide-text">Facebook</a></li>
+				<li><a href="https://twitter.com/#!/ThomasMulcair" class="twitter js-new-window hide-text">Twitter</a></li>
+				<li><a href="http://www.ndp.ca/rss.xml" class="rss js-new-window hide-text">RSS</a></li>
+				<li><a href="http://www.youtube.com/user/NDPCanada" class="youtube js-new-window hide-text">YouTube</a></li>
+				<li><a href="http://www.flickr.com/photos/ndpcanada" class="flickr js-new-window hide-text">Flickr</a></li>
+				<li><a href="http://itunes.apple.com/ca/app/ndp/id426043239" class="appstore js-new-window hide-text">App Store</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+				</div>
+			</div>
+		</div>
+		<div id="sitemap" class="-region--sitemap-tpl clearfix">
+
+	
+	<ul class="clearfix">
+				<li class="menu-Home">
+			<a href="http://www.ndp.ca/">Home</a>
+			
+		</li>
+				<li class="menu-Tom Mulcair">
+			<a href="http://www.ndp.ca/tommulcair">Tom Mulcair</a>
+			
+		</li>
+				<li class="menu-Party">
+			<a href="http://www.ndp.ca/your-riding">Party</a>
+							<ul class="submenu">
+										<li><a href="http://www.ndp.ca/history">History</a></li>
+										<li><a href="http://www.ndp.ca/ourcaucus">Our Caucus</a></li>
+										<li><a href="http://www.ndp.ca/shadow-cabinet">Shadow Cabinet</a></li>
+										<li><a href="http://www.ndp.ca/commissions">Commissions</a></li>
+										<li><a href="http://www.ndp.ca/constitution">Constitution</a></li>
+										<li><a href="http://www.ndp.ca/policy-book">Policy Book</a></li>
+										<li><a href="http://www.ndp.ca/federal-council">Federal Council</a></li>
+										<li><a href="http://www.ndp.ca/jobs">Jobs</a></li>
+										<li><a href="http://www.ndp.ca/contact">Contact</a></li>
+										<li><a href="http://www.ndp.ca/your-riding">Your Riding</a></li>
+										<li><a href="http://qc.ndp.ca">NDP Quebec</a></li>
+										<li><a href="http://montreal2013.ndp.ca">NDP Convention</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-News">
+			<a href="http://www.ndp.ca/news/recent/">News</a>
+							<ul class="submenu">
+										<li><a href="http://www.ndp.ca/news/recent/press-release">Press Releases</a></li>
+										<li><a href="http://www.ndp.ca/news/recent/statement">Statements</a></li>
+										<li><a href="http://www.ndp.ca/news/recent/reality-check">Reality Checks</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-Photos and Video">
+			<a href="http://www.ndp.ca/videos">Photos and Video</a>
+							<ul class="submenu">
+										<li><a href="http://www.ndp.ca/videos">Video Gallery</a></li>
+										<li><a href="http://www.ndp.ca/photos">Photo Gallery</a></li>
+										<li><a href="http://www.ndp.ca/logos">Logos</a></li>
+									</ul>
+			
+		</li>
+				<li class="menu-Take Action">
+			<a href="http://www.ndp.ca/join">Take Action</a>
+							<ul class="submenu">
+										<li><a href="http://www.ndp.ca/join">Join</a></li>
+										<li><a href="http://www.ndp.ca/donate">Donate</a></li>
+										<li><a href="http://www.ndp.ca/volunteer">Volunteer</a></li>
+										<li><a href="http://www.ndp.ca/endp-subscribe">Get Email Updates</a></li>
+										<li><a href="http://www.ndp.ca/online-tools">Online Tools</a></li>
+										<li><a href="http://www.ndp.ca/app">Download the NDP App</a></li>
+									</ul>
+			
+		</li>
+			</ul>
+
+</div>
+		<div id="copyright" >
+						<p>© 2012 New Democratic Party of Canada, all rights reserved. Paid for and authorized by the registered agent of Canada's NDP.</p>
+					</div>
+	</div>
+
+</div></div> <!-- /#page, /#page-wrapper -->
+
+<script type="text/javascript">
+	jQuery('#nav-toggle').click(function () {
+		jQuery('#wrapper').toggleClass('hideContent');
+		jQuery('#nav').toggleClass('showNav');
+	});
+	if(jQuery("html").hasClass("ua-desktop")) {
+		jQuery('#page').prepend('<img id="bg-img" src="/sites/all/themes/tom2012/imgs/mulcair.png" alt="Thomas Mulcair" />');
+	}
+</script>
+
+	</body>
+</html>

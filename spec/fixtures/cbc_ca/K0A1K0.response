@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+X-Origin-Server: web19:sb17
+Content-Type: text/html
+Cache-Control: max-age=30
+Expires: Tue, 05 Mar 2013 03:46:39 GMT
+Date: Tue, 05 Mar 2013 03:46:09 GMT
+Content-Length: 177
+Connection: close
+
+[{"rid":"133","name":"Glengarry - Prescott - Russell"},{"rid":"159","name":"Nepean - Carleton"},{"rid":"170","name":"Ottawa - Orl\u00e9ans"},{"rid":"171","name":"Ottawa South"}]

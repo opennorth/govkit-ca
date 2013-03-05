@@ -1,0 +1,452 @@
+HTTP/1.1 200 OK
+Date: Tue, 05 Mar 2013 03:46:11 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.4-9
+Set-Cookie: qtrans_cookie_test=qTranslate+Cookie+Test; path=/; domain=www.conservative.ca
+X-Pingback: http://www.conservative.ca/xmlrpc.php
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en-US">
+<head>
+<script src="//cdn.optimizely.com/js/166119657.js"></script>
+<script> 
+ _udn = ".conservative.ca"; 
+ </script> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Members of Parliament | Conservative Party of Canada</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.conservative.ca/wp-content/themes/conservative/style.css" />
+<link rel="pingback" href="http://www.conservative.ca/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Conservative Party of Canada &raquo; Members of Parliament Comments Feed" href="http://www.conservative.ca/?feed=rss2&#038;page_id=35" />
+<link href="http://www.conservative.ca/wp-content/plugins/cpcphotos/colorbox/colorbox.css" rel="stylesheet" type="text/css" /><link rel='stylesheet' id='cpcemailsignupcss-css'  href='http://www.conservative.ca/wp-content/plugins/cpcemailsignup/cpcemailsignup.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='fancybox2css-css'  href='http://www.conservative.ca/wp-content/themes/conservative/scripts/fancybox2/jquery.fancybox.css?ver=1.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.conservative.ca/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.conservative.ca/wp-content/plugins/cpcemailsignup/jquery.placeholder-1.0.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.conservative.ca/wp-content/themes/conservative/scripts/fancybox2/jquery.mousewheel-3.0.6.pack.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.conservative.ca/wp-content/themes/conservative/scripts/fancybox2/jquery.fancybox.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.conservative.ca/wp-content/plugins/cpcphotos/colorbox/jquery.colorbox-min.js?ver=3.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.conservative.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.conservative.ca/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Senators' href='http://www.conservative.ca/?page_id=33' />
+<link rel='next' title='Your Elected National Council' href='http://www.conservative.ca/?page_id=37' />
+<meta name="generator" content="WordPress 3.3.1" />
+<link rel='canonical' href='http://www.conservative.ca/?page_id=35' />
+
+<meta http-equiv="Content-Language" content="en-US" />
+<link hreflang="fr" href="http://www.conservative.ca/?page_id=35&amp;lang=fr" rel="alternate" />
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<meta charset="UTF-8" />
+<meta property="og:title" content="Members of Parliament" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.conservative.ca/media/2012/06/fb_cpc.jpg" />
+<meta property="og:url" content="http://www.conservative.ca/?page_id=35" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="Conservative Party of Canada" />
+<meta http-equiv="robots" content="index, follow" />
+<meta http-equiv="window-target" content="_top" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+<meta name="description" content="Latest news and information from the Conservative Party of Canada.  A Canadian political party led by Stephen Harper." />
+<meta name="keywords" content="conservative party of canada, conservative party, conservative, conservatives,  harper, stephen harper, stand up for canada, trades, transit, accountability, child care, tools tax credit, transit tax credit, accountability act, child care tax credit, canada, political party, politics, federal politics" />
+<meta name="title" content="Conservative Party of Canada | Prime Minister Stephen Harper" />
+<meta name="Identifier-URL" content="www.conservative.ca" />
+<meta name="revisit-after" content="7 days" />
+<meta name="distribution" content="global" />
+<meta name="Coverage" content="Worldwide" />
+<meta name="resource-type" content="document" />
+<meta name="Content-Language" content="EN" />
+<meta name="rating" content="General" />
+<meta name="copyright" content="Conservative Party Of Canada" />
+<link rel="icon" type="image/x-icon" href="http://www.conservative.ca/media/www_conservative_ca.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.conservative.ca/media/www_conservative_ca.ico" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-32967487-1']);
+_gaq.push(['_setDomainName', 'conservative.ca']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body class="page page-id-35 page-child parent-pageid-11 page-template page-template-template-searchbyprovince-php">
+<div id="jumpBar">
+	<div class="center">
+        <div id="switches">
+        	<div class="left lang"><a href="http://www.conservative.ca/?page_id=35&amp;lang=fr" class="btn btn-info" style="padding:0 5px 5px 5px; height:15px; margin:3px 0 0 0;">Fran&ccedil;ais</a></div>
+                        <div class="clear"></div>
+        </div><!-- /switches -->
+        
+        <div id="socNets">
+            <div class="left contact"><a href="http://www.conservative.ca/?page_id=72" class="btn btn-info" style="padding:0 5px 5px 5px; height:15px; margin:3px 0 0 0;">Contact</a></div>
+            <div class="rollover"><a href="http://twitter.com/cpc_hq" class="twitter" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Socnet Link (Icon)', 'Twitter']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/socNets-twitter.png" border="0" alt="Twitter" title="Twitter" /></a></div><div class="rollover"><a href="https://www.facebook.com/pages/Conservative-Party-of-Canada-Parti-conservateur-du-Canada/5661704203" class="facebook" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Socnet Link (Icon)', 'Facebook']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/socNets-facebook.png" border="0" alt="Facebook" title="Facebook" /></a></div><div class="rollover"><a href="http://www.youtube.com/cpcpcc" class="youtube" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Socnet Link (Icon)', 'Youtube']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/socNets-youtube.png" border="0" alt="Youtube" title="Youtube" /></a></div><div class="rollover"><a href="http://www.flickr.com/photos/pmharper/" class="flickr" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Socnet Link (Icon)', 'Flickr']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/socNets-flickr.png" border="0" alt="Flickr" title="Flickr" /></a></div><div class="rollover"><a href="http://www.conservative.ca/?feed=rss" class="rss" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Socnet Link (Icon)', 'Rss']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/socNets-rss.png" border="0" alt="Rss" title="Rss" /></a></div>
+        </div><!-- /socNets -->
+		
+		        <div class="clear"></div>
+    </div><!-- /center -->
+</div><!-- /jumpBar -->
+<div id="featureMenu" class="uniquePage"><div id="navMenu" class="naven"><div class="center"><a href="http://www.conservative.ca"><img id="logo" src="http://www.conservative.ca/wp-content/themes/conservative/images/featureMenu-navMenu-Conservative-en.png" width="176px" height="36px" border="0" alt="Conservative Party of Canada | Parti conservateur du Canada" title="Conservative Party of Canada | Parti conservateur du Canada" /></a><ul><li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://www.conservative.ca/?page_id=2">Stephen Harper</a>
+<ul class="sub-menu">
+	<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://www.conservative.ca/?page_id=23">Facts</a></li>
+	<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="http://www.conservative.ca/?page_id=25">Laureen Harper</a></li>
+	<li id="menu-item-1836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1836"><a href="http://www.conservative.ca/?page_id=27">Prime Minister&#8217;s website</a></li>
+</ul>
+</li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-13"><a href="http://www.conservative.ca/?page_id=11">Team</a>
+<ul class="sub-menu">
+	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="http://www.conservative.ca/?page_id=31">Ministry</a></li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-35 current_page_item menu-item-66"><a href="http://www.conservative.ca/?page_id=35">Members of Parliament</a></li>
+	<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.conservative.ca/?page_id=33">Senators</a></li>
+	<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://www.conservative.ca/?page_id=37">Your Elected National Council</a></li>
+</ul>
+</li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://www.conservative.ca/?page_id=9">Where We Stand</a>
+<ul class="sub-menu">
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.conservative.ca/?page_id=44">Issue By Issue</a></li>
+	<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://www.conservative.ca/?page_id=40">Platform</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.conservative.ca/?page_id=42">Budget 2012</a></li>
+	<li id="menu-item-1380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1380"><a href="http://www.conservative.ca/?page_id=923">Canada&#8217;s Founding Party</a></li>
+</ul>
+</li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="http://www.conservative.ca/?page_id=54">News</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="http://www.conservative.ca/?page_id=46">Multimedia</a>
+<ul class="sub-menu">
+	<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="http://www.conservative.ca/?page_id=48">Photos</a></li>
+	<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://www.conservative.ca/?page_id=50">Video</a></li>
+	<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://www.conservative.ca/?page_id=52">Wallpaper</a></li>
+</ul>
+</li>
+</ul><div id="cta-donate"><a href="https://secure.conservative.ca/donation.aspx?lang=en" class="btn btn-primary btn-cta" style="font-weight: bold;">DONATE</a></noscript></div><div class="clear"></div></div></div><!-- /navMenu -->
+			<div id="mainImage">
+				<img src="http://www.conservative.ca/media/2012/06/featureMenu-page-mainImage-default.jpg" width="960px" border="0" />
+			</div><!-- /mainImage --></div><!-- /featureMenu -->
+<div id="content">
+	<div class="center">
+        <div id="header">
+            <div id="type">
+            	                <h2>Members of Parliament</h2>
+                
+			<br />
+			<form action="http://www.conservative.ca" method="get">
+			<input type="hidden" name="page_id" value="35" />
+			<input type="hidden" name="lang" value="en" />
+			<div class="left"><div><select name="pr"><option value="Alberta" >Alberta</option><option value="British Columbia" >British Columbia</option><option value="Manitoba" >Manitoba</option><option value="New Brunswick" >New Brunswick</option><option value="Newfoundland and Labrador" >Newfoundland and Labrador</option><option value="Nova Scotia" >Nova Scotia</option><option value="Nunavut" >Nunavut</option><option value="Ontario" >Ontario</option><option value="Prince Edward Island" >Prince Edward Island</option><option value="Québec" >Québec</option><option value="Saskatchewan" >Saskatchewan</option><option value="Yukon" >Yukon</option></select></div></div>
+			<div class="left" style="margin:0 0 0 10px;"><button type="submit" class="btn btn-primary">Submit</button></div>
+			<div class="clear"></div><br />
+			</form>
+			<br />
+			<form action="" method="post">
+			<input type="hidden" name="findmymp" value="35" />
+			<input type="hidden" name="lang" value="en" />
+			<div class="left"><input type="text" name="pc" id="findmymppc" value="A1A1A1" maxlength="7" /></div>
+			<div class="left" style="margin:0 0 0 10px;"><button type="submit" class="btn btn-primary">Submit</button></div>
+			<div class="clear"></div><br />
+			</form>
+			<h5>St. John's South--Mount Pearl</h5><p>This riding is not currently represented by a Conservative Member of Parliament.</p>
+			<script type="text/javascript">
+			$c=jQuery.noConflict(); $c(document).ready(function(){ 
+				$c("#findmymppc").placeholders({value:"Postal Code"});								
+			});
+			</script>
+		                            </div><!-- /type -->
+           	            <div id="share">
+            	<div class="fb left"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.conservative.ca%2F%3Fpage_id%3D35&amp;send=false&amp;layout=box_count&amp;width=100&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:90px;" allowTransparency="true"></iframe></div>
+                
+                <div class="tw left"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical">Tweet</a></div>
+                <div class="clear"></div>
+            </div><!-- /share -->
+                    <div class="clear"></div>
+            <hr />
+        </div> <!-- /top -->       
+        <div id="columns">
+        	<div id="maincol">	
+                <div id="bodyContent">
+                	                </div><!-- /bodyContent -->
+            </div><!-- /maincol -->
+                        <div id="sidebar">
+                 <div class="widget">
+                	<div class="container takeaction">
+                    	<h3>Take Action</h3><hr />
+                        <div class="link" align="center">
+                        	<a href="https://secure.conservative.ca/donation.aspx?lang=en" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Icon)', 'Contribute']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/widget-takeaction-contribute.png" width="20" height="23" border="0" alt="Contribute" title="Contribute" /></a>
+                            <p><a href="https://secure.conservative.ca/donation.aspx?lang=en" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Text)', 'Contribute']); return true;">Contribute</a></p>
+                        </div>
+                        <div class="link" align="center">
+                        	<a href="https://secure.conservative.ca/donation.aspx?cmp=ml&lang=en" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Icon)', 'Join']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/widget-takeaction-join.png" width="26" height="21" border="0" alt="Join" title="Join" /></a>
+                            <p><a href="https://secure.conservative.ca/donation.aspx?cmp=ml&lang=en" target="_blank" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Text)', 'Join']); return true;">Join</a></p>
+                        </div>
+                        <div class="link" align="center">
+                        	<a href="http://www.brymark.com/cboutique/index2.cfm" target="_blank" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Icon)', 'Shop']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/widget-takeaction-shop.png" width="23" height="22" border="0" alt="Shop" title="Shop" /></a>
+                            <p><a href="http://www.brymark.com/cboutique/index2.cfm" target="_blank" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Clicks', 'Widget Link (Text)', 'Shop']); return true;">Shop</a></p>
+                        </div>
+                        <div class="link" align="center">
+                        	<a href="#cpcemailsignupcontainer" class="cpcemailsignup" onclick="cpcescaption('Newsletter');"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/widget-takeaction-newsletter.png" width="24" height="22" border="0" alt="Newsletter" title="Newsletter" /></a>
+                            <p><a href="#cpcemailsignupcontainer" class="cpcemailsignup" onclick="cpcescaption('Newsletter');">Newsletter</a></p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+		
+		</div><div class="widget"><!--Stephen Harper--><div class="container takeaction"><img src="http://www.conservative.ca/media/2012/05/widget-pm-headerImg.jpg"><br />
+<h3>Stephen Harper</h3>
+<hr />
+<p>Stephen Harper is dedicated to building a stronger, prouder, more prosperous Canada by delivering real results for everyday Canadian families.  He has spent his entire political career standing up and speaking out for Canadians who work hard, pay their taxes and play by the rules.</p>
+<p class="widgetLink linkFirst"><a href="http://www.conservative.ca/?page_id=2">Read more</a></p>
+<div class="clear"></div>
+</div>
+</div><div class="widget"><!--Canada’s Founding Party--><div class="container takeaction"><img src="http://www.conservative.ca/media/2012/05/widget-party-headerImg.jpg"><br />
+<h3>Canada’s Founding Party</h3>
+<hr />
+<p>On October 16th, 2003, the leaders of the Canadian Reform Conservative Alliance and the Progressive Conservative Party of Canada announced an agreement-in-principle to unite under a new political banner. In December 2003, the merger was overwhelmingly ratified by members of both parties and the Conservative Party of Canada was officially born.</p>
+<p class="widgetLink linkFirst"><a href="http://www.conservative.ca/?page_id=923">Read more</a></p>
+<div class="clear"></div>
+</div>
+</div>            </div>
+           	<div class="clear"></div>
+            <div class="clear"></div>
+        </div><!-- /columns -->
+        
+    </div><!-- /center -->
+</div><!-- /content -->
+
+<div id="footer">
+	<div class="center">
+    	<div><div id="MPs" class="col"><h4>Conservative MPs</h4><hr /> 
+            <div class="MP">
+            	<div class="photoContainer"><a href="http://www.conservative.ca/?cr=pickering-scarborough-east"><img src="http://www.conservative.ca/media/team/35072.jpg" width="41" border="0" /></a></div>
+                <p class="name"><a href="http://www.conservative.ca/?cr=pickering-scarborough-east">Corneliu Chisu</a>
+                <p class="riding"><a href="http://www.conservative.ca/?cr=pickering-scarborough-east">Pickering &#8211; Scarborough East</a></p>
+                <div class="clear"></div>
+            </div><!-- /MP -->
+			 
+            <div class="MP">
+            	<div class="photoContainer"><a href="http://www.conservative.ca/?cr=don-valley-west"><img src="http://www.conservative.ca/media/team/35017.jpg" width="41" border="0" /></a></div>
+                <p class="name"><a href="http://www.conservative.ca/?cr=don-valley-west">John Carmichael</a>
+                <p class="riding"><a href="http://www.conservative.ca/?cr=don-valley-west">Don Valley West</a></p>
+                <div class="clear"></div>
+            </div><!-- /MP -->
+			 
+            <div class="MP">
+            	<div class="photoContainer"><a href="http://www.conservative.ca/?cr=don-valley-east"><img src="http://www.conservative.ca/media/team/35016.jpg" width="41" border="0" /></a></div>
+                <p class="name"><a href="http://www.conservative.ca/?cr=don-valley-east">Joe Daniel</a>
+                <p class="riding"><a href="http://www.conservative.ca/?cr=don-valley-east">Don Valley East</a></p>
+                <div class="clear"></div>
+            </div><!-- /MP -->
+			<span><a href="#findyourmpform" class="findyourmp">Click here to find your MP</a></span></div><!-- /MPs --><div id="findyourmpform" style="width:400px;display: none;">
+    <h3>Find Your MP</h3><br />
+    <form method="post">
+    <div class="left"><input type="text" name="pc" id="fpc" value="Postal Code" maxlength="7" /></div>
+    <div class="left" style="margin:0 0 0 10px;"><button type="submit" id="findyourmpsubmit" class="btn btn-primary">Submit</button></div>
+    <div class="clear"></div><br />
+    </form>
+    <div id="findyourmpresults"></div>
+</div>
+<script type="text/javascript">
+$c=jQuery.noConflict(); $c(document).ready(function(){ 
+	$c(".findyourmp").fancybox({fitToView:false});
+	$c("#fpc").focus(function () { if (this.value == "Postal Code") {  this.value = ""; $c(this).attr("maxlength", "7"); } });
+	$c("#fpc").blur(function () { if ($c.trim(this.value) == "") { $c(this).attr("maxlength", "12"); this.value = "Postal Code"; } });
+	
+	$c("#findyourmpsubmit").click(function () {
+		var fpc = $c("#fpc").val();
+		$c(this).addClass("disabled");
+		var senddata = 'fpc='+fpc+'&x=vldpc&lang=';
+		$c.ajax({
+			url: "http://www.conservative.ca/wp-content/themes/conservative/functions-process.php",	
+			type: "GET",
+			data: senddata,		
+			cache: false,
+			success: function (html) {
+				if (html=="new") {
+					$c("#findyourmpresults").html("No ridings found");
+				}
+				else {
+					$c("#findyourmpresults").html(html);
+					$c.fancybox.update();
+				}
+			}		
+		});
+		return false;
+	});
+});
+</script>
+		</div><div><div id="tweets" class="col"><h4>Recent Tweets</h4><hr /><div class="tweet"><p>Keeping our Communities Safe: <a href="http://t.co/fJC7DKoy" target="_blank">http://t.co/fJC7DKoy</a> #cdnpoli</p></div><div class="tweet"><p>RT @pmharper: Today, we announced funding to further implement Canada’s Cyber Security Strategy: <a href="http://t.co/e0qoADpE" target="_blank">http://t.co/e0qoADpE</a> #cdnpoli</p></div><div class="tweet"><p>RT @pmharper: Today, @JamesMoore_org announced the government’s intention to introduce legislation creating the Cdn Museum of History ht ...</p></div></div><!-- /tweets --></div><div><div id="photos" class="col"><h4>Recent Photos</h4><hr /><div class="photoContainer "><a href="http://farm9.static.flickr.com/8469/8141808894_b73cae47c0_b.jpg" rel="cpcphotos" title="PM announces the appointment of a new Chief of the Defence Staff"><img src="http://farm9.static.flickr.com/8469/8141808894_b73cae47c0_m.jpg"  border="0" alt="PM announces the appointment of a new Chief of the Defence Staff" /></a></div><div class="photoContainer "><a href="http://farm9.static.flickr.com/8045/8141525124_b640cdf836_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper speaks to supporters at a whistle-stop rally in Edmundston, NB"><img src="http://farm9.static.flickr.com/8045/8141525124_b640cdf836_m.jpg"  border="0" alt="Prime Minister Stephen Harper speaks to supporters at a whistle-stop rally in Edmundston, NB" /></a></div><div class="photoContainer last"><a href="http://farm9.static.flickr.com/8466/8141493109_5aff54162a_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper speaks to supporters at a whistle-stop rally in Edmundston, NB"><img src="http://farm9.static.flickr.com/8466/8141493109_5aff54162a_m.jpg"  border="0" alt="Prime Minister Stephen Harper speaks to supporters at a whistle-stop rally in Edmundston, NB" /></a></div><div class="clear"></div><div class="photoContainer "><a href="http://farm9.static.flickr.com/8191/8141525248_7e1cd9023d_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper shakes hands with volleyball player Martin Reader as Canada's Olympic and Paralympic athletes are applauded in the House of Commons for their achievements at the 2012 Summer Olympic and Paralympic Games in London"><img src="http://farm9.static.flickr.com/8191/8141525248_7e1cd9023d_m.jpg"  border="0" alt="Prime Minister Stephen Harper shakes hands with volleyball player Martin Reader as Canada's Olympic and Paralympic athletes are applauded in the House of Commons for their achievements at the 2012 Summer Olympic and Paralympic Games in London" /></a></div><div class="photoContainer "><a href="http://farm9.static.flickr.com/8323/8141493381_588cb9999e_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper shakes hands with Barack Obama, President of the United States, after it was announced that Canada would join the Trans-Pacific Partnership (TPP)"><img src="http://farm9.static.flickr.com/8323/8141493381_588cb9999e_m.jpg"  border="0" alt="Prime Minister Stephen Harper shakes hands with Barack Obama, President of the United States, after it was announced that Canada would join the Trans-Pacific Partnership (TPP)" /></a></div><div class="photoContainer last"><a href="http://farm9.static.flickr.com/8192/8141525510_1a301426e7_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper shakes hands with Barack Obama, President of the United States, after it was announced that Canada would join the Trans-Pacific Partnership (TPP)"><img src="http://farm9.static.flickr.com/8192/8141525510_1a301426e7_m.jpg"  border="0" alt="Prime Minister Stephen Harper shakes hands with Barack Obama, President of the United States, after it was announced that Canada would join the Trans-Pacific Partnership (TPP)" /></a></div><div class="clear"></div><div class="photoContainer "><a href="http://farm9.static.flickr.com/8183/8141493493_63a43c0b32_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon."><img src="http://farm9.static.flickr.com/8183/8141493493_63a43c0b32_m.jpg"  border="0" alt="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon." /></a></div><div class="photoContainer "><a href="http://farm9.static.flickr.com/8323/8141493533_b57a094541_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon."><img src="http://farm9.static.flickr.com/8323/8141493533_b57a094541_m.jpg"  border="0" alt="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon." /></a></div><div class="photoContainer last"><a href="http://farm9.static.flickr.com/8051/8141525650_16f40f716d_b.jpg" rel="cpcphotos" title="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon."><img src="http://farm9.static.flickr.com/8051/8141525650_16f40f716d_m.jpg"  border="0" alt="Prime Minister Stephen Harper outlines the Conservative low-tax plan for jobs and economic growth in Saskatoon." /></a></div><div class="clear"></div><div class="clear"></div></div><!-- /photos -->
+		<script type="text/javascript">
+			$cp=jQuery.noConflict();
+			$cp(document).ready(function(){
+				$cp("a[rel=cpcphotos]").fancybox({
+					"centerOnScroll" : true,
+					"transitionIn" : "none",
+					"transitionOut" : "none",
+					"titlePosition" : "over",
+					"titleFormat" : function(title, currentArray, currentIndex, currentOpts) {
+						return '<span id="fancybox-title-over"> ' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+					}
+				});
+			});
+		</script></div><div><div id="videos" class="col"><h4>Recent Video</h4><hr />
+						<div id="videoContainer">
+							<div id="videoPlaceholder">
+								<a class="cpcvideo" href="http://www.youtube.com/embed/_7yoeZyMwbU?autoplay=1"><img src="http://i.ytimg.com/vi/_7yoeZyMwbU/0.jpg" width="202px" /></a>
+							</div>
+						</div><!-- /videoContainer -->
+						<p class="current"><a class="cpcvideo" href="http://www.youtube.com/embed/_7yoeZyMwbU?autoplay=1">Prime Minister Stephen Harper delivers remarks on Parliament Hill during Canada Day celebrations</a></p>
+					</div><!-- /videos -->
+		<script type="text/javascript">
+			$cv=jQuery.noConflict();
+			$cv(document).ready(function(){
+				$cv(".cpcvideo").fancybox({ "autoScale"	: true, "centerOnScroll" : true, "transitionIn" : "none", "transitionOut" : "none", "type" : "iframe" });
+			});
+		</script></div>        <div class="clear"></div>
+        <hr />
+        <div id="logo">
+        	<a href="http://www.conservative.ca"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/footer-logo-en.png" width="131" height="27" border="0" alt="Conservative Party of Canada | Parti conservateur du Canada" title="Conservative Party of Canada | Parti conservateur du Canada" /></a>
+        </div><!-- /logo -->
+        <div id="info">
+        	<p>This website is the property of the Conservative Party of Canada and may not be reproduced in whole or in part without express written permission.</p>
+			<p>Copyright &copy; 2012 Authorized by the Registered Agent of the Conservative Party of Canada. - <a href="http://www.conservative.ca/?page_id=1153">Privacy Policy</a> | <a href="http://www.conservative.ca/?page_id=1256">Documents for Members</a> | <a href="http://www.conservative.ca/?page_id=1458">Employment Opportunities</a></p>
+        </div><!-- /info -->
+        <div class="clear"></div>
+    </div><!-- /center -->
+</div><!-- /footer -->
+
+<div id="utilityBar">
+	<div class="center">
+    	<div class="rollover"><a href="#" id="ToryTVClick" class="toryTV"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/utilityBar-ToryTV.png" border="0" alt="ToryTV" title="ToryTV" /></a></div>
+        <div class="rollover"><a href="#" id="INClick" class="news"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/utilityBar-news-en.png" border="0" alt="Important News | Nouvelles importantes" title="Important News | Nouvelles importantes" /></a></div>
+        <div class="rollover"><a href="https://secure.conservative.ca/donation.aspx?lang=en" class="contribute" target="_blank"  onclick="_gaq.push(['_trackEvent', 'Clicks', 'Footer Link (Icon)', 'Contribute']); return true;"><img src="http://www.conservative.ca/wp-content/themes/conservative/images/utilityBar-contribute-en.png" border="0" alt="Contribute | Contribuer" title="Contribute | Contribuer" /></a></div>
+        <div id="search">
+        	<form method="get" action="http://www.conservative.ca">
+            	<input type="hidden" name="lang" value="" />
+            	<div id="submitButton"><button type="submit" /></button></div><input name="s" type="text" value="Search Conservative.ca" id="textEnter" />
+                <div class="clear"></div>
+            </form>
+        </div><!-- /search -->
+        <div class="clear"></div>
+        
+        <div class="popoutContainer tv" id="ToryTVPopup" style="display:none;">
+            <div id="toryTV">
+				
+						<div id="vid">
+							<a class="cpcvideo" href="http://www.youtube.com/embed/_7yoeZyMwbU?autoplay=1"><img src="http://i.ytimg.com/vi/_7yoeZyMwbU/0.jpg" width="391px" /></a>
+						</div><!-- /vid -->
+					
+                <div id="info">
+                    <div id="others">
+                        <p class="other">Other Recent Videos</p>
+                        <div class="otherVid"><a class="cpcvideo" href="http://www.youtube.com/embed/9K9nBFJD6M0?autoplay=1"><img src="http://i.ytimg.com/vi/9K9nBFJD6M0/0.jpg" width="112px" /></a></div><div class="otherVid"><a class="cpcvideo" href="http://www.youtube.com/embed/lz6KaYRdt6w?autoplay=1"><img src="http://i.ytimg.com/vi/lz6KaYRdt6w/0.jpg" width="112px" /></a></div><div class="otherVid"><a class="cpcvideo" href="http://www.youtube.com/embed/tcF8kdAf-lY?autoplay=1"><img src="http://i.ytimg.com/vi/tcF8kdAf-lY/0.jpg" width="112px" /></a></div>
+                    </div><!-- /others -->
+                    <div class="clear"></div>
+                </div><!-- /info -->
+                <div class="clear"></div>
+            </div><!-- /toryTV -->
+        </div><!-- /popoutContainer -->
+		        <div class="popoutContainer importantNews" id="INPopup" style="display:none;">
+        	<div id="news">
+            	            	<p class="title"><a href="http://www.conservative.ca/?p=2526">Focused on the Economy: No New Spending</a></p>
+				<div class="desc"><p>On Wednesday, Jim Flaherty, Minister of Finance, was in Burlington, Ontario hosting pre-budget consultations with local business and community leaders.</p>
+</div> 
+				<p class="more"><a href="http://www.conservative.ca/?p=2526">Read More</a></p>
+                            </div><!-- /news -->
+        </div><!-- /popoutContainer -->
+    </div><!-- /center -->
+</div><!-- /utilityBar -->
+        
+<script type="text/javascript">
+$c=jQuery.noConflict();
+$c(document).ready(function(){
+	$c("#ToryTVClick").click(function() { $c("#ToryTVPopup").toggle(); $c("#INPopup").hide(); return false; });
+	$c("#INClick").click(function() { $c("#INPopup").toggle(); $c("#ToryTVPopup").hide(); return false; });
+	$c("#textEnter").focus(function () { if (this.value == "Search Conservative.ca") { this.value = ""; } });
+	$c("#textEnter").blur(function () { if (this.value == "") { this.value = "Search Conservative.ca"; } });
+	$c(".movement").click(function() { $c("#CPCmovement").slideToggle('normal'); return false; });
+	$c('body').addClass('sl');
+	if ($c('#slider').length > 0) { FeatureSlideshow.init(); }
+	$c(".whycpc").placeholders();
+			$c(".nxt").click(function() { t=$c(this).attr("title"); n=$c(this).attr("name"); c = '.controls'+n+' .nxt'; s = '.slidercontainer'+n; $c(c).removeClass('active'); $c(this).addClass('active'); $c(s).iosSlider('goToSlide',t); return false; });
+});
+</script>
+
+        
+		<div id="cpcemailsignupcontainer" style="width:400px; display:none;">
+			<div id="cpcemailsignupmsg"></div>
+			<div id="cpcemailsignupform">
+				<h3 id="cpcemailsignupcaption"></h3><br />
+				<form action="" method="post">
+					<input type="hidden" name="8aa15ec600cc0ab0d2cbfdfaf64c6821" value="0311" />
+					<div><input type="text" id="es_fn" name="fn" value="First Name" class="cpces" maxlength="20" tabindex="1" /></div>
+					<div><input type="text" id="es_ln" name="ln" value="Last Name" class="cpces" maxlength="20" tabindex="2" /></div>
+					<div><input type="text" id="es_pc" name="pc" value="Postal Code" class="cpces" maxlength="7" tabindex="3" /></div>
+					<div><input type="text" id="es_em" name="em" value="Email" class="cpces" maxlength="40" tabindex="4" /></div>
+					<div><button type="submit" id="cpcemailsignupsubmit" class="btn btn-primary">Submit</button></div>
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$c=jQuery.noConflict(); $c(document).ready(function(){ $c(".cpcemailsignup").fancybox({fitToView:false,helpers:{title:null}}); $c(".cpces").placeholders(); });
+		</script>
+		<script type="text/javascript">
+function cpcescaption(a) { $c("#cpcemailsignupcaption").html(a); }
+$c=jQuery.noConflict(); $c(document).ready(function(){
+	$c("#cpcemailsignupsubmit").click(function () {
+		var es_fn = $c("#es_fn").val(); var es_ln = $c("#es_ln").val(); var es_pc = $c("#es_pc").val(); var es_em = $c("#es_em").val();
+		$c(this).attr('disabled','disabled');
+		var senddata = 'fn='+es_fn+'&ln='+es_ln+'&pc='+es_pc+'&em='+es_em+'&pid=35&x=vldes&lang=en';
+		$c.ajax({
+			url: "http://www.conservative.ca/wp-content/plugins/cpcemailsignup/process.php",	
+			type: "GET",
+			data: senddata,		
+			cache: false,
+			success: function (html) {
+				if (html==1) {
+					$c("#cpcemailsignupmsg").html("<p class='success'>Thank you!</p>");
+					$c("#cpcemailsignupform").hide('slow');
+				}
+				else {
+					$c("#cpcemailsignupmsg").html("<p class='error'>Sorry, something went wrong. Please try again.</p>");
+					$c("#cpcemailsignupsubmit").removeAttr('disabled');
+				}
+			}		
+		});
+		return false;
+	});
+});
+</script>       
+        
+        <script type="text/javascript">
+$c=jQuery.noConflict(); $c(document).ready(function(){
+	$c("#cpcpollsubmit").click(function () {
+		var cp_n = $c("#cpcpoll_nom").val(); var cp_e = $c("#cpcpoll_cour").val(); var cp_pc = $c("#cpcpoll_pc").val(); var cp_l = $c("#cpcpolll").val(); var cp_i = $c("#cpcpollid").val(); var cp_r = $c("input[name='poll_response']:checked").val(); if (cp_r == undefined) { cp_r = ""; }
+		$c(this).attr('disabled','disabled');
+		var senddata = 'i='+cp_i+'&r='+cp_r+'&n='+cp_n+'&e='+cp_e+'&pc='+cp_pc+'&pid=35&x=vldp&lang='+cp_l;
+		$c.ajax({
+			url: "http://www.conservative.ca/wp-content/plugins/cpcpoll/process.php",	
+			type: "GET",
+			data: senddata,		
+			cache: false,
+			success: function (html) {
+				if (html==1) {
+					$c("#cpcpollmsg").html("<p class='success'>Thank you!</p>");
+					$c("#cpcpollform").hide('slow');
+				}
+				else if (html==2) {
+					$c("#cpcpollmsg").html("<p class='success'>You've taken this poll already.</p>");
+					$c("#cpcpollform").hide('slow');
+				}
+				else {
+					$c("#cpcpollmsg").html("<p class='error'>Sorry, something went wrong. Please try again.</p>");
+					$c("#cpcpollsubmit").removeAttr('disabled');
+				}
+			}		
+		});
+		return false;
+	});
+});
+</script>       
+        
+        </body>
+</html>

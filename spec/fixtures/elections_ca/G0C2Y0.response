@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Length: 388
+Content-Type: text/html; charset=utf-8
+Location: /scripts/pss/InfovoteMain_ne.aspx?L=e&amp;ED=24019&amp;EV=99&amp;EV_TYPE=6&amp;PC=G0C2Y0&amp;Prov=QC&amp;ProvID=24&amp;MapID=&amp;QID=-1&amp;PageID=21&amp;TPageID=&amp;STAT_CODE_ID=&amp;PD=
+Server: Microsoft-IIS/7.5
+X-Aspnet-Version: 2.0.50727
+Set-Cookie: ASP.NET_SessionId=2nzhnw45pln1gubjb5mcwb55; path=/; HttpOnly, VIS_SESSION_ID=28568106; path=/
+X-Powered-By: ASP.NET
+Date: Tue, 05 Mar 2013 03:46:13 GMT
+
