@@ -10,11 +10,11 @@ module GovKit
         private
 
           def electoral_districts!
-            # TODO returns HTML with electoral district names only
+            # @todo returns HTML with electoral district names only
           end
 
           def valid?
-            # TODO
+            # @todo
           end
         end
 

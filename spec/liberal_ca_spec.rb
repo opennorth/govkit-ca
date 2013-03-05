@@ -16,13 +16,10 @@ describe GovKit::CA::PostalCode::Strategy::LiberalCa do
       { 'G0C2Y0' => [24019],
         'T5S2B9' => [48015],
         'K0A1K0' => [35025, 35052, 35063],
+        # returns nothing for B0J2L0
       }.each do |postal_code,electoral_districts|
         GovKit::CA::PostalCode::Strategy::LiberalCa.new(postal_code).electoral_districts.should == electoral_districts
       end
-    end
-
-    it 'should (unfortunately) return false if a postal code is rare or ambiguous' do
-      GovKit::CA::PostalCode::Strategy::LiberalCa.new('B0J2L0').electoral_districts.should be_false
     end
 
     it 'should return false if a postal code contains no electoral districts' do

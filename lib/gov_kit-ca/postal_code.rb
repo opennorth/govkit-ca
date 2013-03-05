@@ -77,9 +77,9 @@ module GovKit
   end
 end
 
+require 'gov_kit-ca/postal_code/strategy_set'
 require 'gov_kit-ca/postal_code/strategy/base'
-# Returns only riding name.
-#require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
+#require 'gov_kit-ca/postal_code/strategy/parl_gc_ca' # only riding name
 require 'gov_kit-ca/postal_code/strategy/elections_ca' # only one-to-one
 require 'gov_kit-ca/postal_code/strategy/ndp_ca'
 require 'gov_kit-ca/postal_code/strategy/liberal_ca' # incomplete database

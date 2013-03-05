@@ -1,4 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'gov_kit-ca/postal_code/strategy/cbc_ca'
 
 class GovKit::CA::PostalCode::Strategy::CBCCa
   describe GovKit::CA::PostalCode::Strategy::CBCCa do

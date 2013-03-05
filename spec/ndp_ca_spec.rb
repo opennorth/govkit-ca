@@ -1,5 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-
+require 'gov_kit-ca/postal_code/strategy/ndp_ca'
 
 describe GovKit::CA::PostalCode::Strategy::NDPCa do
   describe '#electoral_districts' do
