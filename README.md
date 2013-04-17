@@ -2,7 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/opennorth/govkit-ca.png)](http://travis-ci.org/opennorth/govkit-ca)
 [![Dependency Status](https://gemnasium.com/opennorth/govkit-ca.png)](https://gemnasium.com/opennorth/govkit-ca)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/opennorth/govkit-ca)
+[![Coverage Status](https://coveralls.io/repos/opennorth/govkit-ca/badge.png?branch=master)](https://coveralls.io/r/opennorth/govkit-ca)
+[![Code Climate](https://codeclimate.com/github/opennorth/govkit-ca.png)](https://codeclimate.com/github/opennorth/govkit-ca)
 
 GovKit-CA is a Ruby gem that provides easy access to Canadian civic data around the web. It currently provides an API for free postal code to electoral district lookups, using the following sources:
 

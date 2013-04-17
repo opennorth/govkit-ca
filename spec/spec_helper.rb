@@ -1,4 +1,8 @@
 require 'rubygems'
+
+require 'coveralls'
+Coveralls.wear!
+
 require 'rspec'
 require 'fakeweb'
 require File.dirname(__FILE__) + '/../lib/gov_kit-ca'
