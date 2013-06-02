@@ -19,7 +19,7 @@ module GovKit
           end
 
           def images
-            @document ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('#type img')
+            @images ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('#type img')
           end
         end
 

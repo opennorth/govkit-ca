@@ -14,7 +14,11 @@ module GovKit
           end
 
           def valid?
-            # @todo
+            !!div
+          end
+
+          def div
+            @div ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').at_css('#ctl00_cphContent_pnlWithMP')
           end
         end
 
