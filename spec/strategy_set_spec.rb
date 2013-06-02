@@ -7,7 +7,7 @@ describe GovKit::CA::PostalCode::StrategySet do
 
   describe '#strategies' do
     it 'should return the strategies' do
-      GovKit::CA::PostalCode::StrategySet.strategies.should == [
+      GovKit::CA::PostalCode::StrategySet.strategies[0..4].should == [
         GovKit::CA::PostalCode::Strategy::ElectionsCa,
         GovKit::CA::PostalCode::Strategy::NDPCa,
         GovKit::CA::PostalCode::Strategy::LiberalCa,
