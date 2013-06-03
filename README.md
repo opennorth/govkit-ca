@@ -50,4 +50,4 @@ GovKit-CA interoperates with [Participatory Politics Foundation](http://www.part
 
 This gem's main repository is on GitHub: [http://github.com/opennorth/govkit-ca](http://github.com/opennorth/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
 
-Copyright (c) 2011 Open North Inc., released under the MIT license
+Copyright (c) 2011-2013 Open North Inc., released under the MIT license
