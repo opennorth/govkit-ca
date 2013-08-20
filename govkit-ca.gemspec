@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{GovKit-CA lets you quickly get encapsulated Ruby objects for Canadian civic data.}
 
   s.rubyforge_project = "govkit-ca"
+  s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
