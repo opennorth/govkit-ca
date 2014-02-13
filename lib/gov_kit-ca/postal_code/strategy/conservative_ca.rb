@@ -4,9 +4,8 @@ module GovKit
       module Strategy
         class ConservativeCa < Base
           base_uri 'www.conservative.ca'
-          http_method :post
-          path '/?page_id=35'
-          post_data 'findmymp=35&pc=<%= @postal_code %>'
+          http_method :get
+          path '/wp-content/themes/conservative/functions-process.php?x=vldpc&fpc=<%= @postal_code %>'
 
         private
 
@@ -19,7 +18,7 @@ module GovKit
           end
 
           def images
-            @images ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('#type img')
+            @images ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('img')
           end
         end
 

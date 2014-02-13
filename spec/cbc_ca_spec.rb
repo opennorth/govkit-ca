@@ -3,7 +3,7 @@ require 'gov_kit-ca/postal_code/strategy/cbc_ca'
 
 class GovKit::CA::PostalCode::Strategy::CBCCa
   describe GovKit::CA::PostalCode::Strategy::CBCCa do
-    describe '#electoral_districts' do
+    describe '#electoral_districts', :broken => true do
       before :all do
         %w(G0C2Y0 T5S2B9 K0A1K0 H0H0H0 X1B1B1).each do |postal_code|
           strategy = GovKit::CA::PostalCode::Strategy::CBCCa.new(postal_code)

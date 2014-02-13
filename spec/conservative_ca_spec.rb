@@ -4,7 +4,7 @@ require 'gov_kit-ca/postal_code/strategy/conservative_ca'
 describe GovKit::CA::PostalCode::Strategy::ConservativeCa do
   describe '#electoral_districts' do
     before :all do
-      %w(G0C2Y0 T5S2B9 K0A1K0 H0H0H0 X1B1B1).each do |postal_code|
+      %w(G0C2Y0 T1P1K1 K0A1K0 H0H0H0 X1B1B1).each do |postal_code|
         strategy = GovKit::CA::PostalCode::Strategy::ConservativeCa.new(postal_code)
         unless FakeWeb.allow_net_connect?
           FakeWeb.register_uri strategy.class.http_method, "#{strategy.class.base_uri}#{strategy.send(:path)}", :response => fixture_path('digital-copyright_ca', "#{postal_code}.response")
@@ -13,7 +13,7 @@ describe GovKit::CA::PostalCode::Strategy::ConservativeCa do
     end
 
     it 'should return the electoral districts within a postal code' do
-      { 'T5S2B9' => [48015],
+      { 'T1P1K1' => [48010],
         'K0A1K0' => [35025, 35052, 35063],
         # returns nothing for B0J2L0
       }.each do |postal_code,electoral_districts|
