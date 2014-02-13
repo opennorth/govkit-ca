@@ -14,5 +14,5 @@ end
 
 RSpec.configure do |config|
   config.include Helpers
-  config.filter_run_excluding broken: true
+  config.filter_run_excluding :broken => true
 end
