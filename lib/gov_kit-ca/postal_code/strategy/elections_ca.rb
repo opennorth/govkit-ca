@@ -5,8 +5,9 @@ module GovKit
         # @see https://github.com/danielharan/postal_code_to_edid_webservice
         class ElectionsCa < Base
           base_uri 'elections.ca'
-          http_method :head
-          path '/scripts/pss/FindED.aspx?PC=<%= @postal_code %>'
+          http_method :post
+          path '/Scripts/vis/FindED'
+          post_data 'CommonSearchTxt=<%= @postal_code %>'
 
         private
 
@@ -15,7 +16,7 @@ module GovKit
           end
 
           def valid?
-            !!response.headers['location']
+            !response.headers['location'][/EDNotFound|MultipleEDs/]
           end
         end
 
