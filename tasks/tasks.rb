@@ -42,31 +42,3 @@ task :trim_postal_codes, :file do |t,args|
 
   puts postal_codes.sort
 end
-
-desc "Generate RSpec fixtures"
-task :generate_rspec_fixtures do |t,args|
-  require 'fileutils'
-
-  { 'CBCCa'              => 'cbc_ca',
-    'ConservativeCa'     => 'conservative_ca',
-    'DigitalCopyrightCa' => 'digital-copyright_ca',
-    'ElectionsCa'        => 'elections_ca',
-    'GreenPartyCa'       => 'greenparty_ca',
-    'LiberalCa'          => 'liberal_ca',
-    'NDPCa'              => 'ndp_ca',
-  }.each do |const,path|
-    require "gov_kit-ca/postal_code/strategy/#{path}"
-    FileUtils.mkdir_p File.expand_path("../../spec/fixtures/#{path}", __FILE__)
-
-    %w(A1A1A1 G0C2Y0 T5S2B9 K0A1K0 H0H0H0 X1B1B1).each do |postal_code|
-      File.open(File.expand_path("../../spec/fixtures/#{path}/#{postal_code}.response", __FILE__), 'w') do |f|
-        response = GovKit::CA::PostalCode::Strategy.const_get(const).new(postal_code).send(:response)
-        f.write "HTTP/#{response.http_version} #{response.code} #{response.message}\n"
-        response.headers.each_capitalized do |name,value|
-          f.write "#{name}: #{value}\n"
-        end
-        f.write "\n#{response.body}"
-      end
-    end
-  end
-end
