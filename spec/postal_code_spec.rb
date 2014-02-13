@@ -29,22 +29,6 @@ module GovKit::CA::PostalCode
     end
 
     describe '#find_electoral_districts_by_postal_code' do
-      before :all do
-        { 'ElectionsCa'  => 'elections_ca',
-          'CBCCa'        => 'cbc_ca',
-          'NDPCa'        => 'ndp_ca',
-          # GreenPartyCa is broken.
-          #'GreenPartyCa' => 'greenparty_ca',
-        }.each do |const,path|
-          %w(A1A1A1 K0A1K0 H0H0H0).each do |postal_code|
-            strategy = GovKit::CA::PostalCode::Strategy.const_get(const).new(postal_code)
-            unless FakeWeb.allow_net_connect?
-              FakeWeb.register_uri strategy.class.http_method, "#{strategy.class.base_uri}#{strategy.send(:path)}", :response => fixture_path(path, "#{postal_code}.response")
-            end
-          end
-        end
-      end
-
       it 'should return the electoral districts within a postal code' do
         { 'A1A1A1' => [10007],
           'K0A1K0' => [35012, 35025, 35040, 35052],
