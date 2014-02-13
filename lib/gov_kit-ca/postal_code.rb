@@ -88,13 +88,13 @@ require 'gov_kit-ca/postal_code/strategy/elections_ca'
 
 require 'gov_kit-ca/postal_code/strategy/ndp_ca'
 
-# Incomplete database.
-require 'gov_kit-ca/postal_code/strategy/liberal_ca'
+# 2014-02-12: Occasionally renders HTML instead of redirect.
+# require 'gov_kit-ca/postal_code/strategy/liberal_ca'
 
 # Only one-to-one.
 require 'gov_kit-ca/postal_code/strategy/greenparty_ca'
 
-# Disagrees with elections.ca. Broken 2014-02-12.
+# 2014-02-12: Broken until next election.
 # require 'gov_kit-ca/postal_code/strategy/cbc_ca'
 
 # If not held by a Conservative MP, returns only riding name.

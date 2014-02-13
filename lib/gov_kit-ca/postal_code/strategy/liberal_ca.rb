@@ -2,7 +2,6 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
-        # liberal.ca seems unreliable. It returns three ridings for K0A1K0.
         class LiberalCa < Base
           follow_redirects true
           base_uri 'www.liberal.ca'
