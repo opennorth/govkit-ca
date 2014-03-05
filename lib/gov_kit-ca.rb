@@ -15,3 +15,4 @@ module GovKit
 end
 
 require 'gov_kit-ca/postal_code'
+require 'gov_kit-ca/represent'
