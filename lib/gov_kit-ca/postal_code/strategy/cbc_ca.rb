@@ -10,7 +10,7 @@ module GovKit
         private
 
           def electoral_districts!
-            Yajl::Parser.parse(response.parsed_response).map{|x| self.class.rid_to_edid[x['rid'].to_i]}
+            JSON.load(response.parsed_response).map{|x| self.class.rid_to_edid[x['rid'].to_i]}
           end
 
           def valid?

@@ -2,9 +2,9 @@ require 'erb'
 require 'json'
 require 'yaml'
 
+require 'faraday'
 require 'httparty'
 require 'nokogiri'
-require 'yajl'
 
 module GovKit
   module CA
