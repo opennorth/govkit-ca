@@ -6,6 +6,14 @@ describe GovKit::CA::Represent do
       GovKit::CA::Represent.new
     end
 
+    it 'should accept a custom connection' do
+      connection = Faraday.new do |connection|
+        connection.request :url_encoded
+        connection.adapter Faraday.default_adapter
+      end
+      expect{GovKit::CA::Represent.new(connection)}.to_not raise_error
+    end
+
     it 'should return boundary sets' do
       response = api.boundary_sets
       response.should be_a(Hash)

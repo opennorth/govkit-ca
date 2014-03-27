@@ -3,6 +3,11 @@ module GovKit
     # A Ruby wrapper for the Represent API.
     # @see http://represent.opennorth.ca/api/
     class Represent
+      # @param [Faraday::Connection] connection a Faraday connection
+      def initialize(connection = nil)
+        @client = connection || Faraday
+      end
+
       # Get boundary sets.
       #
       # @param [Hash] opts optional arguments
@@ -92,7 +97,7 @@ module GovKit
       def request(parts, opts)
         begin
           url = "http://represent.opennorth.ca/#{parts.compact.join('/')}/"
-          response = Faraday.get(url, opts)
+          response = @client.get(url, opts)
           case response.status
           when 200
             JSON.parse(response.body)
