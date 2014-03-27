@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('nokogiri', '~> 1.5.0')
   s.add_development_dependency('json')
   s.add_development_dependency('rspec', '~> 2.6.0')
-  s.add_development_dependency('rake')
+  s.add_development_dependency('rake', '~> 10.1.0')
   s.add_development_dependency('coveralls')
   s.add_development_dependency('mime-types', '~> 1.16')
 end
