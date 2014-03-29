@@ -11,6 +11,21 @@ GovKit-CA is a Ruby gem that provides easy access to Canadian civic information 
 
     gem install govkit-ca
 
+## Represent API
+
+GovKit-CA provides a Represent API client.
+
+```ruby
+client = GovKit::CA::Represent.new
+client.postcodes('A1A1A1')
+client.representative_sets(limit: 0)
+client.representatives(representative_set: 'toronto-city-council')
+client.boundary_sets(limit: 0)
+client.boundaries(boundary_set: 'toronto-wards')
+```
+
+Read the full documentation on [RubyDoc.info](http://rubydoc.info/gems/govkit-ca/GovKit/CA/Represent).
+
 ## Postal code to electoral district lookup
 
 GovKit-CA provides an API for free postal code to electoral district lookups, using the following sources:
@@ -39,21 +54,6 @@ GovKit::CA::PostalCode.find_province_by_postal_code('H0H0H0') # "Quebec"
 Postal codes may contain lowercase letters. Spaces and non-alphanumeric characters are removed before processing.
 
 GovKit-CA will raise `GovKit::CA::ResourceNotFound` if the electoral districts within a postal code cannot be determined, and `GovKit::CA::InvalidRequest` if a postal code is not properly formatted.
-
-## Represent API
-
-GovKit-CA provides a Represent API client.
-
-```ruby
-client = GovKit::CA::Represent.new
-client.postcodes('A1A1A1')
-client.representative_sets(limit: 0)
-client.representatives(representative_set: 'toronto-city-council')
-client.boundary_sets(limit: 0)
-client.boundaries(boundary_set: 'toronto-wards')
-```
-
-Read the full documentation on [RubyDoc.info](http://rubydoc.info/gems/govkit-ca/GovKit/CA/Represent).
 
 ## Acknowledgements
 
