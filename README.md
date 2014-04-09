@@ -16,6 +16,7 @@ GovKit-CA is a Ruby gem that provides easy access to Canadian civic information 
 GovKit-CA provides a Represent API client.
 
 ```ruby
+require 'govkit-ca'
 client = GovKit::CA::Represent.new
 client.postcodes('A1A1A1')
 client.representative_sets(limit: 0)

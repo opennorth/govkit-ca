@@ -167,7 +167,7 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the point is invalid' do
-      expect{api.boundaries(:contains => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundaries/?contains=0,0,0 Invalid lat/lon values")
+      expect{api.boundaries(:contains => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundaries/?contains=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
     end
 
     it 'should raise an error if the boundary set does not exist' do
@@ -269,7 +269,7 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the point is invalid' do
-      expect{api.representatives(:point => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representatives/?point=0,0,0 Invalid lat/lon values")
+      expect{api.representatives(:point => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representatives/?point=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
     end
 
     it 'should not raise an error if the representative set does not exist' do
