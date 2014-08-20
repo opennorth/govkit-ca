@@ -85,17 +85,17 @@ describe GovKit::CA::Represent do
     it 'should accept an array of boundary sets' do
       response = api.postcodes('A1A1A1', :sets => ['federal-electoral-districts', 'census-subdivisions'])
       response.should be_a(Hash)
-      response['boundaries_centroid'].should have(2).items
+      (response['boundaries_centroid'] + response['boundaries_concordance']).should have(2).items
     end
 
     it 'should accept a comma-separated list of boundary sets' do
       response = api.postcodes('A1A1A1', :sets => 'federal-electoral-districts,census-subdivisions')
       response.should be_a(Hash)
-      response['boundaries_centroid'].should have(2).items
+      (response['boundaries_centroid'] + response['boundaries_concordance']).should have(2).items
     end
 
     it 'should raise an error if the postal code does not exist' do
-      expect{api.postcodes('foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/postcodes/foo/?")
+      expect{api.postcodes('foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/postcodes/FOO/?")
     end
   end
 
