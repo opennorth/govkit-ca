@@ -59,7 +59,7 @@ module GovKit
         if Array === opts[:sets]
           opts[:sets] = opts[:sets].join(',')
         end
-        request(['postcodes', postcode], opts)
+        request(['postcodes', PostalCode.format_postal_code(postcode)], opts)
       end
 
       # Get representative sets.
