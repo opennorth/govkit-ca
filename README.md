@@ -1,5 +1,6 @@
 # GovKit-CA
 
+[![Gem Version](https://badge.fury.io/rb/govkit-ca.svg)](http://badge.fury.io/rb/govkit-ca)
 [![Build Status](https://secure.travis-ci.org/opennorth/govkit-ca.png)](http://travis-ci.org/opennorth/govkit-ca)
 [![Dependency Status](https://gemnasium.com/opennorth/govkit-ca.png)](https://gemnasium.com/opennorth/govkit-ca)
 [![Coverage Status](https://coveralls.io/repos/opennorth/govkit-ca/badge.png?branch=master)](https://coveralls.io/r/opennorth/govkit-ca)
