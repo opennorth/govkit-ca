@@ -21,8 +21,6 @@ module GovKit
             @images ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('img')
           end
         end
-
-        StrategySet.register ConservativeCa
       end
     end
   end

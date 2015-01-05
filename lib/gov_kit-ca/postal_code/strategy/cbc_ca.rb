@@ -24,8 +24,6 @@ module GovKit
             @@yml ||= YAML.load_file(File.expand_path('../../../../data/rid_to_edid.yml', __FILE__))
           end
         end
-
-        StrategySet.register CBCCa
       end
     end
   end

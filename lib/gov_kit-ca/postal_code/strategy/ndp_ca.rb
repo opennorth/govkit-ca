@@ -17,8 +17,6 @@ module GovKit
             !response.parsed_response['No ridings or MPs match this search.']
           end
         end
-
-        StrategySet.register NDPCa
       end
     end
   end

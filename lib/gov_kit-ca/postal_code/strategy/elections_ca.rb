@@ -5,7 +5,7 @@ module GovKit
         class ElectionsCa < Base
           base_uri 'elections.ca'
           http_method :post
-          path '/Scripts/vis/FindED'
+          path '/Scripts/vis/FindED?L=e&PAGEID=20'
           post_data 'CommonSearchTxt=<%= @postal_code %>'
 
         private
@@ -18,8 +18,6 @@ module GovKit
             !response.headers['location'][/EDNotFound|MultipleEDs/]
           end
         end
-
-        StrategySet.register ElectionsCa
       end
     end
   end

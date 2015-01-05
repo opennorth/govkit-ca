@@ -13,7 +13,7 @@ module GovKit
         # @param [Strategy::Base] strategy a strategy
         # @return [Array<Strategy::Base>] the strategy set
         def self.register(strategy)
-          strategies << strategy
+          strategies << strategy unless strategies.include?(strategy)
         end
 
         # Runs through the strategies in order of registration. Returns the

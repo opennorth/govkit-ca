@@ -5,29 +5,37 @@ describe GovKit::CA::PostalCode::StrategySet do
     Class.new
   end
 
-  describe '#strategies' do
-    it 'should return the strategies' do
-      GovKit::CA::PostalCode::StrategySet.strategies[0..4].should == [
-        GovKit::CA::PostalCode::Strategy::ElectionsCa,
-        GovKit::CA::PostalCode::Strategy::NDPCa,
-        # GovKit::CA::PostalCode::Strategy::LiberalCa,
-        GovKit::CA::PostalCode::Strategy::GreenPartyCa,
-        GovKit::CA::PostalCode::Strategy::CBCCa,
-        GovKit::CA::PostalCode::Strategy::ConservativeCa,
-      ]
+  context 'with strategy set' do
+    before :all do
+      GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::ElectionsCa
+      GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::LiberalCa
+      GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::NDPCa
     end
-  end
 
-  describe '#register' do
-    it 'should append a strategy' do
-      GovKit::CA::PostalCode::StrategySet.register(strategy)
-      GovKit::CA::PostalCode::StrategySet.strategies.last.should == strategy
+    describe '#strategies' do
+      it 'should return the strategies' do
+        GovKit::CA::PostalCode::StrategySet.strategies[0..4].should == [
+          GovKit::CA::PostalCode::Strategy::ElectionsCa,
+          GovKit::CA::PostalCode::Strategy::LiberalCa,
+          GovKit::CA::PostalCode::Strategy::NDPCa,
+          # GovKit::CA::PostalCode::Strategy::GreenPartyCa,
+          # GovKit::CA::PostalCode::Strategy::CBCCa,
+          # GovKit::CA::PostalCode::Strategy::ConservativeCa,
+        ]
+      end
     end
-  end
 
-  describe '#run' do
-    it 'should run the strategies' do
-      GovKit::CA::PostalCode::StrategySet.run('A1A1A1').should == [10007]
+    describe '#register' do
+      it 'should append a strategy' do
+        GovKit::CA::PostalCode::StrategySet.register(strategy)
+        GovKit::CA::PostalCode::StrategySet.strategies.last.should == strategy
+      end
+    end
+
+    describe '#run' do
+      it 'should run the strategies' do
+        GovKit::CA::PostalCode::StrategySet.run('A1A1A1').should == [10007]
+      end
     end
   end
 

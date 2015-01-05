@@ -17,8 +17,6 @@ module GovKit
             !response.parsed_response.match /\b(invalid postal code|not found)\b/
           end
         end
-
-        StrategySet.register DigitalCopyrightCa
       end
     end
   end

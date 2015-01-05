@@ -6,20 +6,18 @@ module GovKit
           follow_redirects true
           base_uri 'www.liberal.ca'
           http_method :get
-          path '/riding/postal/<%= @postal_code %>/'
+          path '/ridings/<%= @postal_code %>/'
 
         private
 
           def electoral_districts!
-            Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('img.RidingListImage').map{|img| img[:src][/\d{5}/]}
+            [response.parsed_response[%r{https://action.liberal.ca/en/donate/riding/(\d{5})}, 1]]
           end
 
           def valid?
-            !response.parsed_response["Sorry we couldn't find your riding."]
+            !response.parsed_response["We couldn't find a riding for that postal code."]
           end
         end
-
-        StrategySet.register LiberalCa
       end
     end
   end

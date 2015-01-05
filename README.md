@@ -56,24 +56,29 @@ Read the full documentation on [RubyDoc.info](http://rubydoc.info/gems/govkit-ca
 
 ## Postal code to electoral district lookup
 
-GovKit-CA provides an API for free postal code to electoral district lookups, using the following sources:
+GovKit-CA provides an API for free postal code to electoral district lookups, using the sources:
 
 * [elections.ca](http://elections.ca/)
-* [cbc.ca](http://www.cbc.ca/)
-* [ndp.ca](http://www.ndp.ca/)
-* [digital-copyright.ca](http://www.digital-copyright.ca/)
-* [liberal.ca](http://www.liberal.ca/)
-* [greenparty.ca](http://www.greenparty.ca/)
 * [parl.gc.ca](http://www.parl.gc.ca/)
 * [conservative.ca](http://www.conservative.ca/)
+* [greenparty.ca](http://www.greenparty.ca/)
+* [liberal.ca](http://www.liberal.ca/)
+* [ndp.ca](http://www.ndp.ca/)
+* [cbc.ca](http://www.cbc.ca/)
+* [digital-copyright.ca](http://www.digital-copyright.ca/)
 
-These sources are unstable. Please [create an issue](https://github.com/opennorth/govkit-ca/issues/new) if a source isn't working.
+These sources can be unstable or incorrect.
 
 ```ruby
 require 'govkit-ca'
 
+# Register the sources to use.
+GovKit::CA::PostalCode::StrategySet.register(GovKit::CA::PostalCode::Strategy::ElectionsCa)
+GovKit::CA::PostalCode::StrategySet.register(GovKit::CA::PostalCode::Strategy::LiberalCa)
+GovKit::CA::PostalCode::StrategySet.register(GovKit::CA::PostalCode::Strategy::NDPCa)
+
 GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('A1A1A1') # [10007]
-GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('K0A1K0') # [35012, 35025, 35040, 35052, 35063, 35064, 35087]
+GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('K0A1K0') # [35076]
 GovKit::CA::PostalCode.find_electoral_districts_by_postal_code('H0H0H0') # raises GovKit::CA::ResourceNotFound
 
 GovKit::CA::PostalCode.find_province_by_postal_code('A1A1A1') # "Newfoundland and Labrador"

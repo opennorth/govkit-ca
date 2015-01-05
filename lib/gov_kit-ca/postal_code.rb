@@ -76,29 +76,3 @@ module GovKit
     end
   end
 end
-
-require 'gov_kit-ca/postal_code/strategy_set'
-require 'gov_kit-ca/postal_code/strategy/base'
-
-# Only riding name and not implemented.
-# require 'gov_kit-ca/postal_code/strategy/parl_gc_ca'
-
-# Only one-to-one.
-require 'gov_kit-ca/postal_code/strategy/elections_ca'
-
-require 'gov_kit-ca/postal_code/strategy/ndp_ca'
-
-# Only one-to-one.
-require 'gov_kit-ca/postal_code/strategy/greenparty_ca'
-
-# Only riding name if not held by a Conservative MP.
-# require 'gov_kit-ca/postal_code/strategy/conservative_ca'
-
-# 2014-02-12: Occasionally renders HTML instead of redirect.
-# require 'gov_kit-ca/postal_code/strategy/liberal_ca'
-
-# 2014-02-12: Broken until next election.
-# require 'gov_kit-ca/postal_code/strategy/cbc_ca'
-
-# Too many or too few ridings.
-# require 'gov_kit-ca/postal_code/strategy/digital-copyright_ca'

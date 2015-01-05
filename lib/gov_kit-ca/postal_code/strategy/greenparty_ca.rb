@@ -4,8 +4,9 @@ module GovKit
       module Strategy
         class GreenPartyCa < Base
           base_uri 'www.greenparty.ca'
-          http_method :head
-          path '/search/green_geo/<%= @postal_code %>'
+          http_method :post
+          path '/en/party/find-your-riding'
+          post_data 'form_id=gpc_glue_riding_lookup_form&postal_code=<%= @postal_code %>'
 
         private
 
@@ -14,11 +15,9 @@ module GovKit
           end
 
           def valid?
-            response.headers['location'] != 'http://www.greenparty.ca/find_your_riding'
+            response.headers['location'] != 'http://www.greenparty.ca/en/party/find-your-riding'
           end
         end
-
-        StrategySet.register GreenPartyCa
       end
     end
   end

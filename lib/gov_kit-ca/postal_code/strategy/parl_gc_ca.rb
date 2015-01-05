@@ -21,8 +21,6 @@ module GovKit
             @div ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').at_css('#ctl00_cphContent_pnlWithMP')
           end
         end
-
-        StrategySet.register ParlGcCa
       end
     end
   end

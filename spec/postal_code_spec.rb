@@ -1,6 +1,12 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe GovKit::CA::PostalCode do
+  before :all do
+    GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::ElectionsCa
+    GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::LiberalCa
+    GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::NDPCa
+  end
+
   describe '#valid?' do
     it 'should return false if the postal code is not properly formatted' do
       [ 'A1A1A', # too short
@@ -30,7 +36,7 @@ describe GovKit::CA::PostalCode do
   describe '#find_electoral_districts_by_postal_code' do
     it 'should return the electoral districts within a postal code' do
       { 'A1A1A1' => [10007],
-        'K0A1K0' => [35012, 35025, 35040, 35052],
+        'K0A1K0' => [35076],
       }.each do |postal_code,electoral_districts|
         subject.find_electoral_districts_by_postal_code(postal_code).should == electoral_districts
       end

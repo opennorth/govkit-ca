@@ -1,13 +1,12 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require 'gov_kit-ca/postal_code/strategy/liberal_ca'
 
 describe GovKit::CA::PostalCode::Strategy::LiberalCa do
-  describe '#electoral_districts', :broken => true do
+  describe '#electoral_districts' do
     it 'should return the electoral districts within a postal code' do
-      { 'G0C2Y0' => [24019],
-        'T5S2B9' => [48015],
-        'K0A1K0' => [35025, 35052, 35063],
-        # returns nothing for B0J2L0
+      { 'G0C2Y0' => [24026],
+        'T5S2B9' => [48031],
+        'B0J2L0' => [12002], # too few
+        'K0A1K0' => [35076], # too few
       }.each do |postal_code,electoral_districts|
         GovKit::CA::PostalCode::Strategy::LiberalCa.new(postal_code).electoral_districts.should == electoral_districts
       end
