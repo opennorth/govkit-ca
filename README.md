@@ -14,7 +14,7 @@ GovKit-CA is a Ruby gem that provides easy access to Canadian civic information 
 
 ## Represent API
 
-GovKit-CA provides a [Represent API](http://represent.opennorth.ca/api/) client. First, create a client:
+GovKit-CA provides a [Represent API](https://represent.opennorth.ca/api/) client. First, create a client:
 
 ```ruby
 require 'govkit-ca'
@@ -22,31 +22,31 @@ require 'govkit-ca'
 client = GovKit::CA::Represent.new
 ```
 
-Send a request to the [`/postcodes` endpoint](http://represent.opennorth.ca/api/#postcode):
+Send a request to the [`/postcodes` endpoint](https://represent.opennorth.ca/api/#postcode):
 
 ```ruby
 client.postcodes('A1A1A1')
 ```
 
-Send a request to the [`/representative-sets` endpoint](http://represent.opennorth.ca/api/#representativeset):
+Send a request to the [`/representative-sets` endpoint](https://represent.opennorth.ca/api/#representativeset):
 
 ```ruby
 client.representative_sets(limit: 0)
 ```
 
-Send a request to the [`/representatives` endpoint](http://represent.opennorth.ca/api/#representative):
+Send a request to the [`/representatives` endpoint](https://represent.opennorth.ca/api/#representative):
 
 ```ruby
 client.representatives(representative_set: 'toronto-city-council')
 ```
 
-Send a request to the [`/boundary-sets` endpoint](http://represent.opennorth.ca/api/#boundaryset):
+Send a request to the [`/boundary-sets` endpoint](https://represent.opennorth.ca/api/#boundaryset):
 
 ```ruby
 client.boundary_sets(limit: 0)
 ```
 
-Send a request to the [`/boundaries` endpoint](http://represent.opennorth.ca/api/#boundary):
+Send a request to the [`/boundaries` endpoint](https://represent.opennorth.ca/api/#boundary):
 
 ```ruby
 client.boundaries(boundary_set: 'toronto-wards')

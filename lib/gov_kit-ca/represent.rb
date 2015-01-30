@@ -1,7 +1,7 @@
 module GovKit
   module CA
     # A Ruby wrapper for the Represent API.
-    # @see http://represent.opennorth.ca/api/
+    # @see https://represent.opennorth.ca/api/
     class Represent
       # @param [Faraday::Connection] connection a Faraday connection
       def initialize(connection = nil)
@@ -14,7 +14,7 @@ module GovKit
       # @option opts [String] :boundary_set a boundary set
       # @option opts [Integer] :limit
       # @option opts [Integer] :offset
-      # @see http://represent.opennorth.ca/api/#boundaryset
+      # @see https://represent.opennorth.ca/api/#boundaryset
       def boundary_sets(opts = {})
         request(['boundary-sets', opts.delete(:boundary_set)], opts)
       end
@@ -31,7 +31,7 @@ module GovKit
       # @option opts [String] :intersects a boundary
       # @option opts [Integer] :limit
       # @option opts [Integer] :offset
-      # @see http://represent.opennorth.ca/api/#boundary
+      # @see https://represent.opennorth.ca/api/#boundary
       def boundaries(opts = {})
         if Array === opts[:sets]
           opts[:sets] = opts[:sets].join(',')
@@ -54,7 +54,7 @@ module GovKit
       # @option opts [Array<String>,String] :sets comma-separated list of boundary sets
       # @option opts [Integer] :limit
       # @option opts [Integer] :offset
-      # @see http://represent.opennorth.ca/api/#postcode
+      # @see https://represent.opennorth.ca/api/#postcode
       def postcodes(postcode, opts = {})
         if Array === opts[:sets]
           opts[:sets] = opts[:sets].join(',')
@@ -68,7 +68,7 @@ module GovKit
       # @option opts [String] :representative_set a representative set
       # @option opts [Integer] :limit
       # @option opts [Integer] :offset
-      # @see http://represent.opennorth.ca/api/#representativeset
+      # @see https://represent.opennorth.ca/api/#representativeset
       def representative_sets(opts = {})
         request ['representative-sets', opts.delete(:representative_set)], opts
       end
@@ -81,7 +81,7 @@ module GovKit
       # @option opts [Array<Strong>,String] :districts a comma-separated list of boundaries
       # @option opts [Integer] :limit
       # @option opts [Integer] :offset
-      # @see http://represent.opennorth.ca/api/#representative
+      # @see https://represent.opennorth.ca/api/#representative
       def representatives(opts = {})
         if Array === opts[:point]
           opts[:point] = opts[:point].join(',')
@@ -96,7 +96,7 @@ module GovKit
 
       def request(parts, opts)
         begin
-          url = "http://represent.opennorth.ca/#{parts.compact.join('/')}/"
+          url = "https://represent.opennorth.ca/#{parts.compact.join('/')}/"
           response = @client.get(url, opts)
           case response.status
           when 200

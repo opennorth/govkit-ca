@@ -28,15 +28,15 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the boundary set does not exist' do
-      expect{api.boundary_sets(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/boundary-sets/foo/?")
+      expect{api.boundary_sets(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundary-sets/foo/?")
     end
 
     it 'should raise an error if the limit is invalid' do
-      expect{api.boundary_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundary-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.boundary_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundary-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
     end
 
     it 'should raise an error if the offset is invalid' do
-      expect{api.boundary_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundary-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.boundary_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundary-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
     end
   end
 
@@ -59,15 +59,15 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the representative set does not exist' do
-      expect{api.representative_sets(:representative_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/representative-sets/foo/?")
+      expect{api.representative_sets(:representative_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/representative-sets/foo/?")
     end
 
     it 'should raise an error if the limit is invalid' do
-      expect{api.representative_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representative-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.representative_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representative-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
     end
 
     it 'should raise an error if the offset is invalid' do
-      expect{api.representative_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representative-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.representative_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representative-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
     end
   end
 
@@ -95,7 +95,7 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the postal code does not exist' do
-      expect{api.postcodes('foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/postcodes/FOO/?")
+      expect{api.postcodes('foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/postcodes/FOO/?")
     end
   end
 
@@ -167,20 +167,20 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the point is invalid' do
-      expect{api.boundaries(:contains => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundaries/?contains=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
+      expect{api.boundaries(:contains => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?contains=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
     end
 
     it 'should raise an error if the boundary set does not exist' do
-      expect{api.boundaries(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/boundaries/foo/?")
+      expect{api.boundaries(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/foo/?")
     end
 
     context 'when retrieving a boundary' do
       it 'should raise an error if the boundary set does not exist' do
-        expect{api.boundaries(:boundary_set => 'foo', :boundary => 'ward-1')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/boundaries/foo/ward-1/?")
+        expect{api.boundaries(:boundary_set => 'foo', :boundary => 'ward-1')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/foo/ward-1/?")
       end
 
       it 'should raise an error if the boundary does not exist' do
-        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 http://represent.opennorth.ca/boundaries/st-johns-wards/foo/?")
+        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/st-johns-wards/foo/?")
       end
 
       it 'should raise an error if the boundary set is not given' do
@@ -207,11 +207,11 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the limit is invalid' do
-      expect{api.boundaries(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundaries/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.boundaries(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
     end
 
     it 'should raise an error if the offset is invalid' do
-      expect{api.boundaries(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/boundaries/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.boundaries(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
     end
   end
 
@@ -269,7 +269,7 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the point is invalid' do
-      expect{api.representatives(:point => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representatives/?point=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
+      expect{api.representatives(:point => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?point=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
     end
 
     it 'should not raise an error if the representative set does not exist' do
@@ -277,11 +277,11 @@ describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the limit is invalid' do
-      expect{api.representatives(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representatives/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.representatives(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
     end
 
     it 'should raise an error if the offset is invalid' do
-      expect{api.representatives(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 http://represent.opennorth.ca/representatives/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.representatives(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
     end
   end
 end
