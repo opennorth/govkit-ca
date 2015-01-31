@@ -1,11 +1,11 @@
 module GovKit
   module CA
     # A collection of postal code helpers.
-    # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada Postal codes in Canada
+    # @see https://en.wikipedia.org/wiki/Postal_codes_in_Canada Postal codes in Canada
     module PostalCode
       # @param [String] postal_code a postal code
       # @return [Boolean] whether the postal code is properly formatted
-      # @see http://en.wikipedia.org/wiki/Postal_codes_in_Canada#Number_of_possible_postal_codes Possible postal codes
+      # @see https://en.wikipedia.org/wiki/Postal_codes_in_Canada#Number_of_possible_postal_codes Possible postal codes
       def self.valid?(postal_code)
         !!postal_code.match(/\A[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]\z/)
       end
@@ -32,7 +32,7 @@ module GovKit
       # @param [String] postal_code a postal code
       # @return [String] the province that the postal code belongs to
       # @raise [ResourceNotFound] if the province cannot be determined
-      # @see http://en.wikipedia.org/wiki/List_of_postal_codes_in_Canada List of postal codes in Canada
+      # @see https://en.wikipedia.org/wiki/List_of_postal_codes_in_Canada List of postal codes in Canada
       def self.find_province_by_postal_code(postal_code)
         case format_postal_code(postal_code)
         when /\AA/
@@ -55,7 +55,7 @@ module GovKit
           'Alberta'
         when /\AV/
           'British Columbia'
-        # http://en.wikipedia.org/wiki/List_of_X_postal_codes_of_Canada
+        # https://en.wikipedia.org/wiki/List_of_X_postal_codes_of_Canada
         when /\AX0[ABC]/
           'Nunavut'
         when /\AX0[EG]/, /\AX1A/

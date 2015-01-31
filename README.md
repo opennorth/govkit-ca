@@ -1,7 +1,7 @@
 # GovKit-CA
 
-[![Gem Version](https://badge.fury.io/rb/govkit-ca.svg)](http://badge.fury.io/rb/govkit-ca)
-[![Build Status](https://secure.travis-ci.org/opennorth/govkit-ca.png)](http://travis-ci.org/opennorth/govkit-ca)
+[![Gem Version](https://badge.fury.io/rb/govkit-ca.svg)](https://badge.fury.io/rb/govkit-ca)
+[![Build Status](https://secure.travis-ci.org/opennorth/govkit-ca.png)](https://travis-ci.org/opennorth/govkit-ca)
 [![Dependency Status](https://gemnasium.com/opennorth/govkit-ca.png)](https://gemnasium.com/opennorth/govkit-ca)
 [![Coverage Status](https://coveralls.io/repos/opennorth/govkit-ca/badge.png?branch=master)](https://coveralls.io/r/opennorth/govkit-ca)
 [![Code Climate](https://codeclimate.com/github/opennorth/govkit-ca.png)](https://codeclimate.com/github/opennorth/govkit-ca)
@@ -62,7 +62,7 @@ GovKit-CA provides an API for free postal code to electoral district lookups, us
 * [parl.gc.ca](http://www.parl.gc.ca/)
 * [conservative.ca](http://www.conservative.ca/)
 * [greenparty.ca](http://www.greenparty.ca/)
-* [liberal.ca](http://www.liberal.ca/)
+* [liberal.ca](https://www.liberal.ca/)
 * [ndp.ca](http://www.ndp.ca/)
 * [cbc.ca](http://www.cbc.ca/)
 * [digital-copyright.ca](http://www.digital-copyright.ca/)
@@ -96,6 +96,6 @@ GovKit-CA interoperates with the [Participatory Politics Foundation](http://www.
 
 ## Bugs? Questions?
 
-This gem's main repository is on GitHub: [http://github.com/opennorth/govkit-ca](http://github.com/opennorth/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
+This gem's main repository is on GitHub: [https://github.com/opennorth/govkit-ca](https://github.com/opennorth/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
 
 Copyright (c) 2011 Open North Inc., released under the MIT license

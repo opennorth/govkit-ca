@@ -31,7 +31,7 @@ task :trim_postal_codes, :file do |t,args|
   # Get the minimum number of postal codes to cover all electoral districts.
   # This is an instance of the set cover problem, which is NP-complete. Use the
   # greedy algorithm, which is the best-possible polynomial time approximation
-  # algorithm for set cover. http://en.wikipedia.org/wiki/Set_cover_problem
+  # algorithm for set cover. https://en.wikipedia.org/wiki/Set_cover_problem
   postal_codes = []
   until postal_to_edid.empty?
     postal_code, edids = postal_to_edid.max{|_,v| v.size}
