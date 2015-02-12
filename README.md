@@ -94,8 +94,4 @@ GovKit-CA will raise `GovKit::CA::ResourceNotFound` if the electoral districts w
 
 GovKit-CA interoperates with the [Participatory Politics Foundation](http://www.participatorypolitics.org/)'s [GovKit](https://github.com/opengovernment/govkit). GovKit-CA is not affiliated with the Participatory Politics Foundation or GovKit.
 
-## Bugs? Questions?
-
-This gem's main repository is on GitHub: [https://github.com/opennorth/govkit-ca](https://github.com/opennorth/govkit-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
-
 Copyright (c) 2011 Open North Inc., released under the MIT license
