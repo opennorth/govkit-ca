@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/opennorth/govkit-ca"
   s.summary     = %q{Easy access to Canadian civic data around the web}
   s.description = %q{GovKit-CA lets you quickly get encapsulated Ruby objects for Canadian civic data.}
-
-  s.rubyforge_project = "govkit-ca"
   s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
@@ -22,9 +20,10 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('faraday')
   s.add_runtime_dependency('httparty', '~> 0.10.0')
   s.add_runtime_dependency('nokogiri', '~> 1.6.0')
-  s.add_development_dependency('json')
-  s.add_development_dependency('rspec', '~> 2.6.0')
-  s.add_development_dependency('rake', '~> 10.1.0')
+
   s.add_development_dependency('coveralls')
+  s.add_development_dependency('json', '~> 1.8') # to silence coveralls warning
+  s.add_development_dependency('rake')
+  s.add_development_dependency('rspec', '~> 3.1')
   s.add_development_dependency('mime-types', '~> 1.16')
 end

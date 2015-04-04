@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe GovKit::CA::PostalCode do
+RSpec.describe GovKit::CA::PostalCode do
   before :all do
     GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::ElectionsCa
     GovKit::CA::PostalCode::StrategySet.register GovKit::CA::PostalCode::Strategy::LiberalCa
@@ -19,7 +19,7 @@ describe GovKit::CA::PostalCode do
         'Q1Q1Q1', # Q as letter
         'a1a1a1', # lowercase
       ].each do |postal_code|
-        subject.valid?(postal_code).should be_false
+        expect(subject.valid?(postal_code)).to eq(false)
       end
     end
 
@@ -28,7 +28,7 @@ describe GovKit::CA::PostalCode do
         'H0H0H0', # doesn't exist
         'A1A1A1', # does exist
       ].each do |postal_code|
-        subject.valid?(postal_code).should be_true
+        expect(subject.valid?(postal_code)).to eq(true)
       end
     end
   end
@@ -38,16 +38,16 @@ describe GovKit::CA::PostalCode do
       { 'A1A1A1' => [10007],
         'K0A1K0' => [35076],
       }.each do |postal_code,electoral_districts|
-        subject.find_electoral_districts_by_postal_code(postal_code).should == electoral_districts
+        expect(subject.find_electoral_districts_by_postal_code(postal_code)).to eq(electoral_districts)
       end
     end
 
     it 'should raise an error if the postal code cannot be determined' do
-      lambda{subject.find_electoral_districts_by_postal_code('H0H0H0')}.should raise_error(GovKit::CA::ResourceNotFound)
+      expect(lambda{subject.find_electoral_districts_by_postal_code('H0H0H0')}).to raise_error(GovKit::CA::ResourceNotFound)
     end
 
     it 'should raise an error if the postal code is invalid' do
-      lambda{subject.find_electoral_districts_by_postal_code('AAAAAA')}.should raise_error(GovKit::CA::InvalidRequest)
+      expect(lambda{subject.find_electoral_districts_by_postal_code('AAAAAA')}).to raise_error(GovKit::CA::InvalidRequest)
     end
   end
 
@@ -76,19 +76,19 @@ describe GovKit::CA::PostalCode do
         'X0G' => 'Northwest Territories',
         'X1A' => 'Northwest Territories',
         'Y' => 'Yukon',
-      }.each do |postal_code, province|
-        subject.find_province_by_postal_code(postal_code).should == province
+      }.each do |postal_code,province|
+        expect(subject.find_province_by_postal_code(postal_code)).to eq(province)
       end
     end
 
     it 'should raise an error if the province cannot be determined' do
-      lambda{subject.find_province_by_postal_code('X1B1B1')}.should raise_error(GovKit::CA::ResourceNotFound)
+      expect(lambda{subject.find_province_by_postal_code('X1B1B1')}).to raise_error(GovKit::CA::ResourceNotFound)
     end
   end
 
   describe '#format_postal_code' do
     it 'should format a postal code' do
-      subject.format_postal_code("+a1a 1a1\n").should == 'A1A1A1'
+      expect(subject.format_postal_code("+a1a 1a1\n")).to eq('A1A1A1')
     end
   end
 end

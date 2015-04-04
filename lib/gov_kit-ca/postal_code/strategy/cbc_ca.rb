@@ -21,7 +21,7 @@ module GovKit
           # canonical electoral district ID.
           # @return [Hash] a map of cbc.ca riding ID to electoral district ID
           def self.rid_to_edid
-            @@yml ||= YAML.load_file(File.expand_path('../../../../data/rid_to_edid.yml', __FILE__))
+            @@yml ||= YAML.load_file(File.expand_path('../../../../rid_to_edid.yml', __FILE__))
           end
         end
       end

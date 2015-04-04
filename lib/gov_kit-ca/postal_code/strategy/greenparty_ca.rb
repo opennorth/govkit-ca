@@ -11,7 +11,7 @@ module GovKit
         private
 
           def electoral_districts!
-            [ response.headers['location'][/\d+\z/] ]
+            [response.headers['location'][/\d+\z/]]
           end
 
           def valid?

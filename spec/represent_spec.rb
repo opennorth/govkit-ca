@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe GovKit::CA::Represent do
+RSpec.describe GovKit::CA::Represent do
   describe '#boundary_sets' do
     let :api do
       GovKit::CA::Represent.new
@@ -16,15 +16,15 @@ describe GovKit::CA::Represent do
 
     it 'should return boundary sets' do
       response = api.boundary_sets
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
     end
 
     it 'should return a boundary set' do
       response = api.boundary_sets(:boundary_set => 'federal-electoral-districts')
-      response.should be_a(Hash)
-      response.should have_key('related')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('related')
     end
 
     it 'should raise an error if the boundary set does not exist' do
@@ -47,15 +47,15 @@ describe GovKit::CA::Represent do
 
     it 'should return representative sets' do
       response = api.representative_sets
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
     end
 
     it 'should return a representative set' do
       response = api.representative_sets(:representative_set => 'house-of-commons')
-      response.should be_a(Hash)
-      response.should have_key('related')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('related')
     end
 
     it 'should raise an error if the representative set does not exist' do
@@ -78,20 +78,20 @@ describe GovKit::CA::Represent do
 
     it 'should query by postal code' do
       response = api.postcodes('A1A1A1')
-      response.should be_a(Hash)
-      response.should have_key('code')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('code')
     end
 
     it 'should accept an array of boundary sets' do
       response = api.postcodes('A1A1A1', :sets => ['federal-electoral-districts', 'census-subdivisions'])
-      response.should be_a(Hash)
-      (response['boundaries_centroid'] + response['boundaries_concordance']).should have(2).items
+      expect(response).to be_a(Hash)
+      expect((response['boundaries_centroid'] + response['boundaries_concordance']).size).to eq(2)
     end
 
     it 'should accept a comma-separated list of boundary sets' do
       response = api.postcodes('A1A1A1', :sets => 'federal-electoral-districts,census-subdivisions')
-      response.should be_a(Hash)
-      (response['boundaries_centroid'] + response['boundaries_concordance']).should have(2).items
+      expect(response).to be_a(Hash)
+      expect((response['boundaries_centroid'] + response['boundaries_concordance']).size).to eq(2)
     end
 
     it 'should raise an error if the postal code does not exist' do
@@ -106,64 +106,64 @@ describe GovKit::CA::Represent do
 
     it 'should return boundaries' do
       response = api.boundaries
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should_not be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to_not be_nil
     end
 
     it 'should return boundaries from a boundary set' do
       response = api.boundaries(:boundary_set => 'st-johns-wards')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['objects'].should have(5).items
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['objects'].size).to eq(5)
     end
 
     it 'should return a boundary from a boundary set' do
       response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1')
-      response.should be_a(Hash)
-      response.should have_key('related')
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('related')
     end
 
     it 'should return the representatives of a boundary from a boundary set' do
       response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1', :representatives => true)
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should return boundaries from many boundary sets as an array' do
       response = api.boundaries(:sets => ['st-johns-wards','caledon-wards'])
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['objects'].should have(10).items
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['objects'].size).to eq(10)
     end
 
     it 'should return boundaries from many boundary sets as a comma-separated list' do
       response = api.boundaries(:sets => 'st-johns-wards,caledon-wards')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['objects'].should have(10).items
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['objects'].size).to eq(10)
     end
 
     it 'should accept a point as an array' do
       response = api.boundaries(:contains => ['47.5699', '-52.6954'])
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should accept a point as a comma-separated list' do
       response = api.boundaries(:contains => '47.5699,-52.6954')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should raise an error if the point is invalid' do
@@ -222,50 +222,50 @@ describe GovKit::CA::Represent do
 
     it 'should return representatives' do
       response = api.representatives
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should_not be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to_not be_nil
     end
 
     it 'should return representatives from a representative set' do
       response = api.representatives(:representative_set => 'st-johns-city-council')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should accept a point as an array' do
       response = api.representatives(:point => ['47.5699', '-52.6954'])
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should accept a point as a comma-separated list' do
       response = api.representatives(:point => '47.5699,-52.6954')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should accept an array of districts' do
       response = api.representatives(:districts => ['federal-electoral-districts/10007', 'census-subdivisions/1001519'])
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should accept a comma-separated list of districts' do
       response = api.representatives(:districts => 'federal-electoral-districts/10007,census-subdivisions/1001519')
-      response.should be_a(Hash)
-      response.should have_key('objects')
-      response.should have_key('meta')
-      response['meta']['next'].should be_nil
+      expect(response).to be_a(Hash)
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['meta']['next']).to be_nil
     end
 
     it 'should raise an error if the point is invalid' do
