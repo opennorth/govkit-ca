@@ -3,9 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 RSpec.describe GovKit::CA::PostalCode::Strategy::GreenPartyCa do
   describe '#electoral_districts' do
     it 'should return the electoral districts within a postal code' do
-      { 'G0C2Y0' => [24026],
-        'T5S2B9' => [48031],
-      }.each do |postal_code,electoral_districts|
+      EXPECTATIONS[:green_party_ca].each do |postal_code,electoral_districts|
         expect(GovKit::CA::PostalCode::Strategy::GreenPartyCa.new(postal_code).electoral_districts).to eq(electoral_districts)
       end
     end

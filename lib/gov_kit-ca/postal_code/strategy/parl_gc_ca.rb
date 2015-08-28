@@ -12,14 +12,6 @@ module GovKit
           def electoral_districts!
             # @todo returns HTML with electoral district names only
           end
-
-          def valid?
-            !!div
-          end
-
-          def div
-            @div ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').at_css('#ctl00_cphContent_pnlWithMP')
-          end
         end
       end
     end

@@ -5,20 +5,12 @@ module GovKit
         class ConservativeCa < Base
           base_uri 'www.conservative.ca'
           http_method :get
-          path '/wp-content/themes/conservative/functions-process.php?x=vldpc&fpc=<%= @postal_code %>'
+          path '/team/?postalcode=<%= @postal_code %>'
 
         private
 
           def electoral_districts!
-            images.map{|a| a[:src][/\d+\.jpg\z/]}
-          end
-
-          def valid?
-            !images.empty?
-          end
-
-          def images
-            @images ||= Nokogiri::HTML(response.parsed_response, nil, 'utf-8').css('img')
+            # @todo returns HTML with electoral district names only
           end
         end
       end

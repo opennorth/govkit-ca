@@ -2,6 +2,7 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
+        # @deprecated Due to redistribution.
         class DigitalCopyrightCa < Base
           base_uri 'www.digital-copyright.ca'
           http_method :get

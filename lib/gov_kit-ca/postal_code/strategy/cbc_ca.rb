@@ -2,6 +2,7 @@ module GovKit
   module CA
     module PostalCode
       module Strategy
+        # @deprecated Due to redistribution.
         class CBCCa < Base
           base_uri 'www.cbc.ca'
           http_method :get

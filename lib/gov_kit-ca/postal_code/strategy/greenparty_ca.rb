@@ -6,7 +6,7 @@ module GovKit
           base_uri 'www.greenparty.ca'
           http_method :post
           path '/en/party/find-your-riding'
-          post_data 'form_id=gpc_glue_riding_lookup_form&postal_code=<%= @postal_code %>'
+          post_data 'form_id=riding_lookup_form&postal_code=<%= @postal_code %>'
 
         private
 
