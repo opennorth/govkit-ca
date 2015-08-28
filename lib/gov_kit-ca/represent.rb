@@ -73,6 +73,17 @@ module GovKit
         request ['representative-sets', opts.delete(:representative_set)], opts
       end
 
+      # Get elections.
+      #
+      # @param [Hash] opts optional arguments
+      # @option opts [String] :election an election
+      # @option opts [Integer] :limit
+      # @option opts [Integer] :offset
+      # @see https://represent.opennorth.ca/api/#election
+      def elections(opts = {})
+        request ['elections', opts.delete(:election)], opts
+      end
+
       # Get representatives.
       #
       # @param [Hash] opts optional arguments
@@ -90,6 +101,25 @@ module GovKit
           opts[:districts] = opts[:districts].join(',')
         end
         request(['representatives', opts.delete(:representative_set)], opts)
+      end
+
+      # Get candidates.
+      #
+      # @param [Hash] opts optional arguments
+      # @option opts [String] :electon an election
+      # @option opts [Array<Float>,String] :point a comma-separated latitude and longitude
+      # @option opts [Array<Strong>,String] :districts a comma-separated list of boundaries
+      # @option opts [Integer] :limit
+      # @option opts [Integer] :offset
+      # @see https://represent.opennorth.ca/api/#candidate
+      def candidates(opts = {})
+        if Array === opts[:point]
+          opts[:point] = opts[:point].join(',')
+        end
+        if Array === opts[:districts]
+          opts[:districts] = opts[:districts].join(',')
+        end
+        request(['candidates', opts.delete(:candidate)], opts)
       end
 
     private
