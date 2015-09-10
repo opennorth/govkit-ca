@@ -1,20 +1,7 @@
 require File.expand_path('../../lib/gov_kit-ca', __FILE__)
 
-# The following file maps 629,605 postal codes to electoral districts:
-# https://github.com/danielharan/canadian-postal-code-to-electoral-districts/raw/master/pc_edid.yml
-# However, it contains invalid postal codes, such as M5V1L6, and doesn't contain
-# every electoral district, such as 35061 (postal code L1H1X8).
-#
-# http://www.digital-copyright.ca/pcfrf/pcfrf.tgz contains
-# postal-code-for-districts.csv, "which is 308 postal codes that should map to
-# each of the 308 different electoral districts." However, six of them do not
-# exist (G0A2C0, J8M1R8, J0W1B0, J0B1H0, L0J1B0, N2A1A3), 14 are duplicate, and
-# the remaining 294 map to 246 electoral districts.
-#
-# The included tasks/postal-code-for-districts.csv covers 275 electoral
-# districts at the time of writing.
 desc "Picks the set cover for postal codes to electoral districts"
-task :trim_postal_codes, :file do |t,args|
+task :set_cover, :file do |t,args|
   abort "Usage: rake #{t.name}[postal-code-for-districts.csv]" unless args[:file]
 
   # Get the electoral districts that each postal code covers
@@ -23,12 +10,13 @@ task :trim_postal_codes, :file do |t,args|
     postal_to_edid[postal_code] = GovKit::CA::PostalCode.find_electoral_districts_by_postal_code(postal_code)
   end
 
+  # Report how many electoral districts are covered.
   size = postal_to_edid.values.flatten.uniq.size
   if size < 308
-    puts "Postal codes cover #{size} of 308 electoral districts."
+    puts "Postal codes cover #{size} electoral districts."
   end
 
-  # Get the minimum number of postal codes to cover all electoral districts.
+  # Get the minimum number of postal codes to cover the electoral districts.
   # This is an instance of the set cover problem, which is NP-complete. Use the
   # greedy algorithm, which is the best-possible polynomial time approximation
   # algorithm for set cover. https://en.wikipedia.org/wiki/Set_cover_problem
