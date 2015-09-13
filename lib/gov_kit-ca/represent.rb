@@ -106,7 +106,7 @@ module GovKit
       # Get candidates.
       #
       # @param [Hash] opts optional arguments
-      # @option opts [String] :electon an election
+      # @option opts [String] :election an election
       # @option opts [Array<Float>,String] :point a comma-separated latitude and longitude
       # @option opts [Array<Strong>,String] :districts a comma-separated list of boundaries
       # @option opts [Integer] :limit
@@ -119,7 +119,7 @@ module GovKit
         if Array === opts[:districts]
           opts[:districts] = opts[:districts].join(',')
         end
-        request(['candidates', opts.delete(:candidate)], opts)
+        request(['candidates', opts.delete(:election)], opts)
       end
 
     private
