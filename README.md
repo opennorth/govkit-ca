@@ -22,34 +22,46 @@ require 'govkit-ca'
 client = GovKit::CA::Represent.new
 ```
 
-Send a request to the [`/postcodes` endpoint](https://represent.opennorth.ca/api/#postcode):
+Send a request to the [`/postcodes/` endpoint](https://represent.opennorth.ca/api/#postcode):
 
 ```ruby
 client.postcodes('A1A1A1')
 ```
 
-Send a request to the [`/representative-sets` endpoint](https://represent.opennorth.ca/api/#representativeset):
+Send a request to the [`/representative-sets/` endpoint](https://represent.opennorth.ca/api/#representativeset):
 
 ```ruby
 client.representative_sets(limit: 0)
 ```
 
-Send a request to the [`/representatives` endpoint](https://represent.opennorth.ca/api/#representative):
+Send a request to the [`/representatives/` endpoint](https://represent.opennorth.ca/api/#representative):
 
 ```ruby
 client.representatives(representative_set: 'toronto-city-council')
 ```
 
-Send a request to the [`/boundary-sets` endpoint](https://represent.opennorth.ca/api/#boundaryset):
+Send a request to the [`/boundary-sets/` endpoint](https://represent.opennorth.ca/api/#boundaryset):
 
 ```ruby
 client.boundary_sets(limit: 0)
 ```
 
-Send a request to the [`/boundaries` endpoint](https://represent.opennorth.ca/api/#boundary):
+Send a request to the [`/boundaries/` endpoint](https://represent.opennorth.ca/api/#boundary):
 
 ```ruby
 client.boundaries(boundary_set: 'toronto-wards')
+```
+
+Send a request to the [`/elections/` endpoint](https://represent.opennorth.ca/api/#election):
+
+```ruby
+client.elections(limit: 0)
+```
+
+Send a request to the [`/candidates/` endpoint](https://represent.opennorth.ca/api/#candidate):
+
+```ruby
+client.candidates(election: 'house-of-commons')
 ```
 
 Read the full documentation on [RubyDoc.info](http://rubydoc.info/gems/govkit-ca/GovKit/CA/Represent).
@@ -64,7 +76,6 @@ GovKit-CA provides an API for free postal code to electoral district lookups, us
 * [greenparty.ca](http://www.greenparty.ca/)
 * [liberal.ca](https://www.liberal.ca/)
 * [ndp.ca](http://www.ndp.ca/)
-* [cbc.ca](http://www.cbc.ca/)
 * [digital-copyright.ca](http://www.digital-copyright.ca/)
 
 These sources can be unstable or incorrect.
