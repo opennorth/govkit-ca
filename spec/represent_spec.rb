@@ -1,73 +1,107 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 RSpec.describe GovKit::CA::Represent do
-  describe '#boundary_sets' do
-    let :api do
-      GovKit::CA::Represent.new
+  it 'should accept a custom connection' do
+    connection = Faraday.new do |connection|
+      connection.request :url_encoded
+      connection.adapter Faraday.default_adapter
     end
-
-    it 'should accept a custom connection' do
-      connection = Faraday.new do |connection|
-        connection.request :url_encoded
-        connection.adapter Faraday.default_adapter
-      end
-      expect{GovKit::CA::Represent.new(connection)}.to_not raise_error
-    end
-
-    it 'should return boundary sets' do
-      response = api.boundary_sets
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-    end
-
-    it 'should return a boundary set' do
-      response = api.boundary_sets(:boundary_set => 'federal-electoral-districts')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('related')
-    end
-
-    it 'should raise an error if the boundary set does not exist' do
-      expect{api.boundary_sets(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundary-sets/foo/?")
-    end
-
-    it 'should raise an error if the limit is invalid' do
-      expect{api.boundary_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundary-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
-    end
-
-    it 'should raise an error if the offset is invalid' do
-      expect{api.boundary_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundary-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
-    end
+    expect{GovKit::CA::Represent.new(connection)}.to_not raise_error
   end
 
   describe '#representative_sets' do
+    include_examples 'set', 'representative_sets', 'house-of-commons'
+  end
+
+  # @note These tests will fail if the election is inactive.
+  describe '#elections' do
+    include_examples 'set', 'elections', 'house-of-commons'
+  end
+
+  describe '#boundary_sets' do
+    include_examples 'set', 'boundary_sets', 'federal-electoral-districts'
+  end
+
+  describe '#representatives' do
+    include_examples 'representative', 'representatives', 'st-johns-city-council', 11, :set => :representative_set, :point => :point
+  end
+
+  # @note These tests will fail if the election is inactive.
+  describe '#candidates' do
+    include_examples 'representative', 'candidates', 'house-of-commons', 20, :set => :election, :point => :point
+  end
+
+  describe '#boundaries' do
+    include_examples 'item', 'boundaries', 'st-johns-wards', 5, :set => :boundary_set, :point => :contains
+
     let :api do
       GovKit::CA::Represent.new
     end
 
-    it 'should return representative sets' do
-      response = api.representative_sets
+    it 'should raise an error if the boundary set does not exist' do
+      expect{api.boundaries(:boundary_set => 'nonexistent')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/nonexistent/?")
+    end
+
+    it 'should return boundaries from many boundary sets as an array' do
+      response = api.boundaries(:sets => ['st-johns-wards','caledon-wards'])
       expect(response).to be_a(Hash)
       expect(response).to have_key('objects')
       expect(response).to have_key('meta')
+      expect(response['objects'].size).to eq(10)
     end
 
-    it 'should return a representative set' do
-      response = api.representative_sets(:representative_set => 'house-of-commons')
+    it 'should return boundaries from many boundary sets as a comma-separated list' do
+      response = api.boundaries(:sets => 'st-johns-wards,caledon-wards')
       expect(response).to be_a(Hash)
-      expect(response).to have_key('related')
+      expect(response).to have_key('objects')
+      expect(response).to have_key('meta')
+      expect(response['objects'].size).to eq(10)
     end
 
-    it 'should raise an error if the representative set does not exist' do
-      expect{api.representative_sets(:representative_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/representative-sets/foo/?")
+    context 'when retrieving a boundary' do
+      it 'should return a boundary from a boundary set' do
+        response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1')
+        expect(response).to be_a(Hash)
+        expect(response).to have_key('related')
+      end
+
+      it 'should raise an error if the boundary set does not exist' do
+        expect{api.boundaries(:boundary_set => 'nonexistent', :boundary => 'ward-1')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/nonexistent/ward-1/?")
+      end
+
+      it 'should raise an error if the boundary does not exist' do
+        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'nonexistent')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/st-johns-wards/nonexistent/?")
+      end
+
+      it 'should raise an error if the boundary set is not given' do
+        expect{api.boundaries(:boundary => 'ward-1')}.to raise_error(ArgumentError, ':boundary_set must be set if :boundary is set')
+      end
     end
 
-    it 'should raise an error if the limit is invalid' do
-      expect{api.representative_sets(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representative-sets/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
-    end
+    context 'when retrieving the representatives of a boundary' do
+      it 'should return the representatives of a boundary from a boundary set' do
+        response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1', :representatives => true)
+        expect(response).to be_a(Hash)
+        expect(response).to have_key('objects')
+        expect(response).to have_key('meta')
+        expect(response['meta']['next']).to be_nil
+      end
 
-    it 'should raise an error if the offset is invalid' do
-      expect{api.representative_sets(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representative-sets/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      it 'should not raise an error if the boundary set does not exist' do
+        expect{api.boundaries(:boundary_set => 'nonexistent', :boundary => 'ward-1', :representatives => true)}.to_not raise_error
+      end
+
+      it 'should not raise an error if the boundary does not exist' do
+        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'nonexistent', :representatives => true)}.to_not raise_error
+      end
+
+      it 'should raise an error if the boundary set is not given' do
+        expect{api.boundaries(:representatives => true)}.to raise_error(ArgumentError, ':boundary_set and :boundary must be set if :representatives is true')
+      end
+
+      it 'should raise an error if the boundary is not given' do
+        expect{api.boundaries(:boundary_set => 'st-johns-wards', :representatives => true)}.to raise_error(ArgumentError, ':boundary_set and :boundary must be set if :representatives is true')
+      end
     end
   end
 
@@ -95,193 +129,7 @@ RSpec.describe GovKit::CA::Represent do
     end
 
     it 'should raise an error if the postal code does not exist' do
-      expect{api.postcodes('foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/postcodes/FOO/?")
-    end
-  end
-
-  describe '#boundaries' do
-    let :api do
-      GovKit::CA::Represent.new
-    end
-
-    it 'should return boundaries' do
-      response = api.boundaries
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to_not be_nil
-    end
-
-    it 'should return boundaries from a boundary set' do
-      response = api.boundaries(:boundary_set => 'st-johns-wards')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['objects'].size).to eq(5)
-    end
-
-    it 'should return a boundary from a boundary set' do
-      response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('related')
-    end
-
-    it 'should return the representatives of a boundary from a boundary set' do
-      response = api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'ward-1', :representatives => true)
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should return boundaries from many boundary sets as an array' do
-      response = api.boundaries(:sets => ['st-johns-wards','caledon-wards'])
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['objects'].size).to eq(10)
-    end
-
-    it 'should return boundaries from many boundary sets as a comma-separated list' do
-      response = api.boundaries(:sets => 'st-johns-wards,caledon-wards')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['objects'].size).to eq(10)
-    end
-
-    it 'should accept a point as an array' do
-      response = api.boundaries(:contains => ['47.5699', '-52.6954'])
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should accept a point as a comma-separated list' do
-      response = api.boundaries(:contains => '47.5699,-52.6954')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should raise an error if the point is invalid' do
-      expect{api.boundaries(:contains => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?contains=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
-    end
-
-    it 'should raise an error if the boundary set does not exist' do
-      expect{api.boundaries(:boundary_set => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/foo/?")
-    end
-
-    context 'when retrieving a boundary' do
-      it 'should raise an error if the boundary set does not exist' do
-        expect{api.boundaries(:boundary_set => 'foo', :boundary => 'ward-1')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/foo/ward-1/?")
-      end
-
-      it 'should raise an error if the boundary does not exist' do
-        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'foo')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/boundaries/st-johns-wards/foo/?")
-      end
-
-      it 'should raise an error if the boundary set is not given' do
-        expect{api.boundaries(:boundary => 'ward-1')}.to raise_error(ArgumentError, ':boundary_set must be set if :boundary is set')
-      end
-    end
-
-    context 'when retrieving the representatives of a boundary' do
-      it 'should not raise an error if the boundary set does not exist' do
-        expect{api.boundaries(:boundary_set => 'foo', :boundary => 'ward-1', :representatives => true)}.to_not raise_error
-      end
-
-      it 'should not raise an error if the boundary does not exist' do
-        expect{api.boundaries(:boundary_set => 'st-johns-wards', :boundary => 'foo', :representatives => true)}.to_not raise_error
-      end
-
-      it 'should raise an error if the boundary set is not given' do
-        expect{api.boundaries(:representatives => true)}.to raise_error(ArgumentError, ':boundary_set and :boundary must be set if :representatives is true')
-      end
-
-      it 'should raise an error if the boundary is not given' do
-        expect{api.boundaries(:boundary_set => 'st-johns-wards', :representatives => true)}.to raise_error(ArgumentError, ':boundary_set and :boundary must be set if :representatives is true')
-      end
-    end
-
-    it 'should raise an error if the limit is invalid' do
-      expect{api.boundaries(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
-    end
-
-    it 'should raise an error if the offset is invalid' do
-      expect{api.boundaries(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/boundaries/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
-    end
-  end
-
-  describe '#representatives' do
-    let :api do
-      GovKit::CA::Represent.new
-    end
-
-    it 'should return representatives' do
-      response = api.representatives
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to_not be_nil
-    end
-
-    it 'should return representatives from a representative set' do
-      response = api.representatives(:representative_set => 'st-johns-city-council')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should accept a point as an array' do
-      response = api.representatives(:point => ['47.5699', '-52.6954'])
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should accept a point as a comma-separated list' do
-      response = api.representatives(:point => '47.5699,-52.6954')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should accept an array of districts' do
-      response = api.representatives(:districts => ['federal-electoral-districts/10007', 'census-subdivisions/1001519'])
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should accept a comma-separated list of districts' do
-      response = api.representatives(:districts => 'federal-electoral-districts/10007,census-subdivisions/1001519')
-      expect(response).to be_a(Hash)
-      expect(response).to have_key('objects')
-      expect(response).to have_key('meta')
-      expect(response['meta']['next']).to be_nil
-    end
-
-    it 'should raise an error if the point is invalid' do
-      expect{api.representatives(:point => '0,0,0')}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?point=0,0,0 Invalid latitude,longitude '0,0,0' provided.")
-    end
-
-    it 'should not raise an error if the representative set does not exist' do
-      expect{api.representatives(:representative_set => 'foo')}.to_not raise_error
-    end
-
-    it 'should raise an error if the limit is invalid' do
-      expect{api.representatives(:limit => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?limit=-1 Invalid limit '-1' provided. Please provide a positive integer >= 0.")
-    end
-
-    it 'should raise an error if the offset is invalid' do
-      expect{api.representatives(:offset => -1)}.to raise_error(GovKit::CA::InvalidRequest, "400 https://represent.opennorth.ca/representatives/?offset=-1 Invalid offset '-1' provided. Please provide a positive integer >= 0.")
+      expect{api.postcodes('Z0Z0Z0')}.to raise_error(GovKit::CA::ResourceNotFound, "404 https://represent.opennorth.ca/postcodes/Z0Z0Z0/?")
     end
   end
 end
