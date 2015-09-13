@@ -8,11 +8,12 @@ SimpleCov.start do
 end
 
 require 'rspec'
-require File.dirname(__FILE__) + '/../lib/gov_kit-ca'
-
 RSpec.configure do |config|
   config.filter_run_excluding :broken => true
 end
+
+Dir['./spec/support/**/*.rb'].sort.each { |f| require f}
+require File.dirname(__FILE__) + '/../lib/gov_kit-ca'
 
 EXPECTATIONS = {
   conservative_ca: {
@@ -41,12 +42,6 @@ EXPECTATIONS = {
   },
 
   # Deprecated.
-  cbc_ca: {
-    'G0C2Y0' => [24019],
-    'T5S2B9' => [48015, 48017],
-    'B0J2L0' => [12002, 12007, 12008],
-    'K0A1K0' => [35025, 35052, 35063, 35064],
-  },
   digital_copyright_ca: {
     'G0C2Y0' => [24019, 24039],
     'T5S2B9' => [48012, 48013, 48014, 48015, 48017, 48018],

@@ -19,7 +19,6 @@ RSpec.describe GovKit::CA::PostalCode::StrategySet do
           GovKit::CA::PostalCode::Strategy::LiberalCa,
           GovKit::CA::PostalCode::Strategy::NDPCa,
           # GovKit::CA::PostalCode::Strategy::GreenPartyCa,
-          # GovKit::CA::PostalCode::Strategy::CBCCa,
           # GovKit::CA::PostalCode::Strategy::ConservativeCa,
         ])
       end
