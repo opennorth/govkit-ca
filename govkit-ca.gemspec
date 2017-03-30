@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('faraday')
   s.add_runtime_dependency('httparty', '~> 0.10.0')
-  s.add_runtime_dependency('nokogiri', '~> 1.6.0')
+  s.add_runtime_dependency('nokogiri', '~> 1.6')
 
   s.add_development_dependency('coveralls')
   s.add_development_dependency('json', '~> 1.8') # to silence coveralls warning
